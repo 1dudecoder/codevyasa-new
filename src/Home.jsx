@@ -45,12 +45,13 @@ function Home() {
             />
 
             <div className="bg-bcolor bg-opacity-80 w-full h-screen absolute z-20 "></div>
-            <div className="absolute top-10 z-30">
+            
+            <div className=" absolute sm:top-10 z-30">
               <div className="flex-col place-items-center place-content-center">
                 <h1 className="text-2xl text-start ml-5 mb-2 font-semibold text-white text-start md:text-4xl md:mb-10 md:text-center md:mt-10">
                   Leverage Our Experts To Gain Competitive-Advantage
                 </h1>
-                <p className="text-sm text-white px-5 md:text-lg md:px-20 md:text-center ">
+                <p className="text-xs sm:text-sm text-white px-5 md:text-lg md:px-20 md:text-center ">
                   Want to kickstart an idea, scale your existing business or do
                   digital transformation in your organization we are there to
                   help. Choose from the below offerings and sit back while we
@@ -121,6 +122,7 @@ function Home() {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
