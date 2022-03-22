@@ -4,6 +4,7 @@ import globe from "./assits/globe.jpg";
 import projectbased from "./assits/projectbased.svg";
 import virtualteam from "./assits/virtualteam.svg";
 import mvppack from "./assits/mvppack.svg";
+import Review from "./Components/Review";
 
 function Home() {
   return (
@@ -129,7 +130,25 @@ function Home() {
           <h1 className="text-xl font-semibold">What Clients Say About Us</h1>
           <p>View all testimonials</p>
         </div>
+
+        <div>
+          <Review />
+        </div>
+
+
+
       </div>
+
+      <div className="px-10">
+        <div className="text-start my-14 mx-2">
+          <p className="text-xs ">Get In Touch With Us Today!</p>
+          <h1 className="text-2xl font-semibold ">Need Our Services?
+            Book Your Appointment</h1>
+          <p className="text-xs">We hate spam as much as you do. And we never send unnecessary emails</p>
+        </div>
+      </div>
+
+
     </div>
   );
 }
