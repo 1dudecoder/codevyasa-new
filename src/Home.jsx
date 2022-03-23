@@ -45,7 +45,7 @@ function Home() {
               alt="globe-image"
             />
 
-            <div className=" absolute sm:top-10 z-30">
+            <div className="absolute top-50 right-50 md:top-72 lg:top-10 lg:top-50 lg:right-50 z-30">
               <div className="flex-col place-items-center place-content-center">
                 <h1 className="text-xl sm:text-3xl md:text-4xl text-white text-center m-2  ">
                   Leverage Our Experts To Gain  Competitive-Advantage

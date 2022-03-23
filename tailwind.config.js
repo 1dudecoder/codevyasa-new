@@ -12,10 +12,10 @@ module.exports = {
         "eighty-w": "80wh",
         "one-fouthy": "180vh",
         "fouthy-five": "45%",
-        
       },
       screens: {
-        ninehund: "750px",
+        "ninehund": "750px",
+        'miniphone': '250px',
       },
       fontSize:{
         "five": "6vh",
