@@ -5,6 +5,7 @@ import projectbased from "./assits/projectbased.svg";
 import virtualteam from "./assits/virtualteam.svg";
 import mvppack from "./assits/mvppack.svg";
 import Review from "./Components/Review";
+import Footer from "./Components/Footer";
 
 function Home() {
   return (
@@ -39,26 +40,24 @@ function Home() {
         <div className="h-fit relative ">
           <div className="h-sixty-h">
             <img
-              className="absolute object-none h-screen w-screen z-0"
+              className="absolute object-none h-screen w-screen z-0 brightness-50   "
               src={globe}
               alt="globe-image"
             />
 
-            <div className="bg-bcolor bg-opacity-80 w-full h-screen absolute z-20 "></div>
-            
             <div className=" absolute sm:top-10 z-30">
               <div className="flex-col place-items-center place-content-center">
-                <h1 className="text-2xl text-start ml-5 mb-2 font-semibold text-white text-start md:text-4xl md:mb-10 md:text-center md:mt-10">
-                  Leverage Our Experts To Gain Competitive-Advantage
+                <h1 className="text-xl sm:text-3xl md:text-4xl text-white text-center m-2  ">
+                  Leverage Our Experts To Gain  Competitive-Advantage
                 </h1>
-                <p className="text-xs sm:text-sm text-white px-5 md:text-lg md:px-20 md:text-center ">
+                <p className="text-xs sm:text-xs text-white px-5  md:px-20 md:text-lg md:text-center ">
                   Want to kickstart an idea, scale your existing business or do
-                  digital transformation in your organization we are there to
-                  help. Choose from the below offerings and sit back while we
+                  digital transformation in your <br /> organization we are there to
+                  help. Choose from the below offerings and sit back while we <br />
                   get it done for you
                 </p>
 
-                <div className="mt-5  md:flex md:mt-20 ">
+                <div className="md:flex lg:mt-20 ">
                   <div className="relative text-white text-center p-5 md:p-10">
                     <div className=" bg-bcolor w-8 h-8 md:w-12 md:h-12  p-2 rounded-full  flex place-items-center justify-center absolute top-0 right-fouthy-five bottom-20 md:top-4  ">
                       <img
@@ -68,7 +67,7 @@ function Home() {
                       />
                     </div>
                     <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4  ">
-                      <h1 className="text-sm mb-2 ninehund:text-xl md:text-2xl mt-2 ">
+                      <h1 className="text-sm ninehund:text-xl md:text-2xl  md:mb-2 md:mt-2 ">
                         Project-Based
                       </h1>
                       <p className="text-xs md:text-sm lg:p-5">
@@ -90,7 +89,7 @@ function Home() {
                       />
                     </div>
                     <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4  ">
-                      <h1 className="text-sm ninehund:text-xl md:text-2xl mb-2 mt-2">
+                      <h1 className="text-sm ninehund:text-xl md:text-2xl  md:mb-2 md:mt-2">
                         Virtual Team
                       </h1>
                       <p className="text-xs md:text-sm lg:p-5">
@@ -107,7 +106,7 @@ function Home() {
                       <img className="w-8 h-8" src={mvppack} alt="mvp-image" />
                     </div>
                     <div className="bg-bcolor bg-opacity-50   rounded-lg p-2 pt-4  ">
-                      <h1 className="text-sm ninehund:text-xlmd:text-2xl mb-2 mt-2">
+                      <h1 className="text-sm ninehund:text-xlmd:text-2xl md:mb-2 md:mt-2">
                         MVP Pack
                       </h1>
                       <p className="text-xs lg:p-5 md:text-sm">
@@ -141,16 +140,48 @@ function Home() {
 
       </div>
 
-      <div className="px-10">
-        <div className="text-start my-14 mx-2">
-          <p className="text-xs ">Get In Touch With Us Today!</p>
-          <h1 className="text-2xl font-semibold ">Need Our Services?
+      <div className="px-14 text-center md:text-left  md:flex justify-between place-items-center ">
+        
+        <div className="text-start my-14 mx-2 ">
+          <p className="text-xs font-semibold pt-10">Get In Touch With Us Today!</p>
+          <h1 className="text-3xl font-semibold py-2 text-bcolor ">Need Our Services? <br />
             Book Your Appointment</h1>
-          <p className="text-xs">We hate spam as much as you do. And we never send unnecessary emails</p>
+          <p className="text-xs font-semibold ">We hate spam as much as you do. And we never send unnecessary emails</p>
+
+          <div className="mt-4">
+          <h1 className="italic font-semibold">CALL US FOR SUPPORT</h1>
+          <h1 className="text-3xl font-bold">+ 1 (386) 243-7944</h1>
+          <p>support@codevyasa.com</p>
+          </div>
+
         </div>
+
+        <div className=" md:p-5 md:w-1/2">
+           
+          <div className=" w-full md:flex lg:flex  pt-5 ">
+          <input placeholder="Your Name" className="w-full h-10 m-2 rounded-md border border-slate-300 outline-none p-2  hover:border-bcolor hover:border-2 " type="text" />
+          <input placeholder="Work Email"  className="w-full h-10 m-2 rounded-md border border-slate-300 outline-none p-2 hover:border-bcolor hover:border-2 " type="text" />
+          </div>
+
+          <div className=" w-full md:flex lg:flex  ">
+          <input placeholder="Phone"  className="w-full h-10 m-2 rounded-md border border-slate-300 outline-none p-2 hover:border-bcolor hover:border-2 " type="text" />
+          <input placeholder="Designation"  className="w-full h-10 m-2 rounded-md border border-slate-300 outline-none p-2 hover:border-bcolor hover:border-2 " type="text" />
+          </div>
+
+          <div className="md:flex lg:flex justify-start px-2 ">
+            <textarea placeholder="Specify your requirements"  className="w-full h-32 rounded-md border border-slate-300 outline-none p-2 hover:border-bcolor hover:border-2 " ></textarea>
+          </div>
+          
+          <div className="mt-5 float:none md:float-right  pb-5 ">
+          <button className="btn w-full px-20 py-2">Send</button>
+          </div>
+
+        </div>
+
       </div>
 
-
+      <Footer />
+      
     </div>
   );
 }

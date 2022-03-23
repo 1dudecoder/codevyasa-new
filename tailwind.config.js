@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         bcolor: "#10C9C3",
+        fcolor: "#212121",
       },
       spacing: {
         "sixty-h": "60vh",
@@ -11,13 +12,14 @@ module.exports = {
         "eighty-w": "80wh",
         "one-fouthy": "180vh",
         "fouthy-five": "45%",
-      },
-      backgroundImage: {
-        globe: "url('/src/assits/globe.jpg')",
+        
       },
       screens: {
         ninehund: "750px",
       },
+      fontSize:{
+        "five": "6vh",
+      }
     },
   },
   plugins: [],
