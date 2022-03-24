@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
         <footer>
-            <div className='w-full bg-fcolor p-10 text-center md:text-left  md:flex md:place-content-between mt-10'>
+            <div className='w-full bg-fcolor p-10 text-center md:text-left  md:flex md:place-content-between '>
 
                 <div className='flex-col flex md:items-start justify-center md:w-96 md:ml-14 p-2  '>
                     <img className='' src={whitelogo} alt="company-logo" />

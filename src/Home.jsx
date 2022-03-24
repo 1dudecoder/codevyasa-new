@@ -137,8 +137,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="px-14 text-center md:text-left  md:flex justify-between place-items-center ">
-        
+      <div className="px-14 text-center md:text-left  md:flex justify-between place-items-center bg-zinc-100 mt-8 ">
         <div className="text-start my-14 mx-2 ">
           <p className="text-xs font-semibold pt-10">Get In Touch With Us Today!</p>
           <h1 className="text-3xl font-semibold py-2 text-bcolor ">Need Our Services? <br />
