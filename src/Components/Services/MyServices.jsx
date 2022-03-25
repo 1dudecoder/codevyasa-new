@@ -50,6 +50,7 @@ function MyServices() {
             <div className="lg:p-10">
               <img className="p-2" src={mydata[0].img} alt="land-img" />
             </div>
+            
           </div>
 
           <div className="px-10 md:px-0 text-center my-14 ">

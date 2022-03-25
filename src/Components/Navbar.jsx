@@ -48,8 +48,9 @@ function Navbar() {
             </div>
 
             <div className={state ? "mt-14 left-0 w-full absolute lg:hidden bg-white" : 'hidden lg:hidden' } >
-            <p className='text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg'>Services</p>
-            <Link className='text-center text-2xl py-2 px-24 mx-10 my-5 border border-bcolor rounded-lg ' to="/services/web-dev"> Services </Link >
+            <p className='text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg'>
+              <Link to="/services/web-dev"> SERVICES</Link>
+              </p>
             <p className='text-center text-2xl py-2 mx-10 my-5 border  border-bcolor rounded-lg'>Engineering</p>
             <p className='text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg'>Pricing</p>
             <p className='text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg'>Code Vyasa</p>
