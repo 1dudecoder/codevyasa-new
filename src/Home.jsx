@@ -5,13 +5,13 @@ import projectbased from "./assits/projectbased.svg";
 import virtualteam from "./assits/virtualteam.svg";
 import mvppack from "./assits/mvppack.svg";
 import Review from "./Components/Review";
-import Footer from "./Components/Footer";
+import BookNow from "./Components/Contact/BookNow";
 
 function Home() {
   return (
     <div>
       <div className="flex-col justify-center mb-28">
-        <div className="flex place-content-center place-items-center mt-16 ml-5 ">
+        <div className="flex place-content-center place-items-center mt-10 ml-5 ">
           <div className="flex-col place-content-center place-items-center lg:ml-5 mb-10">
             <h1 className="text-xl mr-10 font-semibold sm:text-2xl md:text-4xl lg:text-5xl ">
               Your Technology <br /> Partner for <br /> Software Engineering
@@ -137,46 +137,8 @@ function Home() {
         </div>
       </div>
 
-      <div className="px-14 text-center md:text-left  md:flex justify-between place-items-center bg-zinc-100 mt-8 ">
-        <div className="text-start my-14 mx-2 ">
-          <p className="text-xs font-semibold pt-10">Get In Touch With Us Today!</p>
-          <h1 className="text-3xl font-semibold py-2 text-bcolor ">Need Our Services? <br />
-            Book Your Appointment</h1>
-          <p className="text-xs font-semibold ">We hate spam as much as you do. And we never send unnecessary emails</p>
+      <BookNow />
 
-          <div className="mt-4">
-          <h1 className="italic font-semibold">CALL US FOR SUPPORT</h1>
-          <h1 className="text-3xl font-bold">+ 1 (386) 243-7944</h1>
-          <p>support@codevyasa.com</p>
-          </div>
-
-        </div>
-
-        <div className=" md:p-5 md:w-1/2">
-           
-          <div className=" w-full md:flex lg:flex  pt-5 ">
-          <input placeholder="Your Name" className="w-full h-10 m-2 rounded-md border border-slate-300 outline-none p-2  hover:border-bcolor hover:border-2 " type="text" />
-          <input placeholder="Work Email"  className="w-full h-10 m-2 rounded-md border border-slate-300 outline-none p-2 hover:border-bcolor hover:border-2 " type="text" />
-          </div>
-
-          <div className=" w-full md:flex lg:flex  ">
-          <input placeholder="Phone"  className="w-full h-10 m-2 rounded-md border border-slate-300 outline-none p-2 hover:border-bcolor hover:border-2 " type="text" />
-          <input placeholder="Designation"  className="w-full h-10 m-2 rounded-md border border-slate-300 outline-none p-2 hover:border-bcolor hover:border-2 " type="text" />
-          </div>
-
-          <div className="md:flex lg:flex justify-start px-2 ">
-            <textarea placeholder="Specify your requirements"  className="w-full h-32 rounded-md border border-slate-300 outline-none p-2 hover:border-bcolor hover:border-2 " ></textarea>
-          </div>
-          
-          <div className="mt-5 float:none md:float-right  pb-5 ">
-          <button className="btn w-full px-20 py-2">Send</button>
-          </div>
-
-        </div>
-
-      </div>
-
-      <Footer />
       
     </div>
   );

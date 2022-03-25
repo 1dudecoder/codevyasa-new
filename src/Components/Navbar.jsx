@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import logo from '../assits/logo.svg'
 import lines from "../assits/lines.svg"
 import multi from "../assits/multi.svg"
+import { Link } from 'react-router-dom'
 
 
 function Navbar() {
@@ -18,7 +19,7 @@ function Navbar() {
           </div>
 
           <div className='hidden lg:flex justify-evenly place-content-center place-items-center ml-5'>
-            <p className='px-4'>Services</p>
+            <Link className='px-4' to="/Services">Services</Link>
             <p className='px-4'>Engineering</p>
             <p className='px-4'>Pricing</p>
             <p className='px-4'>Code Vyasa</p>
@@ -48,6 +49,8 @@ function Navbar() {
 
             <div className={state ? "mt-14 left-0 w-full absolute lg:hidden bg-white" : 'hidden lg:hidden' } >
             <p className='text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg'>Services</p>
+             
+
             <p className='text-center text-2xl py-2 mx-10 my-5 border  border-bcolor rounded-lg'>Engineering</p>
             <p className='text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg'>Pricing</p>
             <p className='text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg'>Code Vyasa</p>
