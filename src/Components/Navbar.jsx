@@ -19,7 +19,7 @@ function Navbar() {
           </div>
 
           <div className='hidden lg:flex justify-evenly place-content-center place-items-center ml-5'>
-            <Link className='px-4' to="/Services">Services</Link>
+            <Link className='px-4' to="/services/web-dev">Services</Link>
             <p className='px-4'>Engineering</p>
             <p className='px-4'>Pricing</p>
             <p className='px-4'>Code Vyasa</p>
