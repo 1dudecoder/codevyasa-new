@@ -53,7 +53,7 @@ function Navbar() {
             <p className='text-center text-2xl py-2 mx-10 my-5 border  border-bcolor rounded-lg'>Engineering</p>
             <p className='text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg'>Pricing</p>
             <p className='text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg'>Code Vyasa</p>
-            <p className='bg-bcolor text-white text-center text-2xl py-2 mx-10 my-5 rounded-lg '>Get in Touch</p>
+            <p className='bg-bcolor text-white text-center text-2xl py-2 mx-10 my-5 rounded-lg '>Get in Touch </p>
 
             </div>
 
