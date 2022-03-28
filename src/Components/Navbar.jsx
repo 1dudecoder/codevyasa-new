@@ -15,7 +15,9 @@ function Navbar() {
         <nav className='flex place-content-around lg:flex lg:place-content-between lg:place-items-center lg:mx-20 lg:mt-3   '>
 
           <div className='flex place-content-between place-items-center' >
+            <Link to="/" > 
             <img src={logo} alt="sitelogo" />
+            </Link>
           </div>
 
           <div className='hidden lg:flex justify-evenly place-content-center place-items-center ml-5'>

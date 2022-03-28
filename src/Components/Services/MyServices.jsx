@@ -5,6 +5,12 @@ import NotFound from "../../NotFound";
 import main from "../../assits/services/webdev/main.jpg"
 import first from "../../assits/services/webdev/first.jpg"
 import sec from "../../assits/services/webdev/sec.jpg"
+import appmain from "../../assits/services/appdev/appmain.jpg"
+import appfirst from "../../assits/services/appdev/appfirst.jpg"
+import appsec from "../../assits/services/appdev/appsec.jpg"
+
+
+
 
 function MyServices() {
   let location = useLocation();
@@ -66,7 +72,7 @@ function MyServices() {
               return (
                 <>
                   <div className=" flex justify-center items-center sm:px-10 my-16">
-                    <div className="p-2  flex flex-1 flex-col  ">
+                    <div className="p-2  flex flex-1 flex-col lg:px-5  ">
                       <h1 className="text-xl sm:text-3xl font-bold my-2 ">
                         {item.name}
                       </h1>
@@ -83,7 +89,98 @@ function MyServices() {
               return (
                 <>
                   <div className="flex flex-row-reverse justify-center items-center sm:px-10 my-16">
-                    <div className="p-2 flex flex-1 flex-col ">
+                    <div className="p-2 flex flex-1 flex-col lg:px-10 ">
+                      <h1 className="text-xl sm:text-3xl font-bold my-2 ">
+                        {item.name}
+                      </h1>
+                      <p className="text-xs sm:text-sm">{item.msg}</p>
+                    </div>
+
+                    <div className="">
+                      <img className="" src={item.img} alt="expert-image" />
+                    </div>
+                  </div>
+                </>
+              );
+            }
+          })}
+        </>
+      );
+    }
+    if (location.pathname === "/services/app-dev") {
+      let mydata = [
+        {
+          title: "Have An Idea ?",
+          msg: "Let us help you to kickstart your idea",
+          img: appmain,
+        },
+        {
+          lilmsg: "Get Quality-Rich",
+          title: "App Development Services",
+          msg: "We are dedicated to offering you high-end mobile app development services with a full cycle of app design, integration, and management.",
+        },
+      ];
+
+      let services = [
+        {
+          name: "Expert Mobile App Developers/Coders",
+          msg: "CodeVyasa is Silicon Valley's top-rated mobile app development company with over 3+ years of experience building world-class B2B & B2C applications.We offer end-to-end custom web development services including ground-up bespoke web development, migration, update, & ongoing maintenance services.",
+          img: appfirst,
+        },
+        {
+          name: "Cutting-Edge, Customized Mobility Solutions For Your Unique Business Requirements. ",
+          msg: "Whether you require native or cross platform apps, our mobile application development services are designed to deliver cutting-edge, customized mobility solutions for your unique business requirements. Our highly experienced developers have built a range of secured and scalable apps for clients in diverse industry verticals. So, you can avail our mobile app development services to leverage the best of it.",
+          img: appsec,
+        },
+      ];
+
+      return (
+        <>
+          <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+            <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
+              <h1 className="text-xl  font-semibold sm:text-2xl md:text-4xl lg:text-5xl ">
+                {mydata[0].title}
+              </h1>
+              <p className="md:mt-5 md:xl lg:text-xl ">{mydata[0].msg}</p>
+            </div>
+
+            <div className="lg:p-10">
+              <img className="p-2" src={mydata[0].img} alt="land-img" />
+            </div>
+            
+          </div>
+
+          <div className="px-10 md:px-0 text-center my-14 ">
+            <p className="text-lg">{mydata[1].lilmsg}</p>
+            <h1 className="text-2xl sm:text-5xl font-bold pb-2">
+              {mydata[1].title}
+            </h1>
+            <p className="lg:px-96 lg:mt-2">{mydata[1].msg}</p>
+          </div>
+
+          {services.map((item, index) => {
+            if (index / 2 === 0) {
+              return (
+                <>
+                  <div className=" flex justify-center items-center sm:px-10 my-16">
+                    <div className="p-2  flex flex-1 flex-col lg:px-20 ">
+                      <h1 className="text-xl sm:text-3xl font-bold my-2  ">
+                        {item.name}
+                      </h1>
+                      <p className="text-xs sm:text-sm">{item.msg}</p>
+                    </div>
+
+                    <div className="">
+                      <img className="" src={item.img} alt="expert-image" />
+                    </div>
+                  </div>
+                </>
+              );
+            } else {
+              return (
+                <>
+                  <div className="flex flex-row-reverse justify-center items-center sm:px-10 my-16">
+                    <div className="p-2 flex flex-1 flex-col lg:px-20  ">
                       <h1 className="text-xl sm:text-3xl font-bold my-2 ">
                         {item.name}
                       </h1>
