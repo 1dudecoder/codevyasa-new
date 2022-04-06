@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar';
 import MyServices from './Components/Services/MyServices';
 import Footer from './Components/Footer';
 import MyEngineering from './Components/Engineering/MyEngineering';
+import Pricing from './Components/Pricing/Pricing';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Route exact path="/" element={<Home />} />  
       <Route exact path="/services/:id" element={<MyServices />} />  
       <Route exact path="/engineering/:id" element={<MyEngineering />} />  
+      <Route exact path="/pricing" element={<Pricing />} />  
       <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

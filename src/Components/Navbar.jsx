@@ -22,8 +22,8 @@ function Navbar() {
 
           <div className='hidden lg:flex justify-evenly place-content-center place-items-center ml-5'>
             <Link className='px-4' to="/services/web-dev">Services</Link>
-            <p className='px-4'>Engineering</p>
-            <p className='px-4'>Pricing</p>
+            <p className='px-4'><Link className='px-4' to="/engineering/mobile">Engineering</Link></p>
+            <p className='px-4'><Link to="/Pricing"> Pricing</Link></p>
             <p className='px-4'>Code Vyasa</p>
             <p className='btn px-4 py-2'>Get in Touch</p>
           </div>
@@ -53,8 +53,8 @@ function Navbar() {
             <p className='text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg'>
               <Link to="/services/web-dev"> SERVICES</Link>
               </p>
-            <p className='text-center text-2xl py-2 mx-10 my-5 border  border-bcolor rounded-lg'>Engineering</p>
-            <p className='text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg'>Pricing</p>
+            <p className='text-center text-2xl py-2 mx-10 my-5 border  border-bcolor rounded-lg'><Link to="/engineering/mobile"> Engineering</Link></p>
+            <p className='text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg'><Link to="/Pricing">Pricing</Link></p>
             <p className='text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg'>Code Vyasa</p>
             <p className='bg-bcolor text-white text-center text-2xl py-2 mx-10 my-5 rounded-lg '>Get in Touch </p>
 
