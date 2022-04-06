@@ -6,6 +6,7 @@ import NotFound from './NotFound';
 import Navbar from './Components/Navbar';
 import MyServices from './Components/Services/MyServices';
 import Footer from './Components/Footer';
+import MyEngineering from './Components/Engineering/MyEngineering';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
       <Route exact path="/" element={<Home />} />  
       <Route exact path="/services/:id" element={<MyServices />} />  
+      <Route exact path="/engineering/:id" element={<MyEngineering />} />  
       <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
