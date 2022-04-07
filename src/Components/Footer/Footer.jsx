@@ -1,6 +1,6 @@
 import React from 'react'
-import whitelogo from "../assits/whitelogo.svg"
-import americalogo from "../assits/americalogo.svg"
+import whitelogo from "../../assits/whitelogo.svg"
+import americalogo from "../../assits/americalogo.svg"
 
 function Footer() {
   return (

@@ -4,7 +4,7 @@ import globe from "./assits/globe.jpg";
 import projectbased from "./assits/projectbased.svg";
 import virtualteam from "./assits/virtualteam.svg";
 import mvppack from "./assits/mvppack.svg";
-import Review from "./Components/Review";
+import Review from "./Review/Review";
 import BookNow from "./Components/Contact/BookNow";
 
 function Home() {

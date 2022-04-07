@@ -1,7 +1,6 @@
 import React from "react";
 import star from "../assits/stars.svg";
 import location from "../assits/location.svg";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -78,8 +77,6 @@ function Review() {
       }
     ]
   };
-
-
 
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;

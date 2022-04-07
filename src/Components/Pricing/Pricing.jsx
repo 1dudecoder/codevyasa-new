@@ -323,6 +323,7 @@ function Pricing() {
               </p>
             </div>
           </div>
+          
         </div>
 
         <p className="text-center mt-4 p-2 lg:px-96  text-sm ">
