@@ -26,6 +26,7 @@ function App() {
       <Route exact path="/about" element={<About />} />  
       <Route exact path="/our-team" element={<Ourteam />} />  
       <Route exact path="/blog" element={<Blog />} />  
+      <Route exact path="/blog/:id" element={<Blog />} />  
       <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
