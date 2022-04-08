@@ -6,6 +6,7 @@ module.exports = {
         bcolor: "#10C9C3",
         fcolor: "#212121",
         card: "#F2F2F2"
+
       },
       spacing: {
         "sixty-h": "60vh",
@@ -14,6 +15,7 @@ module.exports = {
         "one-fouthy": "180vh",
         "fouthy-five": "45%",
         "fourty-rem": "45rem",
+        "blog-rem":"32rem",
       },
       screens: {
         "ninehund": "750px",

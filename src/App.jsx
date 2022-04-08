@@ -9,6 +9,8 @@ import Footer from './Components/Footer/Footer';
 import MyEngineering from './Components/Engineering/MyEngineering';
 import Pricing from './Components/Pricing/Pricing';
 import About from './Components/About/About';
+import Ourteam from './Components/OurTeam/Ourteam';
+import Blog from './Components/Blog/Blog';
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
       <Route exact path="/engineering/:id" element={<MyEngineering />} />  
       <Route exact path="/pricing" element={<Pricing />} />  
       <Route exact path="/about" element={<About />} />  
+      <Route exact path="/our-team" element={<Ourteam />} />  
+      <Route exact path="/blog" element={<Blog />} />  
       <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

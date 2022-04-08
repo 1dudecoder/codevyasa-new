@@ -21,7 +21,6 @@ function Navbar() {
           </div>
 
           <div className='hidden lg:flex justify-evenly place-content-center place-items-center ml-5'>
-            <Link className='px-4' to="/about">About</Link>
             <Link className='px-4' to="/services/web-dev">Services</Link>
             <p className='px-4'><Link className='px-4' to="/engineering/mobile">Engineering</Link></p>
             <p className='px-4'><Link to="/Pricing"> Pricing</Link></p>

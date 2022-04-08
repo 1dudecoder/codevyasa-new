@@ -1,6 +1,7 @@
 import React from 'react'
 import whitelogo from "../../assits/whitelogo.svg"
 import americalogo from "../../assits/americalogo.svg"
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -50,8 +51,8 @@ function Footer() {
                 <div className='p-2'>
                     <div className='text-center text-white font-thin flex-col flex lg:text-left '>
                         <h1 className='mb-2 font-semibold'>Code Vyasa</h1>
-                        <p>About Us</p>
-                        <p>Our Team</p>
+                        <p><Link to="/about">About us</Link></p>
+                        <p><Link to="/our-team">Our Team</Link></p>
                         <p className='my-2'>Florida | New Delhi <br/>
                         Call us + 1 (386) 243-7944 <br/>
                         support@codevyasa.com</p>

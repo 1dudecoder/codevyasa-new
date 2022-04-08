@@ -13,7 +13,7 @@ function BookNow() {
           <div className="mt-4">
           <h1 className="italic font-semibold">CALL US FOR SUPPORT</h1>
           <h1 className="text-3xl font-bold">+ 1 (386) 243-7944</h1>
-          <p>support@codevyasa.com</p>cls
+          <p>support@codevyasa.com</p>
           </div>
 
         </div>
