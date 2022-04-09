@@ -9,6 +9,7 @@ import joy from "../../assits/ourteam/founders-images/joy.png";
 import Priyanka from "../../assits/ourteam/founders-images/Priyanka.png";
 import subham from "../../assits/ourteam/founders-images/subham.png";
 
+
 // icons
 import fb from "../../assits/ourteam/icons/fb.svg";
 import linkdin from "../../assits/ourteam/icons/linkdin.svg";

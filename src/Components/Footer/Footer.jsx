@@ -62,8 +62,9 @@ function Footer() {
               </p>
               <p className="my-2">
                 Florida | New Delhi <br />
-                Call us + 1 (386) 243-7944 <br />
-                support@codevyasa.com
+                <a className="hover:text-bcolor " href="tel:+1(386)2437944">Call us + 1 (386) 243-7944</a> <br />
+                <a className="hover:text-bcolor " href="mailto:example@email.com">support@codevyasa.com</a> 
+               
               </p>
               <img
                 className="w-16 place-self-center lg:place-self-start "
