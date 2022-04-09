@@ -18,6 +18,7 @@ import sevenvtex from "../../assits/Blog/vtex-blog-images/sevenvtex.jpg";
 import eightvtex from "../../assits/Blog/vtex-blog-images/eightvtex.jpg";
 
 import { Link, useLocation } from "react-router-dom";
+import BookNow from "../Contact/BookNow";
 
 function Blog() {
   let location = useLocation();
@@ -419,61 +420,61 @@ function Blog() {
 
             <div className="flex place-content-center place-items-center flex-wrap mt-10   ">
               <Link to="/blog/amp-page">
-              <div className="flex flex-wrap place-content-center place-items-center shadow-lg shadow-slate-600 m-5 rounded-lg   ">
-                <div className="flex flex-col place-content-center md:w-96 overflow-hidden bg-white pb-5   rounded-xl ">
-                  <img src={amp} alt="Mayank-image" />
-                  <div className="text-white px-4 bottom-10 bg-bcolor relative mt-5 w-fit">
-                    11 Jul
-                  </div>
-                  <div className="px-4 h-60 text-sm">
-                    <p className="font-semibold ">
-                      AMPs— Just another Jargon or Are we late to the Party?
-                    </p>
-                    <p className="text-xs text-gray-400 ">
-                      Author: Joy Singhal
-                    </p>
-                    <p className="py-2">
-                      The concept of AMP Pages has been around for 5 years. And
-                      yet, there is not too much evidence of whether it’s worth
-                      the effort. In fact, in the first place, there are
-                      questions on whether AMP Pages help the cause of the world
-                      has moved on from it.
-                    </p>
+                <div className="flex flex-wrap place-content-center place-items-center shadow-lg shadow-slate-600 m-5 rounded-lg   ">
+                  <div className="flex flex-col place-content-center md:w-96 overflow-hidden bg-white pb-5   rounded-xl ">
+                    <img src={amp} alt="Mayank-image" />
+                    <div className="text-white px-4 bottom-10 bg-bcolor relative mt-5 w-fit">
+                      11 Jul
+                    </div>
+                    <div className="px-4 h-60 text-sm">
+                      <p className="font-semibold ">
+                        AMPs— Just another Jargon or Are we late to the Party?
+                      </p>
+                      <p className="text-xs text-gray-400 ">
+                        Author: Joy Singhal
+                      </p>
+                      <p className="py-2">
+                        The concept of AMP Pages has been around for 5 years.
+                        And yet, there is not too much evidence of whether it’s
+                        worth the effort. In fact, in the first place, there are
+                        questions on whether AMP Pages help the cause of the
+                        world has moved on from it.
+                      </p>
 
-                    <button className="btn px-4 py-2 mt-2">
-                      <Link to="/blog/amp-page">Read More</Link>
-                    </button>
+                      <button className="btn px-4 py-2 mt-2">
+                        <Link to="/blog/amp-page">Read More</Link>
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
               </Link>
 
               <Link to="/blog/vtex-page">
-              <div className="flex flex-wrap place-content-center place-items-center shadow-lg shadow-slate-600 m-5 rounded-lg    ">
-                <div className="flex flex-col place-content-center md:w-96 overflow-hidden bg-white pb-5  rounded-xl  ">
-                  <img src={vtex} alt="vtx-image" />
-                  <div className="text-white px-4 bottom-10 bg-bcolor relative mt-5 w-fit">
-                    26 Jul
-                  </div>
-                  <div className="px-4 h-60 text-sm">
-                    <p className="font-semibold ">
-                      VTEX — A Force To Reckon With
-                    </p>
-                    <p className="text-xs text-gray-400 ">
-                      Author: Joy Singhal
-                    </p>
-                    <p className="py-2">
-                      Walmart, Vans, Coca-Cola, Sony, L´Oréal, Nestlé,
-                      Coca-Cola, Pizza Hut, Whirlpool……the list goes on and on.
-                      Wait, what is this about? These are companies with a
-                      different product offering and have diverse customers
-                      across
-                    </p>
+                <div className="flex flex-wrap place-content-center place-items-center shadow-lg shadow-slate-600 m-5 rounded-lg    ">
+                  <div className="flex flex-col place-content-center md:w-96 overflow-hidden bg-white pb-5  rounded-xl  ">
+                    <img src={vtex} alt="vtx-image" />
+                    <div className="text-white px-4 bottom-10 bg-bcolor relative mt-5 w-fit">
+                      26 Jul
+                    </div>
+                    <div className="px-4 h-60 text-sm">
+                      <p className="font-semibold ">
+                        VTEX — A Force To Reckon With
+                      </p>
+                      <p className="text-xs text-gray-400 ">
+                        Author: Joy Singhal
+                      </p>
+                      <p className="py-2">
+                        Walmart, Vans, Coca-Cola, Sony, L´Oréal, Nestlé,
+                        Coca-Cola, Pizza Hut, Whirlpool……the list goes on and
+                        on. Wait, what is this about? These are companies with a
+                        different product offering and have diverse customers
+                        across
+                      </p>
 
-                    <button className="btn px-4 py-2 mt-2">Read More</button>
+                      <button className="btn px-4 py-2 mt-2">Read More</button>
+                    </div>
                   </div>
                 </div>
-              </div>
               </Link>
             </div>
           </div>
@@ -502,6 +503,10 @@ function Blog() {
       </div>
 
       <Mypages />
+
+      <div id="contact">
+        <BookNow />
+      </div>
     </div>
   );
 }

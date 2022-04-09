@@ -542,9 +542,8 @@ function MyServices() {
           </h1>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-2 gap-1 place-content-center place-items-center xl:px-60 ">
-
             <div className="p-10 border-2 shadow-2xl w-screen  sm:w-sixty-h h-1/2 flex place-items-center place-content-center text-bcolor font-semibold text-sm text-center ">
-              <p>Technology Leaders with {'>7'} years of experience</p>
+              <p>Technology Leaders with {">7"} years of experience</p>
             </div>
 
             <div className="p-10 border-2 shadow-2xl w-screen sm:w-sixty-h h-1/2 flex place-items-center place-content-center text-bcolor font-semibold text-sm text-center  ">
@@ -562,11 +561,9 @@ function MyServices() {
               <p>Avoid Technical Debts</p>
             </div>
           </div>
-
         </>
       );
-    }
-    else {
+    } else {
       return <NotFound />;
     }
   };
@@ -574,7 +571,10 @@ function MyServices() {
   return (
     <>
       <ShowingData />
-      <BookNow />
+
+      <div id="contact">
+        <BookNow />
+      </div>
     </>
   );
 }

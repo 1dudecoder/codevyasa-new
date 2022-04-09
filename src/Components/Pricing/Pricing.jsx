@@ -318,12 +318,9 @@ function Pricing() {
             </div>
 
             <div className="p-5 m-2 md:p-10 border-2 shadow-2xl w-screen sm:w-80  h-fit md:h-1/2 flex place-items-center place-content-center text-bcolor font-semibold rounded-md text-sm text-center bg-white ">
-              <p>
-              Cost: starts at 4000 USD
-              </p>
+              <p>Cost: starts at 4000 USD</p>
             </div>
           </div>
-          
         </div>
 
         <p className="text-center mt-4 p-2 lg:px-96  text-sm ">
@@ -334,7 +331,9 @@ function Pricing() {
         </p>
       </div>
 
-      <BookNow />
+      <div id="contact">
+        <BookNow />
+      </div>
     </>
   );
 }

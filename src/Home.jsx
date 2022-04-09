@@ -57,7 +57,6 @@ function Home() {
 
             <div className="mt-5 sm:mt-0">
               <div className=" md:flex lg:mt-10 xl:mt-20 ">
-
                 <div className="relative text-white text-center p-5 md:p-10">
                   <div className=" bg-bcolor w-8 h-8 md:w-12 md:h-12  p-2 rounded-full  flex place-items-center justify-center absolute top-0 right-fouthy-five bottom-20 md:top-4  ">
                     <img
@@ -68,9 +67,7 @@ function Home() {
                   </div>
 
                   <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4  ">
-                    <h1 className="text-sm md:text-xl mt-2">
-                      Project-Based
-                    </h1>
+                    <h1 className="text-sm md:text-xl mt-2">Project-Based</h1>
                     <p className="text-xs md:text-xs lg:text-sm lg:p-2">
                       Get your projects delivered at 3x the speed with a minimum
                       40% reduction in price. Just let us know your requirements
@@ -90,9 +87,7 @@ function Home() {
                     />
                   </div>
                   <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4  ">
-                    <h1 className="text-sm md:text-xl mt-2">
-                      Virtual Team
-                    </h1>
+                    <h1 className="text-sm md:text-xl mt-2">Virtual Team</h1>
                     <p className="text-xs md:text-xs lg:text-sm lg:p-2">
                       Get dedicated developers assigned to your team with 100%
                       transparency on the throughput. This gives you a 5X faster
@@ -104,12 +99,14 @@ function Home() {
 
                 <div className="relative text-white text-center p-5 md:p-10">
                   <div className=" bg-bcolor w-8 h-8 md:w-12 md:h-12  p-2 rounded-full flex place-items-center justify-center absolute top-0 right-fouthy-five bottom-20 md:top-4">
-                    <img className="w-8 h-8 p-1" src={mvppack} alt="mvp-image" />
+                    <img
+                      className="w-8 h-8 p-1"
+                      src={mvppack}
+                      alt="mvp-image"
+                    />
                   </div>
                   <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4  ">
-                    <h1 className="text-sm md:text-xl mt-2">
-                      MVP Pack
-                    </h1>
+                    <h1 className="text-sm md:text-xl mt-2">MVP Pack</h1>
                     <p className="text-xs md:text-xs lg:text-sm lg:p-2">
                       We are a start-up and we empathize with early-stage
                       Founders trying to test their Product Idea. Leverage our
@@ -119,7 +116,6 @@ function Home() {
                     </p>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -137,9 +133,9 @@ function Home() {
         </div>
       </div>
 
-      <BookNow />
-
-      
+      <div id="contact">
+        <BookNow />
+      </div>
     </div>
   );
 }

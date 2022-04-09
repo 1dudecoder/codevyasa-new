@@ -319,12 +319,20 @@ function About() {
             </div>
 
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img className="h-10 w-10 mx-2" src={laravel} alt="Laravel-image" />
+              <img
+                className="h-10 w-10 mx-2"
+                src={laravel}
+                alt="Laravel-image"
+              />
               <p>Laravel</p>
             </div>
 
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img className="h-10 w-10 mx-2" src={mean} alt="MEAN-Stack-image" />
+              <img
+                className="h-10 w-10 mx-2"
+                src={mean}
+                alt="MEAN-Stack-image"
+              />
               <p>MEAN Stack</p>
             </div>
 
@@ -338,11 +346,7 @@ function About() {
             </div>
 
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img
-                className="h-10 w-10 mx-2"
-                src={devops}
-                alt="DevOps-image"
-              />
+              <img className="h-10 w-10 mx-2" src={devops} alt="DevOps-image" />
               <p>DevOps</p>
             </div>
 
@@ -370,7 +374,11 @@ function About() {
             </div>
 
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img className="h-10 w-10 mx-2" src={cakephp} alt="Cake PHP-image" />
+              <img
+                className="h-10 w-10 mx-2"
+                src={cakephp}
+                alt="Cake PHP-image"
+              />
               <p>Cake PHP</p>
             </div>
 
@@ -380,41 +388,24 @@ function About() {
             </div>
 
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img
-                className="h-10 w-10 mx-2"
-                src={hadoop}
-                alt="Hadoop-image"
-              />
+              <img className="h-10 w-10 mx-2" src={hadoop} alt="Hadoop-image" />
               <p>Hadoop</p>
             </div>
 
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img
-                className="h-10 w-10 mx-2"
-                src={golang}
-                alt="Golang-image"
-              />
+              <img className="h-10 w-10 mx-2" src={golang} alt="Golang-image" />
               <p>Golang</p>
             </div>
 
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img
-                className="h-10 w-10 mx-2"
-                src={golang}
-                alt="Golang-image"
-              />
+              <img className="h-10 w-10 mx-2" src={golang} alt="Golang-image" />
               <p>Golang</p>
             </div>
 
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img
-                className="h-10 w-10 mx-2"
-                src={flask}
-                alt="Flask-image"
-              />
+              <img className="h-10 w-10 mx-2" src={flask} alt="Flask-image" />
               <p>Flask</p>
             </div>
-
 
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
               <img
@@ -425,7 +416,6 @@ function About() {
               <p>GraphQL</p>
             </div>
 
-
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
               <img
                 className="h-10 w-10 mx-2"
@@ -435,31 +425,18 @@ function About() {
               <p>Hadoop Consulting</p>
             </div>
 
-
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img
-                className="h-10 w-10 mx-2"
-                src={yii}
-                alt="Yii-image"
-              />
+              <img className="h-10 w-10 mx-2" src={yii} alt="Yii-image" />
               <p>Yii</p>
             </div>
 
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img
-                className="h-10 w-10 mx-2"
-                src={ror}
-                alt="RoR-image"
-              />
+              <img className="h-10 w-10 mx-2" src={ror} alt="RoR-image" />
               <p>RoR</p>
             </div>
 
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img
-                className="h-10 w-10 mx-2"
-                src={java}
-                alt="Java-image"
-              />
+              <img className="h-10 w-10 mx-2" src={java} alt="Java-image" />
               <p>Java</p>
             </div>
 
@@ -491,11 +468,7 @@ function About() {
             </div>
 
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img
-                className="h-10 w-10 mx-2"
-                src={appium}
-                alt="Appium-image"
-              />
+              <img className="h-10 w-10 mx-2" src={appium} alt="Appium-image" />
               <p>Appium</p>
             </div>
 
@@ -508,7 +481,6 @@ function About() {
               <p>Firebase</p>
             </div>
 
-
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
               <img
                 className="h-10 w-10 mx-2"
@@ -518,43 +490,20 @@ function About() {
               <p>Jenkins</p>
             </div>
 
-
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img
-                className="h-10 w-10 mx-2"
-                src={mysql}
-                alt="MySQL-image"
-              />
+              <img className="h-10 w-10 mx-2" src={mysql} alt="MySQL-image" />
               <p>MySQL</p>
             </div>
 
-
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img
-                className="h-10 w-10 mx-2"
-                src={moodle}
-                alt="Moodle-image"
-              />
+              <img className="h-10 w-10 mx-2" src={moodle} alt="Moodle-image" />
               <p>Moodle</p>
             </div>
 
-            
-
             <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-              <img
-                className="h-10 w-10 mx-2"
-                src={wpf}
-                alt="WPF-image"
-              />
+              <img className="h-10 w-10 mx-2" src={wpf} alt="WPF-image" />
               <p>WPF</p>
             </div>
-
-            
-
-
-
-
-
           </div>
         </div>
       </div>
@@ -669,7 +618,9 @@ function About() {
         <img src={mapimage} alt="map-image" />
       </div>
 
-      <BookNow />
+      <div id="contact">
+        <BookNow />
+      </div>
     </div>
   );
 }

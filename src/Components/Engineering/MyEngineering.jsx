@@ -36,21 +36,20 @@ import azure from "../../assits/eng/cloud/icons/azure.svg";
 import gcp from "../../assits/eng/cloud/icons/gcp.svg";
 
 //ecommerce images
-import mainecom from "../../assits/eng/ecommerce/mainecom.jpg"
-import sececom from "../../assits/eng/ecommerce/sececom.jpg"
-import drupal from "../../assits/eng/ecommerce/icons/drupal.svg"
-import kentico from "../../assits/eng/ecommerce/icons/kentico.svg"
-import magento from "../../assits/eng/ecommerce/icons/magento.svg"
-import opencart from "../../assits/eng/ecommerce/icons/opencart.svg"
-import sharepoint from "../../assits/eng/ecommerce/icons/sharepoint.svg"
-import shopify from "../../assits/eng/ecommerce/icons/shopify.svg"
-import sitecore from "../../assits/eng/ecommerce/icons/sitecore.svg"
-import sitefinity from "../../assits/eng/ecommerce/icons/sitefinity.svg"
-import umbraco from "../../assits/eng/ecommerce/icons/umbraco.svg"
-import vtex from "../../assits/eng/ecommerce/icons/vtex.svg"
-import woocommerce from "../../assits/eng/ecommerce/icons/woocommerce.svg"
-import wordpress from "../../assits/eng/ecommerce/icons/wordpress.svg"
-
+import mainecom from "../../assits/eng/ecommerce/mainecom.jpg";
+import sececom from "../../assits/eng/ecommerce/sececom.jpg";
+import drupal from "../../assits/eng/ecommerce/icons/drupal.svg";
+import kentico from "../../assits/eng/ecommerce/icons/kentico.svg";
+import magento from "../../assits/eng/ecommerce/icons/magento.svg";
+import opencart from "../../assits/eng/ecommerce/icons/opencart.svg";
+import sharepoint from "../../assits/eng/ecommerce/icons/sharepoint.svg";
+import shopify from "../../assits/eng/ecommerce/icons/shopify.svg";
+import sitecore from "../../assits/eng/ecommerce/icons/sitecore.svg";
+import sitefinity from "../../assits/eng/ecommerce/icons/sitefinity.svg";
+import umbraco from "../../assits/eng/ecommerce/icons/umbraco.svg";
+import vtex from "../../assits/eng/ecommerce/icons/vtex.svg";
+import woocommerce from "../../assits/eng/ecommerce/icons/woocommerce.svg";
+import wordpress from "../../assits/eng/ecommerce/icons/wordpress.svg";
 
 function MyEngineering() {
   let location = useLocation();
@@ -62,7 +61,7 @@ function MyEngineering() {
           <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
-                Half Of The Internet <br/> Is Served On Mobile Devices.
+                Half Of The Internet <br /> Is Served On Mobile Devices.
               </h1>
               <p className="md:mt-5 md:xl lg:text-xl ">
                 It’s time to become a part of this revolution
@@ -98,7 +97,7 @@ function MyEngineering() {
 
           <div className="flex-col flex place-items-center place-content-center px-5 pt-16">
             <h1 className="text-2xl md:text-3xl  lg:text-4xl font-bold">
-              Our Expertise 
+              Our Expertise
             </h1>
             <p className="text-xl md:text-2xl  lg:text-3xl font-semibold py-3">
               Native App Development
@@ -392,7 +391,8 @@ function MyEngineering() {
           <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
-                The global  ecommerce  <br /> market  is  expected to total <br/>  $4.89 trillion in 2022
+                The global ecommerce <br /> market is expected to total <br />{" "}
+                $4.89 trillion in 2022
               </h1>
               <p className="md:mt-5 md:xl lg:text-xl ">
                 What are you waiting for
@@ -411,7 +411,7 @@ function MyEngineering() {
                 And Boosting Sales.
               </h1>
               <p className="text-xs sm:text-sm">
-                Create an interactive, robust and user-friendly multi-vendor 
+                Create an interactive, robust and user-friendly multi-vendor
                 e-commerce store for your retail business. Sell ​​products
                 worldwide and increase revenue upto 10 times with your own
                 e-commerce marketplace. We assure that your website is developed
@@ -433,97 +433,127 @@ function MyEngineering() {
               Ecommerce
             </p>
             <p className="text-center">
-              Ecommerce website design and development covers all the activities 
-              aimed at the creation, maintenance, and evolution of a web store. <br/>
+              Ecommerce website design and development covers all the activities
+              aimed at the creation, maintenance, and evolution of a web store.{" "}
+              <br />
               Team up with CodeVyasa to find all the competencies needed for
               your ecommerce project success under one roof.
             </p>
 
             <div className="flex flex-wrap mt-10 place-content-center palce-items-center lg:px-28">
-             
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
                 <img className="h-10 w-10 mx-2" src={aws} alt="react-image" />
                 <p>AWS</p>
               </div>
 
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-                <img className="h-10 w-10 mx-2" src={drupal} alt="react-image" />
+                <img
+                  className="h-10 w-10 mx-2"
+                  src={drupal}
+                  alt="react-image"
+                />
                 <p>Drupal</p>
               </div>
 
-
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-                <img className="h-10 w-10 mx-2" src={kentico} alt="react-image" />
+                <img
+                  className="h-10 w-10 mx-2"
+                  src={kentico}
+                  alt="react-image"
+                />
                 <p>Kentico</p>
               </div>
 
-
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-                <img className="h-10 w-10 mx-2" src={magento} alt="react-image" />
+                <img
+                  className="h-10 w-10 mx-2"
+                  src={magento}
+                  alt="react-image"
+                />
                 <p>Magento</p>
               </div>
 
-
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-                <img className="h-10 w-10 mx-2" src={opencart} alt="react-image" />
+                <img
+                  className="h-10 w-10 mx-2"
+                  src={opencart}
+                  alt="react-image"
+                />
                 <p>Opencart</p>
               </div>
 
-
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-                <img className="h-10 w-10 mx-2" src={sharepoint} alt="react-image" />
+                <img
+                  className="h-10 w-10 mx-2"
+                  src={sharepoint}
+                  alt="react-image"
+                />
                 <p>SharePoint</p>
               </div>
 
-
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-                <img className="h-10 w-10 mx-2" src={shopify} alt="react-image" />
+                <img
+                  className="h-10 w-10 mx-2"
+                  src={shopify}
+                  alt="react-image"
+                />
                 <p>Shopify</p>
               </div>
 
-
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-                <img className="h-10 w-10 mx-2" src={sitecore} alt="react-image" />
+                <img
+                  className="h-10 w-10 mx-2"
+                  src={sitecore}
+                  alt="react-image"
+                />
                 <p>Sitecore</p>
               </div>
 
-
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-                <img className="h-10 w-10 mx-2" src={sitefinity} alt="react-image" />
+                <img
+                  className="h-10 w-10 mx-2"
+                  src={sitefinity}
+                  alt="react-image"
+                />
                 <p>Sitefinity</p>
               </div>
 
-
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-                <img className="h-10 w-10 mx-2" src={umbraco} alt="react-image" />
+                <img
+                  className="h-10 w-10 mx-2"
+                  src={umbraco}
+                  alt="react-image"
+                />
                 <p>Umbraco</p>
               </div>
-
 
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
                 <img className="h-10 w-10 mx-2" src={vtex} alt="react-image" />
                 <p>VTEX</p>
               </div>
 
-
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-                <img className="h-10 w-10 mx-2" src={woocommerce} alt="react-image" />
+                <img
+                  className="h-10 w-10 mx-2"
+                  src={woocommerce}
+                  alt="react-image"
+                />
                 <p>Woocommerce</p>
               </div>
 
-
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
-                <img className="h-10 w-10 mx-2" src={wordpress} alt="react-image" />
+                <img
+                  className="h-10 w-10 mx-2"
+                  src={wordpress}
+                  alt="react-image"
+                />
                 <p>WordPress</p>
               </div>
-
             </div>
-            
           </div>
         </>
       );
-    } 
-    else {
+    } else {
       return (
         <>
           {" "}
@@ -536,7 +566,9 @@ function MyEngineering() {
   return (
     <div>
       <Showdata />
-      <BookNow />
+      <div id="contact">
+        <BookNow />
+      </div>
     </div>
   );
 }
