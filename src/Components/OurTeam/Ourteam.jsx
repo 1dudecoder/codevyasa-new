@@ -2,11 +2,11 @@ import React from "react";
 import mainteam from "../../assits/ourteam/mainteam.jpg";
 import BookNow from "../Contact/BookNow";
 
-import geeta from "../../assits/ourteam/founders-images/geeta.png";
+import geet from "../../assits/ourteam/founders-images/geet.png"
 import shaifee from "../../assits/ourteam/founders-images/shaifee.png";
 import AndyK from "../../assits/ourteam/founders-images/AndyK.png";
 import joy from "../../assits/ourteam/founders-images/joy.png";
-import Priyanka from "../../assits/ourteam/founders-images/Priyanka.png";
+import priyanka from "../../assits/ourteam/founders-images/priyanka.png";
 import subham from "../../assits/ourteam/founders-images/subham.png";
 
 
@@ -63,7 +63,7 @@ function Ourteam() {
         <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28  md:mb-32 lg:mb-48  ">
           <img
             className="absolute -bottom-14 h-56 md:h-60 lg:h-72"
-            src={Priyanka}
+            src={priyanka}
             alt="geeta-Director Of Business, Americas-image"
           />
           <div className="absolute -bottom-14 ">
@@ -111,7 +111,7 @@ function Ourteam() {
         <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28  md:mb-32 lg:mb-48  ">
           <img
             className="absolute bottom-0 h-48 md:h-52 lg:h-64"
-            src={geeta}
+            src={geet}
             alt="geeta-Director Of Business, Americas-image"
           />
           <div className="absolute -bottom-14 ">
