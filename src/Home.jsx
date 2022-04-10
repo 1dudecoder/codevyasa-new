@@ -14,7 +14,7 @@ function Home() {
         <div className="flex place-content-center place-items-center mt-10 ml-5 ">
           <div className="flex-col place-content-center place-items-center lg:ml-5 mb-10">
             <h1 className="text-xl mr-10 font-semibold sm:text-2xl md:text-4xl lg:text-5xl ">
-              Your Technology <br /> Partner for <br /> Software Engineering
+              Your Technology <br /> Partner for <br /> Software Engineering 
             </h1>
 
             <p className="mt-5 md:xl lg:text-xl ">

@@ -120,7 +120,7 @@ function Review() {
 
                 <div className="text-white">
                   <h2 className="text-white text-xl">{item.name}</h2>
-                  <p className="text-xs">{item.smallmsg}</p>
+                  <p className="text-xs ">{item.smallmsg}</p>
                   <div className="flex py-2">
                     <img className="h-4 w-4" src={star} alt="star_image" />
                     <img className="h-4 w-4" src={star} alt="star_image" />
@@ -134,11 +134,11 @@ function Review() {
                       src={location}
                       alt="location img"
                     />
-                    <h1 className="ml-1 md:text-xs">{item.location}</h1>
+                    <h1 className="ml-1 text-xs">{item.location}</h1>
                   </div>
                 </div>
               </div>
-              <div className="text-xs md:text-sm text-white miniphone:p-2 p-4 text-start font-semibold italic  ">
+              <div className="text-sm text-white miniphone:p-2 p-4 text-start font-semibold italic  ">
                 {item.msg}
               </div>
 
