@@ -16,12 +16,15 @@ function Home() {
             <h1 className="text-xl mr-10 font-semibold sm:text-2xl md:text-4xl lg:text-5xl ">
               Your Technology <br /> Partner for <br /> Software Engineering
             </h1>
+
             <p className="mt-5 md:xl lg:text-xl ">
               Offering Special Consulting For Y-Combinator
             </p>
+
             <button className="hidden sm:flex btn mt-5 px-4 py-2 text-2xl">
-              Learn More
+             <a href="#experts">Learn More</a> 
             </button>
+
           </div>
 
           <div className="">
@@ -31,12 +34,13 @@ function Home() {
 
         <div className="mx-5">
           <button className="flex btn py-2 w-full justify-center items-center sm:hidden">
-            Learn More
+            <a href="#experts">Learn More</a> 
           </button>
         </div>
       </div>
 
-      <div class="relative w-full">
+      
+      <div id="experts" class="relative w-full">
         <img
           src={globe}
           alt="globe-image"
