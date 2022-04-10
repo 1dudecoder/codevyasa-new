@@ -2,12 +2,12 @@ import React from "react";
 import mainteam from "../../assits/ourteam/mainteam.jpg";
 import BookNow from "../Contact/BookNow";
 
-import geet from "../../assits/ourteam/founders-images/geet.png"
-import shaifee from "../../assits/ourteam/founders-images/shaifee.png";
-import AndyK from "../../assits/ourteam/founders-images/AndyK.png";
-import joy from "../../assits/ourteam/founders-images/joy.png";
-import priyanka from "../../assits/ourteam/founders-images/priyanka.png";
-import subham from "../../assits/ourteam/founders-images/subham.png";
+// import geet from "../../assits/ourteam/founders-images/geet.png"
+// import shaifee from "../../assits/ourteam/founders-images/shaifee.png";
+// import AndyK from "../../assits/ourteam/founders-images/AndyK.png";
+// import joy from "../../assits/ourteam/founders-images/joy.png";
+// import priyanka from "../../assits/ourteam/founders-images/priyanka.png";
+// import subham from "../../assits/ourteam/founders-images/subham.png";
 
 
 // icons
@@ -47,7 +47,7 @@ function Ourteam() {
         </p>
       </div>
 
-      <div className="flex place-content-center place-items-center flex-wrap w-full  mt-10 md:mt-24 ">
+      {/* <div className="flex place-content-center place-items-center flex-wrap w-full  mt-10 md:mt-24 ">
         <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28 md:mb-32 lg:mb-48   ">
           <img
             className="absolute bottom-0 h-48 md:h-52 lg:h-64"
@@ -131,7 +131,7 @@ function Ourteam() {
             <p className="text-bcolor">Head Of Revenue - Americas & EMEA</p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="bg-card py-5">
         <h1 className="text-4xl font-bold mb-5 text-center">Our Advisors</h1>
