@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter>
 
         <Navbar />
-        <div className="mt-24">
+        <div className="mt-28">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/services/:id" element={<MyServices />} />
