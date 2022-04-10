@@ -106,7 +106,7 @@ function Navbar() {
                 if (!state) {
                   setState(true);
                 }
-                console.log("false hogya");
+                
               }}
             >
               <img className="w-10" src={lines} alt="lines_logo" />

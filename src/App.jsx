@@ -16,9 +16,8 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-
         <Navbar />
-        <div className="mt-28">
+        <div className="mt-24">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/services/:id" element={<MyServices />} />
