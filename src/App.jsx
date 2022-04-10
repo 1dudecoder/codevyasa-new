@@ -11,11 +11,13 @@ import Pricing from "./Components/Pricing/Pricing";
 import About from "./Components/About/About";
 import Ourteam from "./Components/OurTeam/Ourteam";
 import Blog from "./Components/Blog/Blog";
+import ScrollTop from "./ScrollTop/scrollTop";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <ScrollTop >
         <Navbar />
         <div className="mt-24">
         <Routes>
@@ -31,6 +33,7 @@ function App() {
         </Routes>
         <Footer />
         </div>
+        </ScrollTop>
       </BrowserRouter>
     </div>
   );
