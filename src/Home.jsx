@@ -9,7 +9,7 @@ import BookNow from "./Components/Contact/BookNow";
 
 function Home() {
   return (
-    <div>
+    <div className="mt-28">
       <div className="flex-col justify-center mb-28">
         <div className="flex place-content-center place-items-center mt-10 ml-5 ">
           <div className="flex-col place-content-center place-items-center lg:ml-5 mb-10">
@@ -57,7 +57,7 @@ function Home() {
 
             <div className="mt-5 sm:mt-0">
               <div className=" md:flex lg:mt-10 xl:mt-20 ">
-                <div className="relative text-white text-center p-5 md:p-10">
+                <div className="relative text-white text-center p-5 md:p-10 ">
                   <div className=" bg-bcolor w-8 h-8 md:w-12 md:h-12  p-2 rounded-full  flex place-items-center justify-center absolute top-0 right-fouthy-five bottom-20 md:top-4  ">
                     <img
                       className="w-8 h-8 p-1 "
@@ -66,7 +66,7 @@ function Home() {
                     />
                   </div>
 
-                  <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4  ">
+                  <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4 xl:pb-14   ">
                     <h1 className="text-sm md:text-xl mt-2">Project-Based</h1>
                     <p className="text-xs md:text-xs lg:text-sm lg:p-2">
                       Get your projects delivered at 3x the speed with a minimum
@@ -86,7 +86,7 @@ function Home() {
                       alt="project-image"
                     />
                   </div>
-                  <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4  ">
+                  <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4 xl:pb-14   ">
                     <h1 className="text-sm md:text-xl mt-2">Virtual Team</h1>
                     <p className="text-xs md:text-xs lg:text-sm lg:p-2">
                       Get dedicated developers assigned to your team with 100%
@@ -105,7 +105,7 @@ function Home() {
                       alt="mvp-image"
                     />
                   </div>
-                  <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4  ">
+                  <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4 xl:pb-14   ">
                     <h1 className="text-sm md:text-xl mt-2">MVP Pack</h1>
                     <p className="text-xs md:text-xs lg:text-sm lg:p-2">
                       We are a start-up and we empathize with early-stage

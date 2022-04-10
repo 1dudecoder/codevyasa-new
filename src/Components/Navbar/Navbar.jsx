@@ -10,11 +10,13 @@ function Navbar() {
 
   return (
     <>
-      <header className="relative my-5">
+      <div>
+      <header className="w-full h-20 bg-white fixed -top-2 z-50" >
+        <div className="relative my-5 ">
         <nav className="flex place-content-around lg:flex lg:place-content-between lg:place-items-center lg:mx-20 lg:mt-3   ">
           <div className="flex place-content-between place-items-center">
             <Link to="/">
-              <img src={logo} alt="sitelogo" />
+              <img className="w-52 sm:w-auto" src={logo} alt="sitelogo" />
             </Link>
           </div>
 
@@ -147,7 +149,10 @@ function Navbar() {
             </div>
           </div>
         </nav>
+        </div>
       </header>
+      </div>
+
     </>
   );
 }

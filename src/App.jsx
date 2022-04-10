@@ -16,7 +16,9 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+
         <Navbar />
+        <div className="mt-24">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/services/:id" element={<MyServices />} />
@@ -29,6 +31,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
+        </div>
       </BrowserRouter>
     </div>
   );

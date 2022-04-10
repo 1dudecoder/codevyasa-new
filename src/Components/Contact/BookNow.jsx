@@ -24,7 +24,7 @@ function BookNow() {
         </div>
 
         <div className=" md:p-5 md:w-1/2">
-          <div className=" w-full md:flex lg:flex  pt-5 ">
+          <div className=" w-full md:flex lg:flex   md:pt-5 ">
             <input
               placeholder="Your Name"
               className="w-full h-10 m-2 rounded-md border border-slate-300 outline-none p-2  hover:border-bcolor hover:border-2 "
@@ -37,7 +37,7 @@ function BookNow() {
             />
           </div>
 
-          <div className=" w-full md:flex lg:flex  ">
+          <div className=" w-full md:flex lg:flex   ">
             <input
               placeholder="Phone"
               className="w-full h-10 m-2 rounded-md border border-slate-300 outline-none p-2 hover:border-bcolor hover:border-2 "
@@ -57,7 +57,7 @@ function BookNow() {
             ></textarea>
           </div>
 
-          <div className="mt-5 float:none md:float-right  pb-5 ">
+          <div className="mt-5 float:none md:float-right  pb-10 ">
             <button className="btn w-full px-20 py-2">Send</button>
           </div>
         </div>

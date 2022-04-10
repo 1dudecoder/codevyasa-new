@@ -47,11 +47,6 @@ function Ourteam() {
         </p>
       </div>
       
-
-
-
-
-
       <div className="flex place-content-center place-items-center flex-wrap w-full  mt-10 md:mt-24 ">
         <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28 md:mb-32 lg:mb-48   ">
           <img
