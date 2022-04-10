@@ -2,12 +2,12 @@ import React from "react";
 import mainteam from "../../assits/ourteam/mainteam.jpg";
 import BookNow from "../Contact/BookNow";
 
-// import geet from "../../assits/ourteam/founders-images/geet.png"
-// import shaifee from "../../assits/ourteam/founders-images/shaifee.png";
-// import AndyK from "../../assits/ourteam/founders-images/AndyK.png";
-// import joy from "../../assits/ourteam/founders-images/joy.png";
-// import priyanka from "../../assits/ourteam/founders-images/priyanka.png";
-// import subham from "../../assits/ourteam/founders-images/subham.png";
+import geeta from "../../assits/ourteam/founders-images/geeta.jpg"
+import shaifee from "../../assits/ourteam/founders-images/shaifee.jpg";
+import andyk from "../../assits/ourteam/founders-images/andyk.jpg";
+import joy from "../../assits/ourteam/founders-images/joy.jpg";
+import priyanka from "../../assits/ourteam/founders-images/priyanka.jpg";
+import subham from "../../assits/ourteam/founders-images/subham.jpg";
 
 
 // icons
@@ -46,13 +46,18 @@ function Ourteam() {
           karaoke pros, and outdoor enthusiasts.
         </p>
       </div>
+      
 
-      {/* <div className="flex place-content-center place-items-center flex-wrap w-full  mt-10 md:mt-24 ">
+
+
+
+
+      <div className="flex place-content-center place-items-center flex-wrap w-full  mt-10 md:mt-24 ">
         <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28 md:mb-32 lg:mb-48   ">
           <img
             className="absolute bottom-0 h-48 md:h-52 lg:h-64"
             src={shaifee}
-            alt="geeta-Director Of Business, Americas-image"
+            alt="Shaifee Co-Founder"
           />
           <div className="absolute -bottom-14 ">
             <h1 className="text-2xl font-semibold ">Shaifee</h1>
@@ -64,7 +69,7 @@ function Ourteam() {
           <img
             className="absolute -bottom-14 h-56 md:h-60 lg:h-72"
             src={priyanka}
-            alt="geeta-Director Of Business, Americas-image"
+            alt="Priyanka Co-Founder"
           />
           <div className="absolute -bottom-14 ">
             <h1 className="text-2xl font-semibold ">Priyanka</h1>
@@ -76,7 +81,7 @@ function Ourteam() {
           <img
             className="absolute bottom-0 h-48 md:h-52 lg:h-64"
             src={shaifee}
-            alt="geeta-Director Of Business, Americas-image"
+            alt="Erica Solutions Manager"
           />
           <div className="absolute -bottom-14 ">
             <h1 className="text-2xl font-semibold ">Erica</h1>
@@ -88,7 +93,7 @@ function Ourteam() {
           <img
             className="absolute bottom-0 h-40 md:h-48 lg:h-52"
             src={subham}
-            alt="geeta-Director Of Business, Americas-image"
+            alt="Shubham Solutions Manager"
           />
           <div className="absolute -bottom-14 ">
             <h1 className="text-2xl font-semibold ">Shubham</h1>
@@ -99,8 +104,8 @@ function Ourteam() {
         <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28 md:mb-32 lg:mb-48 ">
           <img
             className="absolute bottom-0 h-48 md:h-52 lg:h-60"
-            src={AndyK}
-            alt="geeta-Director Of Business, Americas-image"
+            src={andyk}
+            alt="Andy Senior Solutions Architect"
           />
           <div className="absolute -bottom-14 ">
             <h1 className="text-2xl font-semibold ">Andy</h1>
@@ -111,7 +116,7 @@ function Ourteam() {
         <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28  md:mb-32 lg:mb-48  ">
           <img
             className="absolute bottom-0 h-48 md:h-52 lg:h-64"
-            src={geet}
+            src={geeta}
             alt="geeta-Director Of Business, Americas-image"
           />
           <div className="absolute -bottom-14 ">
@@ -124,14 +129,14 @@ function Ourteam() {
           <img
             className="absolute bottom-0 h-48 md:h-52 lg:h-60"
             src={joy}
-            alt="geeta-Director Of Business, Americas-image"
+            alt="Joy Head Of Revenue - Americas & EMEA"
           />
           <div className="absolute -bottom-14 ">
             <h1 className="text-2xl font-semibold ">Joy</h1>
             <p className="text-bcolor">Head Of Revenue - Americas & EMEA</p>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="bg-card py-5">
         <h1 className="text-4xl font-bold mb-5 text-center">Our Advisors</h1>
