@@ -11,7 +11,7 @@ import Pricing from "./Components/Pricing/Pricing";
 import About from "./Components/About/About";
 import Ourteam from "./Components/OurTeam/Ourteam";
 import Blog from "./Components/Blog/Blog";
-import ScrollTop from "./ScrollTop/scrollTop";
+import ScrollTop from "./ScrollTop/ScrollTop";
 
 function App() {
   return (
