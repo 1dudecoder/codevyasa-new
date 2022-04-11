@@ -64,7 +64,7 @@ function MyServices() {
 
       return (
         <>
-          <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div id="Web-based" className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-xl  font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
                 {mydata[0].title}
@@ -154,7 +154,7 @@ function MyServices() {
 
       return (
         <>
-          <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div id="app" className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-xl  font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
                 {mydata[0].title}
@@ -231,7 +231,7 @@ function MyServices() {
 
       return (
         <>
-          <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div id="Dev" className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
                 {mydata[0].title}
@@ -244,7 +244,7 @@ function MyServices() {
             </div>
           </div>
 
-          <div className="px-10 md:px-0 text-center my-14 ">
+          <div id="mydev" className="px-10 md:px-0 text-center my-14 ">
             <p className="text-lg">{mydata[1].lilmsg}</p>
             <h1 className="text-2xl sm:text-5xl font-bold pb-2">
               {mydata[1].title}
@@ -252,7 +252,7 @@ function MyServices() {
             <p className="lg:px-96 lg:mt-2">{mydata[1].msg}</p>
           </div>
 
-          <div className="grid grid-rows-1 grid-cols-1 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 p-5 ">
+          <div  className="grid grid-rows-1 grid-cols-1 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 p-5 ">
             <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 text-center bg-card rounded-md relative xl:h-60   ">
               <div className="absolute -top-12 bg-bcolor p-5 rounded-full flex justify-center items-center mt-5 ">
                 <img src={firsticon} />
@@ -362,7 +362,7 @@ function MyServices() {
 
       return (
         <>
-          <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div id="ui" className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-5xl md:whitespace-nowrap ">
                 {mydata[0].title}
@@ -488,7 +488,7 @@ function MyServices() {
     if (location.pathname === "/services/shared-cto") {
       return (
         <>
-          <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div id="Shared" className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-5xl md:whitespace-nowrap ">
                 Shared CTO

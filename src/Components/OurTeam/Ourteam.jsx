@@ -21,7 +21,7 @@ import akash from "../../assits/ourteam/advisor-images/akash.jpg";
 
 function Ourteam() {
   return (
-    <div>
+    <div id="ourteam">
       <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h  ">
         <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
           <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">

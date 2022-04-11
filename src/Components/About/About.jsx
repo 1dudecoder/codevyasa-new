@@ -65,7 +65,7 @@ import BookNow from "../Contact/BookNow";
 
 function About() {
   return (
-    <div>
+    <div id="myabout">
       <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h  ">
         <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
           <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
@@ -99,7 +99,7 @@ function About() {
       </div>
 
       <h1 className="text-center text-2xl md:text-3xl lg:text-4xl font-bold px-2">
-        Our Pricing is a function of 2 things
+      Here is what Code Vyasa brings to the table:
       </h1>
 
       <br />

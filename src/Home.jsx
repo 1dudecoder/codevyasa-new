@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import landimg from "./assits/landimg.jpg";
 import globe from "./assits/globe.jpg";
 import projectbased from "./assits/projectbased.svg";
@@ -6,15 +6,39 @@ import virtualteam from "./assits/virtualteam.svg";
 import mvppack from "./assits/mvppack.svg";
 import Review from "./Review/Review";
 import BookNow from "./Components/Contact/BookNow";
+import { animateScroll as scroll } from "react-scroll";
 
 function Home() {
+  const [myscroll, setMyScroll] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+
+      document.onscroll = function (event) {
+        if (event === undefined) {
+          console.log("cici")
+          setMyScroll(true);
+        }
+      };
+
+      if(!myscroll){
+        setTimeout(()=>{
+          scroll.scrollTo(700); 
+        },5000)
+      }
+
+
+
+    }, 5000);
+  }, []);
+
   return (
-    <div className="mt-28">
+    <div className="mt-28" id="myhome">
       <div className="flex-col justify-center mb-28">
         <div className="flex place-content-center place-items-center mt-10 ml-5 ">
           <div className="flex-col place-content-center place-items-center lg:ml-5 mb-10">
             <h1 className="text-xl mr-10 font-semibold sm:text-2xl md:text-4xl lg:text-5xl ">
-              Your Technology <br /> Partner for <br /> Software Engineering 
+              Your Technology <br /> Partner for <br /> Software Engineering
             </h1>
 
             <p className="mt-5 md:xl lg:text-xl ">
@@ -22,9 +46,8 @@ function Home() {
             </p>
 
             <button className="hidden sm:flex btn mt-5 px-4 py-2 text-2xl">
-             <a href="#experts">Learn More</a> 
+              <a href="#experts">Learn More</a>
             </button>
-
           </div>
 
           <div className="">
@@ -34,12 +57,11 @@ function Home() {
 
         <div className="mx-5">
           <button className="flex btn py-2 w-full justify-center items-center sm:hidden">
-            <a href="#experts">Learn More</a> 
+            <a href="#experts">Learn More</a>
           </button>
         </div>
       </div>
 
-      
       <div id="experts" class="relative w-full">
         <img
           src={globe}

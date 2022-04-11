@@ -3,10 +3,12 @@ import logo from "../../assits/logo.svg";
 import lines from "../../assits/lines.svg";
 import multi from "../../assits/multi.svg";
 import { Link } from "react-router-dom";
+import { Link as Link2 } from 'react-scroll';
 import "./Navbar.css";
 
 function Navbar() {
   const [state, setState] = useState(false);
+  const [servicestate, setServiceState] = useState(false);
 
   return (
     <>
@@ -29,7 +31,7 @@ function Navbar() {
 
                 <ul className="dropdown-menu absolute hidden left-2 w-fit shadow-lg">
                   <li className="hover:bg-gray-200 bg-white py-2 px-2 hover:font-semibold text-sm whitespace-nowrap  ">
-                    <Link to="/services/web-dev">Web-based Application</Link>
+                    <Link to="/services/web-dev">Web-based Application</Link> 
                   </li>
                   <li className="bg-white hover:bg-gray-200 py-2 px-2 hover:font-semibold text-sm  ">
                     <Link to="/services/app-dev">Mobile Apps</Link>
@@ -94,14 +96,19 @@ function Navbar() {
               </div>
             </div>
 
-            <a className="btn px-4 py-2" href="#contact">
+            <Link2 className="btn px-4 py-2" to="contact" 
+                spy={true}
+                smooth={true}
+                duration={800}
+                >
               Get in Touch
-            </a>
+            </Link2>
+
           </div>
 
           <div className="flex lg:hidden">
             <div
-              className={state ? "hidden lg:hidden" : " lg:hidden"}
+              className={state ? "hidden lg:hidden  " : " lg:hidden"}
               onClick={() => {
                 if (!state) {
                   setState(true);
@@ -127,16 +134,39 @@ function Navbar() {
             <div
               className={
                 state
-                  ? "mt-14 left-0 w-full absolute lg:hidden bg-white"
-                  : "hidden lg:hidden"
+                  ? "mt-14 left-0 w-full absolute lg:hidden bg-white overflow-scroll " : "hidden lg:hidden"
               }
             >
-              <p className="text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg">
+              <p onClick={()=>{
+                if(servicestate === "hidden"){
+                  setServiceState("block")
+                }else{
+                  setServiceState("hidden")
+                }
+              }} className="text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg">
+
                 <Link to="/services/web-dev"> SERVICES</Link>
               </p>
+
+              <ul className={`text-center ${servicestate}`  }>
+                <li className="text-center text-xl py-2 mx-10 my-5 border border-bcolor rounded-lg bg-bcolor text-white"><Link to="/services/web-dev">Web-based Application</Link> </li>
+                <li className="text-center text-xl py-2 mx-10 my-5 border border-bcolor rounded-lg bg-bcolor text-white"><Link to="/services/app-dev">Mobile Apps</Link></li>
+                <li className="text-center text-xl py-2 mx-10 my-5 border border-bcolor rounded-lg bg-bcolor text-white"><Link to="/services/dev-ops">Dev-Ops</Link></li>
+                <li className="text-center text-xl py-2 mx-10 my-5 border border-bcolor rounded-lg bg-bcolor text-white"><Link to="/services/ui-ux">UI/UX</Link></li>
+                <li className="text-center text-xl py-2 mx-10 my-5 border border-bcolor rounded-lg bg-bcolor text-white"><Link to="/services/ui-ux"><Link to="/services/shared-cto">Shared CTO</Link></Link></li>
+              </ul>
+
+
               <p className="text-center text-2xl py-2 mx-10 my-5 border  border-bcolor rounded-lg">
                 <Link to="/engineering/mobile"> Engineering</Link>
               </p>
+
+              
+              
+
+
+
+
               <p className="text-center text-2xl py-2 mx-10 my-5 border border-bcolor rounded-lg">
                 <Link to="/Pricing">Pricing</Link>
               </p>

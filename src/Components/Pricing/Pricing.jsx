@@ -15,12 +15,12 @@ function Pricing() {
             </h1>
           </div>
 
-          <div className="lg:p-10">
+          <div id="price" className="lg:p-10">
             <img className="p-2" src={mainprice} alt="land-img" />
           </div>
         </div>
 
-        <div className="flex-col flex place-content-center place-items-center px-2 lg:mt-10 ">
+        <div  className="flex-col flex place-content-center place-items-center px-2 lg:mt-10 ">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center my-4">
             Project-Based Pricing
           </h1>
@@ -182,7 +182,7 @@ function Pricing() {
         </div>
 
         {/* text card */}
-        <div className="bg-card py-5">
+        <div id="virtual" className="bg-card py-5">
           <div className="flex-col flex place-content-center place-items-center px-2 lg:mt-10 ">
             <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center my-4">
               Virtual-Team Pricing
@@ -258,7 +258,7 @@ function Pricing() {
         </div>
 
         {/* text card */}
-        <div className=" py-5">
+        <div id="mvp" className=" py-5">
           <div className="flex-col flex place-content-center place-items-center px-2 lg:mt-10 ">
             <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center my-4">
               MVP Pack

@@ -95,7 +95,7 @@ function MyEngineering() {
             </div>
           </div>
 
-          <div className="flex-col flex place-items-center place-content-center px-5 pt-16">
+          <div id="mob" className="flex-col flex place-items-center place-content-center px-5 pt-16">
             <h1 className="text-2xl md:text-3xl  lg:text-4xl font-bold">
               Our Expertise
             </h1>
@@ -120,7 +120,7 @@ function MyEngineering() {
               mobile applications with efficiency and speed. <br />
             </p>
 
-            <div className="flex flex-wrap mt-10 place-content-center palce-items-center">
+            <div  className="flex flex-wrap mt-10 place-content-center palce-items-center">
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
                 <img
                   className="h-10 w-10 mx-2"
@@ -332,7 +332,7 @@ function MyEngineering() {
             </div>
           </div>
 
-          <div className=" flex-row-reverse flex justify-center items-center sm:px-10 lg:my-10 ">
+          <div id="cloud" className=" flex-row-reverse flex justify-center items-center sm:px-10 lg:my-10 ">
             <div className="p-2 flex flex-1 flex-col lg:px-20 ">
               <h1 className="text-xl sm:text-3xl font-bold my-2  ">
                 We Infuse Solutions For Addressing The Distinctive
@@ -351,7 +351,7 @@ function MyEngineering() {
             </div>
           </div>
 
-          <div className="flex-col flex place-items-center place-content-center px-5 pt-10 lg:mt-10 ">
+          <div  className="flex-col flex place-items-center place-content-center px-5 pt-10 lg:mt-10 ">
             <h1 className="text-2xl md:text-3xl  lg:text-4xl font-bold">
               Our Expertise
             </h1>
@@ -404,7 +404,7 @@ function MyEngineering() {
             </div>
           </div>
 
-          <div className=" flex-row-reverse flex justify-center items-center sm:px-10 lg:my-10">
+          <div  className=" flex-row-reverse flex justify-center items-center sm:px-10 lg:my-10">
             <div className="p-2 flex flex-1 flex-col lg:px-20 ">
               <h1 className="text-xl sm:text-3xl font-bold my-2  ">
                 We Help In Driving Customer Satisfaction, Expanding Audiences,
@@ -425,8 +425,8 @@ function MyEngineering() {
             </div>
           </div>
 
-          <div className="flex-col flex place-items-center place-content-center px-5 pt-10 lg:mt-10">
-            <h1 className="text-2xl md:text-3xl  lg:text-4xl font-bold">
+          <div id="eco" className="flex-col flex place-items-center place-content-center px-5 pt-10 lg:mt-10">
+            <h1  className="text-2xl md:text-3xl  lg:text-4xl font-bold">
               Our Expertise
             </h1>
             <p className="text-xl md:text-2xl  lg:text-3xl font-semibold py-3">
@@ -440,7 +440,7 @@ function MyEngineering() {
               your ecommerce project success under one roof.
             </p>
 
-            <div className="flex flex-wrap mt-10 place-content-center palce-items-center lg:px-28">
+            <div  className="flex flex-wrap mt-10 place-content-center palce-items-center lg:px-28">
               <div className="flex place-content-center place-items-center border-2 shadow-lg px-3 py-1 rounded-md m-3">
                 <img className="h-10 w-10 mx-2" src={aws} alt="react-image" />
                 <p>AWS</p>
