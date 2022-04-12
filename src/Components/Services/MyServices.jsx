@@ -64,54 +64,57 @@ function MyServices() {
 
       return (
         <>
-          <div id="Web-based" className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div id="Web-based" className="flex place-content-center place-items-center ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
-              <h1 className="text-xl  font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
+              <h1 className="text-xl whitespace-nowrap	font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
                 {mydata[0].title}
               </h1>
-              <p className="md:mt-5 md:xl lg:text-xl ">{mydata[0].msg}</p>
+              <p className="text-sm mt-2 md:mt-5 md:xl lg:text-xl">{mydata[0].msg}</p>
             </div>
 
-            <div className="lg:p-10">
-              <img className="p-2" src={mydata[0].img} alt="land-img" />
+            <div className=" lg:p-10">
+              <img className="sm:p-2 " src={mydata[0].img} alt="land-img" />
             </div>
+            
           </div>
 
-          <div className="px-10 md:px-0 text-center my-14 ">
-            <p className="text-lg">{mydata[1].lilmsg}</p>
-            <h1 className="text-2xl sm:text-5xl font-bold pb-2">
+          <div className="px-10 md:px-0 text-center my-5 sm:my-14 ">
+            <p className=" sm:text-lg ">{mydata[1].lilmsg}</p>
+            <h1 className="text-lg sm:text-5xl font-bold pb-2">
               {mydata[1].title}
             </h1>
-            <p className="">{mydata[1].msg}</p>
+            <p className=" text-xs sm:text-base ">{mydata[1].msg}</p>
           </div>
 
           {services.map((item, index) => {
             if (index / 2 === 0) {
               return (
                 <>
-                  <div className=" flex justify-center items-center sm:px-10 my-16">
+                  <div className="flex-col sm:flex sm:flex-row  justify-center items-center sm:px-10 sm:my-16">
+                    
                     <div className="p-2  flex flex-1 flex-col lg:px-5  ">
-                      <h1 className="text-xl sm:text-3xl font-bold my-2 ">
+                      <h1 className="text-xl text-center sm:text-left sm:text-3xl font-bold my-2 ">
                         {item.name}
                       </h1>
-                      <p className="text-xs sm:text-sm">{item.msg}</p>
+                      <p className="text-xs text-center sm:text-left sm:text-sm">{item.msg}</p>
                     </div>
 
                     <div className="">
                       <img className="" src={item.img} alt="expert-image" />
                     </div>
+
                   </div>
                 </>
               );
             } else {
               return (
                 <>
-                  <div className="flex flex-row-reverse justify-center items-center sm:px-10 my-16">
+                  <div className="flex-col sm:flex sm:flex-row-reverse justify-center items-center sm:px-10 my-16">
                     <div className="p-2 flex flex-1 flex-col lg:px-10  relative">
-                      <h1 className="text-xl sm:text-3xl font-bold my-2  ">
+                      <h1 className="text-xl text-center sm:text-3xl font-bold my-2  ">
                         {item.name}
                       </h1>
-                      <p className="text-xs sm:text-sm">{item.msg}</p>
+                      <p className="text-xs text-center sm:text-sm">{item.msg}</p>
                     </div>
 
                     <div className="">
