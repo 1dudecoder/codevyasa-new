@@ -447,12 +447,12 @@ function Blog() {
             <div className="flex place-content-center place-items-center flex-wrap mt-10   ">
               <Link to="/blog/amp-page">
                 <div className="flex flex-wrap place-content-center place-items-center shadow-lg shadow-slate-600 m-5 rounded-lg   ">
-                  <div className="flex flex-col place-content-center md:w-96 overflow-hidden bg-white pb-5   rounded-xl ">
+                  <div className="flex flex-col place-content-center md:w-96 overflow-hidden bg-white pb-5 rounded-xl ">
                     <img src={amp} alt="Mayank-image" />
                     <div className="text-white px-4 bottom-10 bg-bcolor relative mt-5 w-fit">
                       11 Jul
                     </div>
-                    <div className="px-4 h-60 text-sm">
+                    <div className="px-4 sm:h-60 text-sm">
                       <p className="font-semibold ">
                         AMPs— Just another Jargon or Are we late to the Party?
                       </p>
@@ -482,7 +482,7 @@ function Blog() {
                     <div className="text-white px-4 bottom-10 bg-bcolor relative mt-5 w-fit">
                       26 Jul
                     </div>
-                    <div className="px-4 h-60 text-sm">
+                    <div className="px-4 sm:h-60 text-sm">
                       <p className="font-semibold ">
                         VTEX — A Force To Reckon With
                       </p>
@@ -512,7 +512,7 @@ function Blog() {
   return (
     <div>
       <div className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  sm:ml-5 lg:h-eighty-h  ">
-        <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
+        <div className="flex-col text-center sm:text-left place-content-center place-items-center lg:p-16 lg:mb-10">
           <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
             Blog
           </h1>

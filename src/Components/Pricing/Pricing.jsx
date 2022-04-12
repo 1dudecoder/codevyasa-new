@@ -61,7 +61,7 @@ function Pricing() {
           </div>
         </div>
 
-        <h1 className="text-center text-xl md:text-2xl lg:text-4xl font-bold py-5 lg:py-14">
+        <h1 className="text-center text-xl md:text-2xl lg:text-4xl font-bold py-5 px-2 lg:py-14">
           Our Pricing is a function of 2 things
         </h1>
 
@@ -234,7 +234,7 @@ function Pricing() {
             </div>
           </div>
 
-          <h1 className="text-center text-xl md:text-2xl lg:text-4xl font-bold py-5 lg:py-14">
+          <h1 className="text-center text-xl md:text-2xl lg:text-4xl font-bold py-5 px-2 lg:py-14">
             Our Pricing is a function of 2 things
           </h1>
 

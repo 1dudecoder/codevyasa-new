@@ -256,7 +256,7 @@ function MyServices() {
           </div>
 
           <div  className="grid grid-rows-1 grid-cols-1 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 p-5 ">
-            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 text-center bg-card rounded-md relative xl:h-60   ">
+            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 text-center bg-card rounded-md relative xl:h-60 p-2  ">
               <div className="absolute -top-12 bg-bcolor p-5 rounded-full flex justify-center items-center mt-5 ">
                 <img src={firsticon} />
               </div>
@@ -272,7 +272,7 @@ function MyServices() {
               </p>
             </div>
 
-            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 ">
+            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 p-2 ">
               <div className="absolute -top-12 bg-bcolor p-5 rounded-full  flex justify-center items-center  mt-5  ">
                 <img src={secicon} />
               </div>{" "}
@@ -286,7 +286,7 @@ function MyServices() {
               </p>
             </div>
 
-            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 ">
+            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 p-2 ">
               <div className="absolute -top-12 bg-bcolor p-5 rounded-full mt-5 ">
                 <img src={thirdicon} />
               </div>{" "}
@@ -301,7 +301,7 @@ function MyServices() {
               </p>
             </div>
 
-            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 ">
+            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 p-2 ">
               <div className="absolute -top-12 bg-bcolor p-5 rounded-full flex justify-center items-center mt-5 ">
                 <img src={fourthicon} />
               </div>{" "}
@@ -317,7 +317,7 @@ function MyServices() {
               </p>
             </div>
 
-            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 ">
+            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 p-2 ">
               <div className="absolute -top-12 bg-bcolor p-5 rounded-full flex justify-center items-center mt-5 ">
                 <img src={fifthicon} />
               </div>{" "}
@@ -331,7 +331,7 @@ function MyServices() {
               </p>
             </div>
 
-            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 ">
+            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 p-2 ">
               <div className="absolute -top-12 bg-bcolor p-5 rounded-full flex justify-center items-center mt-5 ">
                 <img src={sixthicon} />
               </div>{" "}
