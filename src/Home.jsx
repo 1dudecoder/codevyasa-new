@@ -11,35 +11,35 @@ import { animateScroll as scroll } from "react-scroll";
 function Home() {
   const [myscroll, setMyScroll] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      document.onscroll = function (event) {
-        if (event === undefined) {
-          console.log("cici")
-          setMyScroll(true);
-        }
-      };
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     document.onscroll = function (event) {
+  //       if (event === undefined) {
+  //         console.log("cici")
+  //         setMyScroll(true);
+  //       }
+  //     };
 
-      if(!myscroll){
-        setTimeout(()=>{
-          scroll.scrollTo(700); 
-        },5000)
-      }
+  //     if(!myscroll){
+  //       setTimeout(()=>{
+  //         scroll.scrollTo(700); 
+  //       },5000)
+  //     }
 
-    }, 5000);
-  }, []);
+  //   }, 5000);
+  // }, []);
 
   return (
     <div className="mt-28 " id="myhome">
       
-      <div className="flex-col justify-center mb-28 ">
-        <div className="flex place-content-center place-items-center mt-10 ml-5 ">
+      <div className="flex-col justify-center mb-10 sm:mb-28 ">
+        <div className="flex ml-3 sm:ml-5 place-content-center place-items-center mt-10  ">
           <div className="flex-col place-content-center place-items-center lg:ml-5 mb-10">
-            <h1 className="text-xl mr-10 font-semibold sm:text-2xl md:text-4xl lg:text-5xl ">
+            <h1 className="text-xl sm:mr-10 font-semibold sm:text-2xl md:text-4xl lg:text-5xl ">
               Your Technology <br /> Partner for <br /> Software Engineering
             </h1>
 
-            <p className="mt-5 md:xl lg:text-xl ">
+            <p className="text-sm mt-2 sm:mt-5 md:xl lg:text-xl ">
               Offering Special Consulting For Y-Combinator
             </p>
 
@@ -68,21 +68,21 @@ function Home() {
         />
         <div class="absolute w-full py-1.5 lg:py-10 top-0 inset-x-0 text-white text-xs text-center leading-4">
           <div className="">
-            <h1 className="text-lg sm:text-2xl text-start ml-5 mb-2  font-semibold text-white text-start md:text-2xl lg:text-4xl md:mb-10 lg-mb-2 md:text-center md:mt-10 ">
+            <h1 className="text-lg mt-5 sm:mt-10 sm:text-2xl text-start ml-5 mb-2  font-semibold text-white text-start md:text-2xl lg:text-4xl md:mb-10 lg-mb-2 md:text-center md:mt-10 ">
               Leverage Our Experts To Gain Competitive-Advantage
             </h1>
 
-            <p className="text-xs sm:text-xs lg:text-lg text-white px-5 md:text-sm md:text-center lg:px-20 ">
+            <p className="text-xs sm:text-xs lg:text-lg text-white px-2 sm:px-5  md:text-sm md:text-center lg:px-20 ">
               Want to kickstart an idea, scale your existing business or do
               digital transformation in your organization we are there to help.
               Choose from the below offerings and sit back while we get it done
               for you
             </p>
 
-            <div className="mt-5 sm:mt-0">
+            <div className="mt-2 sm:mt-0">
               <div className=" md:flex lg:mt-10 xl:mt-20 ">
                 <div className="relative text-white text-center p-5 md:p-10 ">
-                  <div className=" bg-bcolor w-8 h-8 md:w-12 md:h-12  p-2 rounded-full  flex place-items-center justify-center absolute top-0 right-fouthy-five bottom-20 md:top-4  ">
+                  <div className=" bg-bcolor w-10 h-10 md:w-12 md:h-12  p-2 rounded-full  flex place-items-center justify-center absolute top-0 right-fouthy-five bottom-20 md:top-4  ">
                     <img
                       className="w-8 h-8 p-1 "
                       src={virtualteam}
@@ -103,7 +103,7 @@ function Home() {
                 </div>
 
                 <div className="relative text-white text-center p-5 md:p-10">
-                  <div className=" bg-bcolor  w-8 h-8 md:w-12 md:h-12  p-2 rounded-full flex place-items-center justify-center absolute top-0 right-fouthy-five bottom-20 md:top-4">
+                  <div className=" bg-bcolor  w-10 h-10 md:w-12 md:h-12  p-2 rounded-full flex place-items-center justify-center absolute top-0 right-fouthy-five bottom-20 md:top-4">
                     <img
                       className="w-8 h-8 p-1"
                       src={projectbased}
@@ -122,7 +122,7 @@ function Home() {
                 </div>
 
                 <div className="relative text-white text-center p-5 md:p-10">
-                  <div className=" bg-bcolor w-8 h-8 md:w-12 md:h-12  p-2 rounded-full flex place-items-center justify-center absolute top-0 right-fouthy-five bottom-20 md:top-4">
+                  <div className=" bg-bcolor w-10 h-10 md:w-12 md:h-12  p-2 rounded-full flex place-items-center justify-center absolute top-0 right-fouthy-five bottom-20 md:top-4">
                     <img
                       className="w-8 h-8 p-1"
                       src={mvppack}
@@ -148,8 +148,8 @@ function Home() {
 
       <div className="">
         <div className="flex justify-between p-10">
-          <h1 className="text-xl font-semibold">What Clients Say About Us</h1>
-          <p>View all testimonials</p>
+          <h1 className="text-sm sm:text-xl font-semibold">What Clients Say About Us</h1>
+          <p className="text-sm sm:text-base pl-2">View all testimonials</p>
         </div>
 
         <div>

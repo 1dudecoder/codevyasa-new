@@ -139,7 +139,7 @@ function Navbar() {
                 <div
                   className={
                     state
-                      ? "mt-14 left-0 w-full absolute lg:hidden bg-card h-96 overflow-scroll shadow-2xl shadow-slate-900 rounded-b-md  "
+                      ? "mt-14 left-0 w-full absolute lg:hidden bg-white h-96 overflow-scroll shadow-2xl shadow-slate-500 rounded-b-md  "
                       : "hidden lg:hidden"
                   }
                 >
@@ -195,7 +195,7 @@ function Navbar() {
                         setEngState("hidden");
                       }
                     }}
-                    className="text-center text-2xl py-2 mx-10 my-2 border border-bcolor bg-white  rounded-lg"
+                    className="text-center text-2xl py-2 mx-10 my-5 border border-bcolor bg-white rounded-lg "
                   >
                     <Link to="/services/web-dev"> Engineering</Link>
                   </p>

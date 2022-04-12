@@ -130,7 +130,7 @@ function Review() {
                   </div>
                   <div className="flex">
                     <img
-                      className="h-5 w-5"
+                      className="h-4 w-4 sm:h-5 sm:w-5"
                       src={location}
                       alt="location img"
                     />
@@ -138,7 +138,7 @@ function Review() {
                   </div>
                 </div>
               </div>
-              <div className="text-sm text-white miniphone:p-2 p-4 text-start font-semibold italic  ">
+              <div className="text-sm text-white  p-4 text-start font-semibold italic  ">
                 {item.msg}
               </div>
 

@@ -23,7 +23,7 @@ module.exports = {
       },
       fontSize:{
         "five": "6vh",
-      }
+      },
     },
   },
   plugins: [],
