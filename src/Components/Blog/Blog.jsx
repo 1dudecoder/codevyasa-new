@@ -440,8 +440,8 @@ function Blog() {
         <>
           <div className="bg-card p-4 mt-16" id="amp-page">
             <div className="text-center px-2 md:px-52 lg:px-64 xl:px-96 ">
-              <h1 className="text-4xl font-bold mb-2">Our Blog</h1>
-              <p className="">View our latest News</p>
+              <h1 className="text-2xl sm:text-4xl font-bold mb-2 mt-5 sm:mt-0">Our Blog</h1>
+              <p className="text-sm sm:text-base">View our latest News</p>
             </div>
 
             <div className="flex place-content-center place-items-center flex-wrap mt-10   ">
@@ -511,7 +511,7 @@ function Blog() {
 
   return (
     <div>
-      <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h  ">
+      <div className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  sm:ml-5 lg:h-eighty-h  ">
         <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
           <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
             Blog

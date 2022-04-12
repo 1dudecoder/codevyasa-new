@@ -8,9 +8,9 @@ function Pricing() {
   return (
     <>
       <div>
-        <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+        <div className="flex flex-col-reverse sm:flex sm:flex-row  place-content-center place-items-center  sm:ml-5 lg:h-eighty-h ">
           <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
-            <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-5xl md:whitespace-nowrap lg:pr-24 ">
+            <h1 className="text-xl mt-2 sm:mt-0 font-bold sm:text-2xl md:text-4xl lg:text-5xl md:whitespace-nowrap lg:pr-24 ">
               Pricing
             </h1>
           </div>
@@ -20,12 +20,12 @@ function Pricing() {
           </div>
         </div>
 
-        <div  className="flex-col flex place-content-center place-items-center px-2 lg:mt-10 ">
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center my-4">
+        <div  className="flex-col flex place-content-center place-items-center px-2  mt-10 ">
+          <h1 className="text-xl md:text-3xl lg:text-5xl font-bold text-center my-4">
             Project-Based Pricing
           </h1>
 
-          <p className="text-center font-semibold p-2 lg:px-60">
+          <p className="text-center text-sm sm:text-lg font-semibold p-2 lg:px-60">
             From operational point of view,Project-based refers to a setup where
             the customer has a fairly-clear idea and strategy about the project
             and Code Vyasa would work with the the client to:
@@ -82,7 +82,7 @@ function Pricing() {
           </div>
         </div>
 
-        <p className="text-center mt-4 p-2 lg:px-96 ">
+        <p className="text-center text-sm sm:text-base mt-4 p-2 lg:px-96 ">
           In a project-based model, our clients leverage our wide range of
           offerings such as Developers, Business Analyst, UI/UX designer, QA,
           Solutions Architect etc.

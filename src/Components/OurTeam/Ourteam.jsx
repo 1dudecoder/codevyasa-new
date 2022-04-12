@@ -22,12 +22,12 @@ import akash from "../../assits/ourteam/advisor-images/akash.jpg";
 function Ourteam() {
   return (
     <div id="ourteam">
-      <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h  ">
-        <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
-          <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
+      <div className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  sm:ml-5 lg:h-eighty-h  ">
+        <div className="flex-col text-center sm:text-left place-content-center place-items-center lg:p-16 lg:mb-10">
+          <h1 className="text-xl mt-2 sm:mt-0 font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
             One Team, One Goal
           </h1>
-          <p className="md:mt-5 md:xl lg:text-xl ">
+          <p className="md:mt-5 mt-2 sm:mt-0 md:xl lg:text-xl ">
             Individually, we are a drop; together, we are an ocean.
           </p>
         </div>
@@ -38,8 +38,8 @@ function Ourteam() {
       </div>
 
       <div className="text-center px-2 md:px-52 lg:px-64 xl:px-96">
-        <h1 className="text-4xl font-bold mt-16 mb-5 ">Our Core Team</h1>
-        <p className="py-5">
+        <h1 className="text-xl sm:text-3xl font-bold mt-16 mb-5 ">Our Core Team</h1>
+        <p className="py-5 text-sm sm:text-base ">
           On the clock, we’re technology experts and leaders that bring energy,
           passion, and knowledge to every project. Off the clock, we’re an
           eclectic bunch of foodies, music buffs, artists, sports fanatics,
@@ -134,7 +134,7 @@ function Ourteam() {
       </div>
 
       <div className="bg-card py-5">
-        <h1 className="text-4xl font-bold mb-5 text-center">Our Advisors</h1>
+        <h1 className="text-xl mt-4 sm:mt-0 sm:text-4xl font-bold mb-5 text-center">Our Advisors</h1>
 
         <div className="flex flex-wrap place-content-center place-items-center ">
           <div className="flex flex-col place-content-center place-items-center  w-72 overflow-hidden bg-white pb-5  rounded-xl m-10 ">

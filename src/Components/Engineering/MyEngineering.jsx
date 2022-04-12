@@ -58,12 +58,12 @@ function MyEngineering() {
     if (location.pathname === "/engineering/mobile") {
       return (
         <>
-          <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div className="flex flex-col-reverse sm:flex sm:flex-row text-center sm:text-left place-content-center place-items-center  ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
                 Half Of The Internet <br /> Is Served On Mobile Devices.
               </h1>
-              <p className="md:mt-5 md:xl lg:text-xl ">
+              <p className="text-sm mt-2 sm:mt-0 sm:text-base md:mt-5 md:xl lg:text-xl ">
                 It’s time to become a part of this revolution
               </p>
             </div>
@@ -73,9 +73,9 @@ function MyEngineering() {
             </div>
           </div>
 
-          <div className=" flex-row-reverse flex justify-center items-center sm:px-10 lg:my-16">
+          <div className=" fflex flex-col-reverse sm:flex sm:flex-row mt-5 sm:mt-0 justify-center items-center sm:px-10 lg:my-16">
             <div className="p-2 flex flex-1 flex-col lg:px-20 ">
-              <h1 className="text-xl sm:text-3xl font-bold my-2  ">
+              <h1 className=" text-lg sm:text-3xl font-bold my-2  ">
                 We Build Android, IOS And PWA's That Work Great Across Multiple
                 Devices, Screen Sizes And Resolutions.
               </h1>
@@ -90,29 +90,29 @@ function MyEngineering() {
               </p>
             </div>
 
-            <div className="">
-              <img className="" src={seceng} alt="expert-image" />
+            <div className="flex justify-center">
+              <img className=" h-64 sm:h-auto " src={seceng} alt="expert-image" />
             </div>
           </div>
 
           <div id="mob" className="flex-col flex place-items-center place-content-center px-5 pt-16">
-            <h1 className="text-2xl md:text-3xl  lg:text-4xl font-bold">
+            <h1 className="text-lg md:text-3xl  lg:text-4xl font-bold">
               Our Expertise
             </h1>
-            <p className="text-xl md:text-2xl  lg:text-3xl font-semibold py-3">
+            <p className="text-lg md:text-2xl  lg:text-3xl font-semibold py-3">
               Native App Development
             </p>
-            <p>
+            <p className="text-sm sm:text-base">
               We are dedicated to offering you high-end native Android and iOS
               mobile App development
             </p>
 
             <img src={thirdeng} alt="phone-image" />
 
-            <h1 className="text-xl md:text-2xl  lg:text-3xl font-semibold py-3 ">
+            <h1 className="text-lg md:text-2xl  lg:text-3xl font-semibold py-3 ">
               Here is what Code Vyasa brings to the table:
             </h1>
-            <p className="text-center">
+            <p className="text-center text-sm sm:text-base">
               We are empowering all the shape and size of businesses with hybrid
               mobile app <br />
               development services. We can help you build robust, reliable, and
@@ -160,10 +160,10 @@ function MyEngineering() {
     if (location.pathname === "/engineering/web") {
       return (
         <>
-          <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div className="flex flex-col-reverse sm:flex sm:flex-row-reverse text-center sm:text-left  place-content-center place-items-center  sm:ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-16">
-              <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
-                Be a part of www <br /> revolution and digitise <br /> your
+              <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl mt-2 sm:mt-0  ">
+                Be a part of www <br className="hidden sm:block" /> revolution and digitise <br /> your
                 existing business
               </h1>
               <p className="md:mt-5 md:xl lg:text-xl ">or make a new one</p>
@@ -174,9 +174,9 @@ function MyEngineering() {
             </div>
           </div>
 
-          <div className=" flex-row-reverse flex justify-center items-center sm:px-10 lg:my-16">
+          <div className="flex flex-col sm:flex sm:flex-row-reverse mt-10 sm:mt-0 justify-center items-center sm:px-10 lg:my-16">
             <div className="p-2 flex flex-1 flex-col lg:px-20 ">
-              <h1 className="text-xl sm:text-3xl font-bold my-2  ">
+              <h1 className="text-lg sm:text-3xl font-bold my-2  ">
                 We Build Beautiful, Responsive And Feature-Rich Web Based
                 Applications That Solve Real Customer Problems
               </h1>
@@ -197,15 +197,15 @@ function MyEngineering() {
           </div>
 
           <div className="flex-col flex place-items-center place-content-center px-5 lg:mt-10 pt-10">
-            <h1 className="text-2xl md:text-3xl  lg:text-4xl font-bold">
+            <h1 className="text-xl md:text-3xl  lg:text-4xl font-bold">
               Our Expertise
             </h1>
-            <p className="text-xl md:text-2xl  lg:text-3xl font-semibold py-3">
+            <p className="text-lg  md:text-2xl  lg:text-3xl font-semibold py-3">
               Web Development
             </p>
-            <p className="text-center">
+            <p className="text-center text-sm sm:text-base">
               Get quality-rich web development services at the world’s best web{" "}
-              <br />
+              <br className="hidden sm:block" />
               development company providing you high end web products with
               astute planning and next to perfection execution.
             </p>
@@ -319,12 +319,12 @@ function MyEngineering() {
     if (location.pathname === "/engineering/cloud") {
       return (
         <>
-          <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div className="flex flex-col-reverse sm:flex sm:flex-row-reverse  place-content-center place-items-center sm:ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-16">
-              <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
+              <h1 className="text-lg font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
                 Time to think beyond <br /> the surface and adopt the cloud
               </h1>
-              <p className="md:mt-5 md:xl lg:text-xl ">or make a new one</p>
+              <p className=" md:mt-5 md:xl lg:text-xl ">or make a new one</p>
             </div>
 
             <div className="lg:p-10">
@@ -332,9 +332,9 @@ function MyEngineering() {
             </div>
           </div>
 
-          <div id="cloud" className=" flex-row-reverse flex justify-center items-center sm:px-10 lg:my-10 ">
-            <div className="p-2 flex flex-1 flex-col lg:px-20 ">
-              <h1 className="text-xl sm:text-3xl font-bold my-2  ">
+          <div id="cloud" className="flex flex-col sm:flex sm:flex-row-reverse  justify-center items-center sm:px-10 lg:my-10 ">
+            <div className="p-2 flex flex-1 flex-col lg:px-20 mt-5 sm:mt-0 ">
+              <h1 className="text-lg sm:text-3xl font-bold my-2  ">
                 We Infuse Solutions For Addressing The Distinctive
                 Infrastructure, Database, Computation, And Storage Requirements.
               </h1>
@@ -352,13 +352,13 @@ function MyEngineering() {
           </div>
 
           <div  className="flex-col flex place-items-center place-content-center px-5 pt-10 lg:mt-10 ">
-            <h1 className="text-2xl md:text-3xl  lg:text-4xl font-bold">
+            <h1 className="text-lg md:text-3xl  lg:text-4xl font-bold">
               Our Expertise
             </h1>
-            <p className="text-xl md:text-2xl  lg:text-3xl font-semibold py-3">
+            <p className="text-lg md:text-2xl  lg:text-3xl font-semibold py-3">
               Devops
             </p>
-            <p className="text-center">
+            <p className="text-sm text-center">
               Accelerate your cloud operations and workloads by minimizing
               costs, increase the efficiency and <br />
               speed up the release management cycle with our DevOps consulting
@@ -388,13 +388,13 @@ function MyEngineering() {
     if (location.pathname === "/engineering/ecommerce") {
       return (
         <>
-          <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
-            <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
+          <div className="flex flex-col-reverse sm:flex sm:flex-row-reverse place-content-center place-items-center  sm:ml-5 lg:h-eighty-h ">
+            <div className="flex-col place-content-center place-items-center text-center sm:text-left lg:p-16 lg:mb-10">
               <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
-                The global ecommerce <br /> market is expected to total <br />{" "}
+                The global ecommerce <br className="hidden sm:block" /> market is expected to total <br />{" "}
                 $4.89 trillion in 2022
               </h1>
-              <p className="md:mt-5 md:xl lg:text-xl ">
+              <p className="mt-2 sm:mt-0 md:mt-5 md:xl lg:text-xl ">
                 What are you waiting for
               </p>
             </div>
@@ -404,7 +404,7 @@ function MyEngineering() {
             </div>
           </div>
 
-          <div  className=" flex-row-reverse flex justify-center items-center sm:px-10 lg:my-10">
+          <div  className=" flex flex-col sm:flex sm:flex-row-reverse justify-center items-center mt-5 sm:mt-0 sm:px-10 lg:my-10">
             <div className="p-2 flex flex-1 flex-col lg:px-20 ">
               <h1 className="text-xl sm:text-3xl font-bold my-2  ">
                 We Help In Driving Customer Satisfaction, Expanding Audiences,
@@ -421,21 +421,21 @@ function MyEngineering() {
             </div>
 
             <div className="">
-              <img className="" src={sececom} alt="expert-image" />
+              <img className="p-2" src={sececom} alt="expert-image" />
             </div>
           </div>
 
           <div id="eco" className="flex-col flex place-items-center place-content-center px-5 pt-10 lg:mt-10">
-            <h1  className="text-2xl md:text-3xl  lg:text-4xl font-bold">
+            <h1 className="text-lg md:text-3xl  lg:text-4xl font-bold">
               Our Expertise
             </h1>
-            <p className="text-xl md:text-2xl  lg:text-3xl font-semibold py-3">
+            <p className="text-lg md:text-2xl  lg:text-3xl font-semibold py-3">
               Ecommerce
             </p>
-            <p className="text-center">
+            <p className="text-sm sm:text-base text-center">
               Ecommerce website design and development covers all the activities
-              aimed at the creation, maintenance, and evolution of a web store.{" "}
-              <br />
+              aimed at the creation, maintenance, and evolution of a web store.
+              <br className="hidden sm:block" />
               Team up with CodeVyasa to find all the competencies needed for
               your ecommerce project success under one roof.
             </p>

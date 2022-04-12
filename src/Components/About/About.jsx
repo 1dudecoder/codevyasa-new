@@ -66,13 +66,13 @@ import BookNow from "../Contact/BookNow";
 function About() {
   return (
     <div id="myabout">
-      <div className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h  ">
-        <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
-          <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
+      <div className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  sm:ml-5 lg:h-eighty-h  ">
+        <div className="flex-col place-content-center place-items-center text-center sm:text-left lg:p-16 lg:mb-10">
+          <h1 className="text-xl  font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
             About Us
           </h1>
           <p className="md:mt-5 md:xl lg:text-xl ">
-            Helping businesses build innovative software <br /> solutions with
+            Helping businesses build innovative software <br className="hidden sm:block" /> solutions with
             speed and scale
           </p>
         </div>
@@ -82,7 +82,7 @@ function About() {
         </div>
       </div>
 
-      <div className="text-center p-2 lg:px-52  xl:px-80 py-16">
+      <div className="text-center text-sm sm:text-base p-2 lg:px-52  xl:px-80 py-16">
         <p>
           Whether you require native or cross platform apps, our mobile
           application development services are designed to deliver cutting-edge,
@@ -98,7 +98,7 @@ function About() {
         </p>
       </div>
 
-      <h1 className="text-center text-2xl md:text-3xl lg:text-4xl font-bold px-2">
+      <h1 className="text-center text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold px-2">
       Here is what Code Vyasa brings to the table:
       </h1>
 
@@ -133,7 +133,7 @@ function About() {
       </div>
 
       <div>
-        <h1 className="text-center  text-2xl md:text-3xl lg:text-4xl font-bold px-2 pt-10">
+        <h1 className="text-center  text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold px-2 pt-10">
           Technologies that we deal in
         </h1>
         <h1 className="text-xl mt-10 md:text-2xl lg:text-3xl text-center py-5">
@@ -604,11 +604,11 @@ function About() {
       </div>
 
       <div className="text-center mt-10 p-5 lg:py-16 lg:px-80">
-        <h1 className="text-center text-2xl md:text-3xl lg:text-4xl font-bold px-2">
+        <h1 className="text-center text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold px-2">
           Our Commercial Presence <br /> Across 5+ Countries
         </h1>
 
-        <p className="mt-4">
+        <p className="mt-4 text-sm sm:text-base">
           Our Commercial Presence across 5+ countries such as UK, USA, Singapore
           has helped <br /> our Partners in Scaling up and increasing Profits.
         </p>

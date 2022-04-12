@@ -79,7 +79,7 @@ function MyServices() {
           </div>
 
           <div className="px-2 md:px-0 text-center my-5 sm:my-14 ">
-            <p className="text-lg ">{mydata[1].lilmsg}</p>
+            <p className="text-sm sm:text-lg ">{mydata[1].lilmsg}</p>
             <h1 className="text-lg sm:text-5xl font-bold pb-2">
               {mydata[1].title}
             </h1>
@@ -178,12 +178,12 @@ function MyServices() {
             <p className=" text-sm sm:text-base lg:px-96 lg:mt-2">{mydata[1].msg}</p>
           </div>
 
-          {services.map((item, index) => {
+          {services.map((item, index) => {  
             if (index / 2 === 0) {
               return (
                 <>
                   <div className=" flex-col sm:flex sm:flex-row justify-center items-center sm:px-10 my-5 sm:my-16">
-                    <div className="p-2 text-center sm:text-left flex flex-1 flex-col lg:px-20 ">
+                    <div className="p-2  sm:text-left flex flex-1 flex-col lg:px-20 ">
                       <h1 className="text-lg sm:text-3xl font-bold my-2  ">
                         {item.name}
                       </h1>
@@ -234,7 +234,7 @@ function MyServices() {
 
       return (
         <>
-          <div id="Dev" className="flex flex-col-reverse sm:flex sm:flex-row  place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div id="Dev" className="flex flex-col-reverse sm:flex sm:flex-row  place-content-center place-items-center sm:ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
                 {mydata[0].title}
@@ -248,8 +248,8 @@ function MyServices() {
           </div>
 
           <div id="mydev" className="px-10 md:px-0 text-center my-5 sm:my-14 ">
-            <p className="text-lg">{mydata[1].lilmsg}</p>
-            <h1 className="text-lg  sm:text-5xl font-bold pb-2">
+            
+            <h1 className="text-lg sm:text-5xl font-bold pb-2">
               {mydata[1].title}
             </h1>
             <p className="text-sm sm:text-base lg:px-96 lg:mt-2">{mydata[1].msg}</p>
@@ -264,7 +264,7 @@ function MyServices() {
               <h1 className="mt-10 md:mt-0 text-lg font-semibold ">
                 Cloud Consulting
               </h1>
-              <p className="text-xs py-2 sm:pb-0 md:text-sm">
+              <p className="text-xs p-2 sm:pb-0 md:text-sm">
                 Experience expert advisory and seamless cloud integration, cloud
                 migration and architecture through our managed cloud services.
                 Ensure cost optimization and automation with Saas, Iaas and Paas
@@ -279,7 +279,7 @@ function MyServices() {
               <h1 className="mt-10 md:mt-0 text-lg font-semibold">
                 Cloud Migration
               </h1>
-              <p className="text-xs py-2 sm:pb-0 md:text-sm">
+              <p className="text-xs p-2 sm:pb-0 md:text-sm">
                 Seamlessly migrate your entire application workload to Cloud,
                 including databases & applications from any existing cloud
                 platform or in-premise data center
@@ -293,7 +293,7 @@ function MyServices() {
               <h1 className="mt-10 md:mt-0 text-lg font-semibold">
                 DevOps On Cloud
               </h1>
-              <p className="text-xs py-2 sm:pb-0 md:text-sm">
+              <p className="text-xs p-2 sm:pb-0 md:text-sm">
                 Optimize your infrastructure using cloud-native DevOps with
                 tools like GCP DevOps services, Azure DevOps services, and AWS
                 DevOps services. These tools help make the process more smooth
@@ -308,7 +308,7 @@ function MyServices() {
               <h1 className="mt-10 md:mt-0 text-lg font-semibold">
                 Cloud Native Development
               </h1>
-              <p className="text-xs py-2 sm:pb-0 md:text-sm">
+              <p className="text-xs p-2 sm:pb-0 md:text-sm">
                 Design cloud-native application architecture, microservices, and
                 serverless architecture design enabling High Scalability (HS)
                 and High Availability (HA) for business-critical applications.
@@ -324,7 +324,7 @@ function MyServices() {
               <h1 className="mt-10 md:mt-0 text-lg font-semibold">
                 Cloud Infrastructure Optimization
               </h1>
-              <p className="text-xs py-2 sm:pb-0 md:text-sm">
+              <p className="text-xs p-2 sm:pb-0 md:text-sm">
                 Optimize the scalability and agility of your cloud
                 infrastructure. Reduce the cost of your IT ecosystem and create
                 a resilient IT environment.
@@ -365,7 +365,7 @@ function MyServices() {
 
       return (
         <>
-          <div id="ui" className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div id="ui" className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-5xl md:whitespace-nowrap ">
                 {mydata[0].title}
@@ -378,15 +378,15 @@ function MyServices() {
             </div>
           </div>
 
-          <div className="px-10 md:px-0 text-center mt-14 mx-10">
-            <h1 className="text-2xl sm:text-5xl font-bold ">
+          <div className="px-10 md:px-0 text-center mt-10 sm:mt-14 sm:mx-10">
+            <h1 className="text-lg sm:text-5xl font-bold ">
               Visually Stunning User Experience <br /> Design Is Crafted Here!
             </h1>
           </div>
 
-          <div className=" flex justify-center items-center sm:px-10 my-16">
+          <div className=" flex flex-col sm:flex sm:flex-row justify-center items-center mt-10 sm:px-10 sm:my-16">
             <div className="p-2 flex flex-1 flex-col lg:px-20 ">
-              <h1 className="text-xl sm:text-3xl font-bold my-2  ">
+              <h1 className="text-lg sm:text-3xl font-bold my-2  ">
                 We Are Specialized In Crafting <br /> Awe-Inspiring Stunning
                 User Experiences."
               </h1>
@@ -403,10 +403,10 @@ function MyServices() {
             </div>
           </div>
 
-          <h1 className="text-4xl font-bold text-center my-10">How we Help</h1>
+          <h1 className="text-xl sm:text-4xl font-bold text-center my-10">How we Help</h1>
 
           <div className="grid grid-rows-1 grid-cols-1 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 p-5 ">
-            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 text-center bg-card rounded-md relative xl:h-60   ">
+            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 text-center bg-card rounded-md relative xl:h-60 p-4  ">
               <div className="absolute -top-12 bg-bcolor p-5 rounded-full flex justify-center items-center mt-5 ">
                 <img src={uxfirsticon} />
               </div>
@@ -419,7 +419,7 @@ function MyServices() {
               </p>
             </div>
 
-            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 ">
+            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 p-4 ">
               <div className="absolute -top-12 bg-bcolor p-5 rounded-full flex justify-center items-center mt-5 ">
                 <img src={uxsecicon} />
               </div>
@@ -432,7 +432,7 @@ function MyServices() {
               </p>
             </div>
 
-            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 ">
+            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60  p-4">
               <div className="absolute -top-12 bg-bcolor p-5 rounded-full flex justify-center items-center mt-5 ">
                 <img src={uxthirdicon} />
               </div>
@@ -445,7 +445,7 @@ function MyServices() {
               </p>
             </div>
 
-            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 ">
+            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 p-4 ">
               <div className="absolute -top-12 bg-bcolor p-5 rounded-full flex justify-center items-center mt-5 ">
                 <img src={uxfourthicon} />
               </div>
@@ -458,7 +458,7 @@ function MyServices() {
               </p>
             </div>
 
-            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 ">
+            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60  p-4">
               <div className="absolute -top-12 bg-bcolor p-5 rounded-full flex justify-center items-center mt-5 ">
                 <img src={uxfifthicon} />
               </div>
@@ -471,7 +471,7 @@ function MyServices() {
               </p>
             </div>
 
-            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 ">
+            <div className="flex flex-col place-items-center place-content-center md:p-10 h-fit m-7 md:m-5 bg-card rounded-md text-center relative xl:h-60 p-4 ">
               <div className="absolute -top-12 bg-bcolor p-5 rounded-full flex justify-center items-center mt-5 ">
                 <img src={uxsixthicon} />
               </div>
@@ -491,12 +491,12 @@ function MyServices() {
     if (location.pathname === "/services/shared-cto") {
       return (
         <>
-          <div id="Shared" className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
-            <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
-              <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-5xl md:whitespace-nowrap ">
+          <div id="Shared" className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+            <div className="flex-col  place-content-center place-items-center text-center sm:text-left lg:p-16 lg:mb-10">
+              <h1 className="text-xl  font-bold sm:text-2xl md:text-4xl lg:text-5xl md:whitespace-nowrap ">
                 Shared CTO
               </h1>
-              <p className="md:mt-5 md:xl lg:text-xl ">
+              <p className="mt-2 md:mt-5 md:xl lg:text-xl ">
                 Leverage the Best Possible Tech Leadership for your Business
               </p>
             </div>
@@ -507,13 +507,13 @@ function MyServices() {
           </div>
 
           <div className="flex-col flex place-content-center place-items-center px-3 lg:mt-10 ">
-            <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center my-4">
+            <h1 className="text-lg sm:text-2xl md:text-3xl lg:text-5xl font-bold text-center my-4">
               Get Access To Ex-CTOs, Senior Solutions <br /> Architect On A
               Shared Basis
             </h1>
 
             <div className="flex-col flex place-items-start place-content-start">
-              <h1 className=" text-xl md:text-2xl lg:text-3xl  font-semibold py-5">
+              <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl  font-semibold py-5">
                 Having worked with hundreds of customers, we have realized that:
               </h1>
               <div className="flex place-items-center place-content-start p-2">
@@ -540,7 +540,7 @@ function MyServices() {
             </div>
           </div>
 
-          <h1 className="text-center text-xl md:text-2xl lg:text-4xl font-bold py-14">
+          <h1 className="text-center text-lg sm:text-xl p-2 md:text-2xl lg:text-4xl font-bold py-8 sm:py-14">
             Here is what Code Vyasa brings to the table:
           </h1>
 
@@ -566,7 +566,8 @@ function MyServices() {
           </div>
         </>
       );
-    } else {
+    } 
+    else {
       return <NotFound />;
     }
   };
