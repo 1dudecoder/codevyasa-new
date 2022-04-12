@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {  animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 import mainblog from "../../assits/Blog/mainblog.jpg";
 // icons
 import amp from "../../assits/Blog/blogs-images/amp.jpg";
@@ -25,35 +25,30 @@ function Blog() {
   let location = useLocation();
   const [myscroll, setMyScroll] = useState(false);
 
-
-  useEffect(()=>{
+  useEffect(() => {
     setTimeout(() => {
       document.onscroll = function (event) {
         if (event === undefined) {
           setMyScroll(true);
         }
       };
-      if(!myscroll){
-        setTimeout(()=>{
-          scroll.scrollTo(700); 
-        },5000)
+      if (!myscroll) {
+        setTimeout(() => {
+          scroll.scrollTo(700);
+        }, 5000);
       }
     }, 5000);
-  },[Mypages])
+  }, [Mypages]);
 
   function Mypages() {
     if (location.pathname === "/blog/amp-page") {
-
-      useEffect(()=>{
-        setTimeout(()=>{
-          scroll.scrollTo(700); 
-        },500)
-      })
-
       return (
         <>
           <div className="flex flex-col place-content-center place-items-center px-5 md:px-52 lg:px-72 mt-16">
-            <h1 className=" font-semibold text-left text-2xl md:text-3xl lg:text-4xl">
+            <h1
+              id="myamp"
+              className=" font-semibold text-left text-2xl md:text-3xl lg:text-4xl"
+            >
               AMP Pages — Just another Jargon or Are we late to the Party?
             </h1>
             <p className="py-2 place-self-start">Joy Singhal - 11 Jul</p>
@@ -247,12 +242,11 @@ function Blog() {
     }
 
     if (location.pathname === "/blog/vtex-page") {
-
-      useEffect(()=>{
-        setTimeout(()=>{
-          scroll.scrollTo(700); 
-        },500)
-      })
+      useEffect(() => {
+        setTimeout(() => {
+          scroll.scrollTo(700);
+        }, 500);
+      });
 
       return (
         <>

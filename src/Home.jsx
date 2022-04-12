@@ -13,7 +13,6 @@ function Home() {
 
   useEffect(() => {
     setTimeout(() => {
-
       document.onscroll = function (event) {
         if (event === undefined) {
           console.log("cici")
@@ -27,14 +26,13 @@ function Home() {
         },5000)
       }
 
-
-
     }, 5000);
   }, []);
 
   return (
-    <div className="mt-28" id="myhome">
-      <div className="flex-col justify-center mb-28">
+    <div className="mt-28 " id="myhome">
+      
+      <div className="flex-col justify-center mb-28 ">
         <div className="flex place-content-center place-items-center mt-10 ml-5 ">
           <div className="flex-col place-content-center place-items-center lg:ml-5 mb-10">
             <h1 className="text-xl mr-10 font-semibold sm:text-2xl md:text-4xl lg:text-5xl ">
