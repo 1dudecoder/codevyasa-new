@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { animateScroll as scroll } from "react-scroll";
 import mainblog from "../../assits/Blog/mainblog.jpg";
 // icons
 import amp from "../../assits/Blog/blogs-images/amp.jpg";
@@ -23,22 +22,8 @@ import BookNow from "../Contact/BookNow";
 
 function Blog() {
   let location = useLocation();
-  const [myscroll, setMyScroll] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      document.onscroll = function (event) {
-        if (event === undefined) {
-          setMyScroll(true);
-        }
-      };
-      if (!myscroll) {
-        setTimeout(() => {
-          scroll.scrollTo(700);
-        }, 5000);
-      }
-    }, 5000);
-  }, [Mypages]);
+
 
   function Mypages() {
     if (location.pathname === "/blog/amp-page") {
@@ -242,11 +227,7 @@ function Blog() {
     }
 
     if (location.pathname === "/blog/vtex-page") {
-      useEffect(() => {
-        setTimeout(() => {
-          scroll.scrollTo(700);
-        }, 500);
-      });
+
 
       return (
         <>

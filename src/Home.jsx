@@ -6,28 +6,8 @@ import virtualteam from "./assits/virtualteam.svg";
 import mvppack from "./assits/mvppack.svg";
 import Review from "./Review/Review";
 import BookNow from "./Components/Contact/BookNow";
-import { animateScroll as scroll } from "react-scroll";
 
 function Home() {
-  const [myscroll, setMyScroll] = useState(false);
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     document.onscroll = function (event) {
-  //       if (event === undefined) {
-  //         console.log("cici")
-  //         setMyScroll(true);
-  //       }
-  //     };
-
-  //     if(!myscroll){
-  //       setTimeout(()=>{
-  //         scroll.scrollTo(700); 
-  //       },5000)
-  //     }
-
-  //   }, 5000);
-  // }, []);
 
   return (
     <div className="mt-28 " id="myhome">
