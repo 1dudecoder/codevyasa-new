@@ -66,10 +66,10 @@ function MyServices() {
         <>
           <div id="Web-based" className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center sm:ml-5 lg:h-eighty-h p-2 ">
             <div className="flex-col place-content-center place-items-center  lg:p-16 lg:mb-10">
-              <h1 className="text-xl whitespace-nowrap mt-5 sm:mt-0	font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
+              <h1 className="text-2xl text-center sm:text-left  whitespace-nowrap mt-5 sm:mt-0 font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
                 {mydata[0].title}
               </h1>
-              <p className="text-sm mt-2 md:mt-5 md:xl lg:text-xl">{mydata[0].msg}</p>
+              <p className="text-sm text-center sm:text-left mt-2 md:mt-5 md:xl lg:text-xl">{mydata[0].msg}</p>
             </div>
 
             <div className=" lg:p-10">
@@ -79,7 +79,7 @@ function MyServices() {
           </div>
 
           <div className="px-2 md:px-0 text-center my-5 sm:my-14 ">
-            <p className=" sm:text-lg ">{mydata[1].lilmsg}</p>
+            <p className="text-lg ">{mydata[1].lilmsg}</p>
             <h1 className="text-lg sm:text-5xl font-bold pb-2">
               {mydata[1].title}
             </h1>
@@ -90,13 +90,13 @@ function MyServices() {
             if (index / 2 === 0) {
               return (
                 <>
-                  <div className="flex-col sm:flex sm:flex-row  justify-center items-center sm:px-10 sm:my-16">
+                  <div className="flex-col sm:flex sm:flex-row justify-center items-center sm:px-10 sm:my-16">
                     
                     <div className="p-2 flex flex-1 flex-col lg:px-5  ">
-                      <h1 className="text-xl  sm:text-left sm:text-3xl font-bold my-2 ">
+                      <h1 className="text-lg  sm:text-left sm:text-3xl font-bold my-2 ">
                         {item.name}
                       </h1>
-                      <p className="text-xs  sm:text-left sm:text-sm">{item.msg}</p>
+                      <p className="text-xs sm:text-left sm:text-sm">{item.msg}</p>
                     </div>
 
                     <div className="">
@@ -111,7 +111,7 @@ function MyServices() {
                 <>
                   <div className="flex-col sm:flex sm:flex-row-reverse justify-center items-center sm:px-10 my-5 sm:my-16">
                     <div className="p-2 flex flex-1 flex-col lg:px-10  relative">
-                      <h1 className="text-xl  sm:text-3xl font-bold my-2  ">
+                      <h1 className="text-lg  sm:text-3xl font-bold my-2  ">
                         {item.name}
                       </h1>
                       <p className="text-xs  sm:text-sm">{item.msg}</p>
@@ -157,12 +157,12 @@ function MyServices() {
 
       return (
         <>
-          <div id="app" className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div id="app" className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
-              <h1 className="text-xl  font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
+              <h1 className="text-2xl  font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
                 {mydata[0].title}
               </h1>
-              <p className="md:mt-5 md:xl lg:text-xl ">{mydata[0].msg}</p>
+              <p className="text-sm mt-2 md:mt-5 md:xl lg:text-xl ">{mydata[0].msg}</p>
             </div>
 
             <div className="lg:p-10">
@@ -170,24 +170,24 @@ function MyServices() {
             </div>
           </div>
 
-          <div className="px-10 md:px-0 text-center my-14 ">
+          <div className="px-10 md:px-0 text-center my-5 sm:my-14 ">
             <p className="text-lg">{mydata[1].lilmsg}</p>
-            <h1 className="text-2xl sm:text-5xl font-bold pb-2">
+            <h1 className="text-lg sm:text-5xl font-bold pb-2">
               {mydata[1].title}
             </h1>
-            <p className="lg:px-96 lg:mt-2">{mydata[1].msg}</p>
+            <p className=" text-sm sm:text-base lg:px-96 lg:mt-2">{mydata[1].msg}</p>
           </div>
 
           {services.map((item, index) => {
             if (index / 2 === 0) {
               return (
                 <>
-                  <div className=" flex justify-center items-center sm:px-10 my-16">
-                    <div className="p-2  flex flex-1 flex-col lg:px-20 ">
-                      <h1 className="text-xl sm:text-3xl font-bold my-2  ">
+                  <div className=" flex-col sm:flex sm:flex-row justify-center items-center sm:px-10 my-5 sm:my-16">
+                    <div className="p-2 text-center sm:text-left flex flex-1 flex-col lg:px-20 ">
+                      <h1 className="text-lg sm:text-3xl font-bold my-2  ">
                         {item.name}
                       </h1>
-                      <p className="text-xs sm:text-sm">{item.msg}</p>
+                      <p className=" text-sm">{item.msg}</p>
                     </div>
 
                     <div className="">
@@ -199,7 +199,7 @@ function MyServices() {
             } else {
               return (
                 <>
-                  <div className="flex flex-row-reverse justify-center items-center sm:px-10 my-16">
+                  <div className="flex flex-col sm:flex sm:flex-row-reverse justify-center items-center sm:px-10 my-16">
                     <div className="p-2 flex flex-1 flex-col lg:px-20  ">
                       <h1 className="text-xl sm:text-3xl font-bold my-2 ">
                         {item.name}
@@ -234,12 +234,12 @@ function MyServices() {
 
       return (
         <>
-          <div id="Dev" className="flex place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div id="Dev" className="flex flex-col-reverse sm:flex sm:flex-row  place-content-center place-items-center  ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
                 {mydata[0].title}
               </h1>
-              <p className="md:mt-5 md:xl lg:text-xl ">{mydata[0].msg}</p>
+              <p className="mt-2 md:mt-5 md:xl lg:text-xl ">{mydata[0].msg}</p>
             </div>
 
             <div className="lg:p-10">
@@ -247,12 +247,12 @@ function MyServices() {
             </div>
           </div>
 
-          <div id="mydev" className="px-10 md:px-0 text-center my-14 ">
+          <div id="mydev" className="px-10 md:px-0 text-center my-5 sm:my-14 ">
             <p className="text-lg">{mydata[1].lilmsg}</p>
-            <h1 className="text-2xl sm:text-5xl font-bold pb-2">
+            <h1 className="text-lg  sm:text-5xl font-bold pb-2">
               {mydata[1].title}
             </h1>
-            <p className="lg:px-96 lg:mt-2">{mydata[1].msg}</p>
+            <p className="text-sm sm:text-base lg:px-96 lg:mt-2">{mydata[1].msg}</p>
           </div>
 
           <div  className="grid grid-rows-1 grid-cols-1 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 p-5 ">
@@ -264,7 +264,7 @@ function MyServices() {
               <h1 className="mt-10 md:mt-0 text-lg font-semibold ">
                 Cloud Consulting
               </h1>
-              <p className="text-xs md:text-sm">
+              <p className="text-xs py-2 sm:pb-0 md:text-sm">
                 Experience expert advisory and seamless cloud integration, cloud
                 migration and architecture through our managed cloud services.
                 Ensure cost optimization and automation with Saas, Iaas and Paas
@@ -279,7 +279,7 @@ function MyServices() {
               <h1 className="mt-10 md:mt-0 text-lg font-semibold">
                 Cloud Migration
               </h1>
-              <p className="text-xs md:text-sm">
+              <p className="text-xs py-2 sm:pb-0 md:text-sm">
                 Seamlessly migrate your entire application workload to Cloud,
                 including databases & applications from any existing cloud
                 platform or in-premise data center
@@ -293,7 +293,7 @@ function MyServices() {
               <h1 className="mt-10 md:mt-0 text-lg font-semibold">
                 DevOps On Cloud
               </h1>
-              <p className="text-xs md:text-sm">
+              <p className="text-xs py-2 sm:pb-0 md:text-sm">
                 Optimize your infrastructure using cloud-native DevOps with
                 tools like GCP DevOps services, Azure DevOps services, and AWS
                 DevOps services. These tools help make the process more smooth
@@ -308,7 +308,7 @@ function MyServices() {
               <h1 className="mt-10 md:mt-0 text-lg font-semibold">
                 Cloud Native Development
               </h1>
-              <p className="text-xs md:text-sm">
+              <p className="text-xs py-2 sm:pb-0 md:text-sm">
                 Design cloud-native application architecture, microservices, and
                 serverless architecture design enabling High Scalability (HS)
                 and High Availability (HA) for business-critical applications.
@@ -324,7 +324,7 @@ function MyServices() {
               <h1 className="mt-10 md:mt-0 text-lg font-semibold">
                 Cloud Infrastructure Optimization
               </h1>
-              <p className="text-xs md:text-sm">
+              <p className="text-xs py-2 sm:pb-0 md:text-sm">
                 Optimize the scalability and agility of your cloud
                 infrastructure. Reduce the cost of your IT ecosystem and create
                 a resilient IT environment.
@@ -338,7 +338,7 @@ function MyServices() {
               <h1 className="mt-10 md:mt-0 text-lg font-semibold">
                 Cloud Integration And Software Solutions
               </h1>
-              <p className="text-xs md:text-sm">
+              <p className="text-xs py-4 sm:pb-0 md:text-sm">
                 Optimize your infrastructure using cloud-native DevOps with
                 tools like GCP DevOps services, Azure DevOps services, and AWS
                 DevOps services. These tools help make the process more smooth
