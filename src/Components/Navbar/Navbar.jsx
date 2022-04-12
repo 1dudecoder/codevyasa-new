@@ -153,7 +153,7 @@ function Navbar() {
                     }}
                     className="text-center text-2xl py-2 mx-10 my-2 border border-bcolor bg-white  rounded-lg"
                   >
-                    <Link to="/services/web-dev"> SERVICES</Link>
+                    SERVICES
                   </p>
 
                   <ul className={`text-center ${servicestate}`}>
@@ -197,7 +197,7 @@ function Navbar() {
                     }}
                     className="text-center text-2xl py-2 mx-10 my-5 border border-bcolor bg-white rounded-lg "
                   >
-                    <Link to="/services/web-dev"> Engineering</Link>
+                    Engineering
                   </p>
 
                   <ul className={`text-center ${engstate}`}>
@@ -241,7 +241,7 @@ function Navbar() {
                     }}
                     className="text-center text-2xl py-2 mx-10 my-2 border border-bcolor bg-white  rounded-lg"
                   >
-                    <Link to="/services/web-dev">Code Vyasa</Link>
+                    Code Vyasa
                   </p>
 
                   <ul className={`text-center ${codevyasastate}`}>

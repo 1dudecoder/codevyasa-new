@@ -58,7 +58,7 @@ function MyEngineering() {
     if (location.pathname === "/engineering/mobile") {
       return (
         <>
-          <div className="flex flex-col-reverse sm:flex sm:flex-row text-center sm:text-left place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div className="flex flex-col-reverse sm:flex sm:flex-row text-center sm:text-left place-content-center place-items-center  sm:ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
                 Half Of The Internet <br /> Is Served On Mobile Devices.
@@ -553,7 +553,8 @@ function MyEngineering() {
           </div>
         </>
       );
-    } else {
+    } 
+    else {
       return (
         <>
           {" "}

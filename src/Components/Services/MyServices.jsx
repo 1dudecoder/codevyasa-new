@@ -157,7 +157,7 @@ function MyServices() {
 
       return (
         <>
-          <div id="app" className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div id="app" className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  sm:ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-2xl  font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
                 {mydata[0].title}
@@ -365,7 +365,7 @@ function MyServices() {
 
       return (
         <>
-          <div id="ui" className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div id="ui" className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  sm:ml-5 lg:h-eighty-h ">
             <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
               <h1 className="text-xl font-bold sm:text-2xl md:text-4xl lg:text-5xl md:whitespace-nowrap ">
                 {mydata[0].title}
@@ -491,7 +491,7 @@ function MyServices() {
     if (location.pathname === "/services/shared-cto") {
       return (
         <>
-          <div id="Shared" className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  ml-5 lg:h-eighty-h ">
+          <div id="Shared" className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  sm:ml-5 lg:h-eighty-h ">
             <div className="flex-col  place-content-center place-items-center text-center sm:text-left lg:p-16 lg:mb-10">
               <h1 className="text-xl  font-bold sm:text-2xl md:text-4xl lg:text-5xl md:whitespace-nowrap ">
                 Shared CTO
