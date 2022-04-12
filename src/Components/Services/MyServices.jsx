@@ -64,9 +64,9 @@ function MyServices() {
 
       return (
         <>
-          <div id="Web-based" className="flex place-content-center place-items-center ml-5 lg:h-eighty-h ">
-            <div className="flex-col place-content-center place-items-center lg:p-16 lg:mb-10">
-              <h1 className="text-xl whitespace-nowrap	font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
+          <div id="Web-based" className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center sm:ml-5 lg:h-eighty-h p-2 ">
+            <div className="flex-col place-content-center place-items-center  lg:p-16 lg:mb-10">
+              <h1 className="text-xl whitespace-nowrap mt-5 sm:mt-0	font-bold sm:text-2xl md:text-4xl lg:text-5xl ">
                 {mydata[0].title}
               </h1>
               <p className="text-sm mt-2 md:mt-5 md:xl lg:text-xl">{mydata[0].msg}</p>
@@ -78,7 +78,7 @@ function MyServices() {
             
           </div>
 
-          <div className="px-10 md:px-0 text-center my-5 sm:my-14 ">
+          <div className="px-2 md:px-0 text-center my-5 sm:my-14 ">
             <p className=" sm:text-lg ">{mydata[1].lilmsg}</p>
             <h1 className="text-lg sm:text-5xl font-bold pb-2">
               {mydata[1].title}
@@ -92,11 +92,11 @@ function MyServices() {
                 <>
                   <div className="flex-col sm:flex sm:flex-row  justify-center items-center sm:px-10 sm:my-16">
                     
-                    <div className="p-2  flex flex-1 flex-col lg:px-5  ">
-                      <h1 className="text-xl text-center sm:text-left sm:text-3xl font-bold my-2 ">
+                    <div className="p-2 flex flex-1 flex-col lg:px-5  ">
+                      <h1 className="text-xl  sm:text-left sm:text-3xl font-bold my-2 ">
                         {item.name}
                       </h1>
-                      <p className="text-xs text-center sm:text-left sm:text-sm">{item.msg}</p>
+                      <p className="text-xs  sm:text-left sm:text-sm">{item.msg}</p>
                     </div>
 
                     <div className="">
@@ -109,12 +109,12 @@ function MyServices() {
             } else {
               return (
                 <>
-                  <div className="flex-col sm:flex sm:flex-row-reverse justify-center items-center sm:px-10 my-16">
+                  <div className="flex-col sm:flex sm:flex-row-reverse justify-center items-center sm:px-10 my-5 sm:my-16">
                     <div className="p-2 flex flex-1 flex-col lg:px-10  relative">
-                      <h1 className="text-xl text-center sm:text-3xl font-bold my-2  ">
+                      <h1 className="text-xl  sm:text-3xl font-bold my-2  ">
                         {item.name}
                       </h1>
-                      <p className="text-xs text-center sm:text-sm">{item.msg}</p>
+                      <p className="text-xs  sm:text-sm">{item.msg}</p>
                     </div>
 
                     <div className="">
