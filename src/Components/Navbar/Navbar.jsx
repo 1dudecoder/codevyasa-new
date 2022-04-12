@@ -131,7 +131,6 @@ function Navbar() {
                     if (state) {
                       setState(false);
                     }
-
                   }}
                 >
                   <img className="w-10" src={multi} alt="lines_logo" />
@@ -140,7 +139,7 @@ function Navbar() {
                 <div
                   className={
                     state
-                      ? "mt-14 left-0 w-full absolute lg:hidden bg-card h-96 overflow-scroll  "
+                      ? "mt-14 left-0 w-full absolute lg:hidden bg-card h-96 overflow-scroll shadow-2xl shadow-slate-900 rounded-b-md  "
                       : "hidden lg:hidden"
                   }
                 >
@@ -264,7 +263,6 @@ function Navbar() {
 
 
                   </ul>
-
 
                   <p onClick={()=>{setState(true)}} className="bg-bcolor text-white  text-center text-2xl py-2 mx-10 my-5 rounded-lg ">
                   <Link2
