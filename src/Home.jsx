@@ -6,14 +6,14 @@ import virtualteam from "./assits/virtualteam.svg";
 import mvppack from "./assits/mvppack.svg";
 import Review from "./Review/Review";
 import BookNow from "./Components/Contact/BookNow";
+import { Link as Link2   } from 'react-scroll';
 
 function Home() {
 
   return (
-    <div className="mt-28 " id="myhome">
-      
-      <div className="flex-col justify-center mb-10 sm:mb-28 ">
-        <div className="flex ml-3 sm:ml-5 place-content-center place-items-center mt-10  ">
+    <div className="" id="myhome">
+      <div className="flex-col justify-center mb-10 sm:mb-28  ">
+        <div className="flex ml-3 sm:ml-5 place-content-center place-items-center ">
           <div className="flex-col place-content-center place-items-center lg:ml-5 mb-10">
             <h1 className="text-xl sm:mr-10 font-semibold sm:text-2xl md:text-4xl lg:text-5xl ">
               Your Technology <br /> Partner for <br /> Software Engineering
@@ -24,18 +24,34 @@ function Home() {
             </p>
 
             <button className="hidden sm:flex btn mt-5 px-4 py-2 text-2xl">
-              <a href="#experts">Learn More</a>
+            <Link2 to="experts" 
+                spy={true}
+                smooth={true}
+                duration={800}
+                offset={-70}
+                >
+              Learn More
+              </Link2>
+
             </button>
           </div>
 
           <div className="">
-            <img className="p-2 " src={landimg} alt="land-img" />
+            <img className="p-2 lg:max-w-4xl " src={landimg} alt="land-img" />
           </div>
+          
         </div>
 
         <div className="mx-5">
           <button className="flex btn py-2 w-full justify-center items-center sm:hidden">
-            <a href="#experts">Learn More</a>
+          <Link2 to="experts" 
+                spy={true}
+                smooth={true}
+                duration={800}
+                offset={-70}
+                >
+             Learn More
+              </Link2>
           </button>
         </div>
       </div>
@@ -71,7 +87,7 @@ function Home() {
                   </div>
 
                   <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4 xl:pb-14   ">
-                    <h1 className="text-sm md:text-xl mt-2">Project-Based</h1>
+                    <h1 className="text-sm md:text-xl mt-3">Project-Based</h1>
                     <p className="text-xs md:text-xs lg:text-sm lg:p-2">
                       Get your projects delivered at 3x the speed with a minimum
                       40% reduction in price. Just let us know your requirements
@@ -91,7 +107,7 @@ function Home() {
                     />
                   </div>
                   <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4 xl:pb-14   ">
-                    <h1 className="text-sm md:text-xl mt-2">Virtual Team</h1>
+                    <h1 className="text-sm md:text-xl mt-3">Virtual Team</h1>
                     <p className="text-xs md:text-xs lg:text-sm lg:p-2">
                       Get dedicated developers assigned to your team with 100%
                       transparency on the throughput. This gives you a 5X faster
@@ -110,7 +126,7 @@ function Home() {
                     />
                   </div>
                   <div className="bg-bcolor bg-opacity-50 rounded-lg p-2 pt-4 xl:pb-14   ">
-                    <h1 className="text-sm md:text-xl mt-2">MVP Pack</h1>
+                    <h1 className="text-sm md:text-xl mt-3">MVP Pack</h1>
                     <p className="text-xs md:text-xs lg:text-sm lg:p-2">
                       We are a start-up and we empathize with early-stage
                       Founders trying to test their Product Idea. Leverage our

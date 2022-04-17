@@ -2,13 +2,12 @@ import React from "react";
 import mainteam from "../../assits/ourteam/mainteam.jpg";
 import BookNow from "../Contact/BookNow";
 
-import geeta from "../../assits/ourteam/founders-images/geeta.jpg"
+import geeta from "../../assits/ourteam/founders-images/geeta.jpg";
 import shaifee from "../../assits/ourteam/founders-images/shaifee.jpg";
 import andyk from "../../assits/ourteam/founders-images/andyk.jpg";
 import joy from "../../assits/ourteam/founders-images/joy.jpg";
 import priyanka from "../../assits/ourteam/founders-images/priyanka.jpg";
 import subham from "../../assits/ourteam/founders-images/subham.jpg";
-
 
 // icons
 import fb from "../../assits/ourteam/icons/fb.svg";
@@ -18,8 +17,40 @@ import sumit from "../../assits/ourteam/advisor-images/sumit.jpg";
 import mayank from "../../assits/ourteam/advisor-images/mayank.jpg";
 import prateek from "../../assits/ourteam/advisor-images/prateek.jpg";
 import akash from "../../assits/ourteam/advisor-images/akash.jpg";
+import Count from "./Counter/Count";
 
 function Ourteam() {
+  let data = [
+    {
+      id: "001",
+      label: "Smart Minds",
+      number: "125",
+      duration: "1",
+      type : "+"
+    },
+    {
+      id: "002",
+      label: "Countries",
+      number: "12",
+      duration: "1",
+      type : "+"
+    },
+    {
+      id: "003",
+      label: "Happy Customers",
+      number: "55",
+      duration: "1",
+      type : "+"
+    },
+    {
+      id: "004",
+      label: "CAGR",
+      number: "78%",
+      duration: "1",
+      type : "%"
+    },
+  ];
+
   return (
     <div id="ourteam">
       <div className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  sm:ml-5 lg:h-eighty-h  ">
@@ -38,7 +69,9 @@ function Ourteam() {
       </div>
 
       <div className="text-center px-2 md:px-52 lg:px-64 xl:px-96">
-        <h1 className="text-xl sm:text-3xl font-bold mt-16 mb-5 ">Our Core Team</h1>
+        <h1 className="text-xl sm:text-3xl font-bold mt-16 mb-5 ">
+          Our Core Team
+        </h1>
         <p className="py-5 text-sm sm:text-base ">
           On the clock, we’re technology experts and leaders that bring energy,
           passion, and knowledge to every project. Off the clock, we’re an
@@ -46,7 +79,7 @@ function Ourteam() {
           karaoke pros, and outdoor enthusiasts.
         </p>
       </div>
-      
+
       <div className="flex place-content-center place-items-center flex-wrap w-full  mt-10 md:mt-24 ">
         <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28 md:mb-32 lg:mb-48   ">
           <img
@@ -134,7 +167,9 @@ function Ourteam() {
       </div>
 
       <div className="bg-card py-5">
-        <h1 className="text-xl mt-4 sm:mt-0 sm:text-4xl font-bold mb-5 text-center">Our Advisors</h1>
+        <h1 className="text-xl mt-4 sm:mt-0 sm:text-4xl font-bold mb-5 text-center">
+          Our Advisors
+        </h1>
 
         <div className="flex flex-wrap place-content-center place-items-center ">
           <div className="flex flex-col place-content-center place-items-center  w-72 overflow-hidden bg-white pb-5  rounded-xl m-10 ">
@@ -220,33 +255,10 @@ function Ourteam() {
       </div>
 
       <div className="flex flex-wrap place-content-center place-items-center">
-        <div className="p-4 lg:p-10  flex flex-col place-items-center place-content-center">
-          <p>Smart Minds</p>
-          <h1 className="border-2 border-bcolor text-4xl mt-2  rounded-full w-fit px-5 py-10">
-            125+
-          </h1>
-        </div>
-
-        <div className="p-4 lg:p-10 flex flex-col place-items-center place-content-center">
-          <p>Countries</p>
-          <h1 className="border-2 border-bcolor text-4xl mt-2  rounded-full w-fit px-8 py-10">
-            12+
-          </h1>
-        </div>
-
-        <div className="p-4 lg:p-10 flex flex-col place-items-center place-content-center">
-          <p>Happy Customers</p>
-          <h1 className="border-2 border-bcolor text-4xl mt-2  rounded-full w-fit px-8 py-10">
-            55+
-          </h1>
-        </div>
-
-        <div className="p-4 lg:p-10 flex flex-col place-items-center place-content-center">
-          <p>CAGR</p>
-          <h1 className="border-2 border-bcolor text-4xl mt-2  rounded-full w-fit px-8 py-10">
-            78%
-          </h1>
-        </div>
+        <Count data={data[0]} />
+        <Count data={data[1]} />
+        <Count data={data[2]} />
+        <Count data={data[3]} />
       </div>
 
       <div id="contact">

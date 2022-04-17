@@ -110,7 +110,7 @@ function Review() {
         return (
           <>
             <div className="m-2 flex place-content-center place-items-center">
-            <div className="bg-bcolor rounded-md p-2 sm:p-5 ml-5 sm:h-sixty-h text-sm sm:text-sm md:text-sm md:h-96 lg:h-80 w-full">
+            <div className="bg-rcard  rounded-md p-2 sm:p-5 ml-5 sm:h-sixty-h text-sm sm:text-sm md:text-sm md:h-96 lg:h-80 w-full">
               <div className="flex">
                 <div className="w-24 m-2">
                   <div className="rounded-full overflow-hidden border-2 border-white flex justify-center items-center">

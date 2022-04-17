@@ -77,7 +77,7 @@ function Navbar() {
                 </div>
 
                 <p className="px-4">
-                  <Link to="/Pricing"> Pricing</Link>
+                <Link to="/our-team"> Our Team</Link>
                 </p>
 
                 <div className="">
@@ -90,9 +90,9 @@ function Navbar() {
                       <li className="hover:bg-gray-200 bg-white py-2 px-2 hover:font-semibold text-sm ">
                         <Link to="/about">About</Link>
                       </li>
-                      <li className="hover:bg-gray-200 bg-white py-2 px-2 hover:font-semibold text-sm  ">
+                      {/* <li className="hover:bg-gray-200 bg-white py-2 px-2 hover:font-semibold text-sm  ">
                         <Link to="/our-team">Our Team</Link>
-                      </li>
+                      </li> */}
                       <li className=" hover:bg-gray-200 bg-white py-2 px-2 hover:font-semibold text-sm  ">
                         <Link to="/blog">Blog</Link>
                       </li>

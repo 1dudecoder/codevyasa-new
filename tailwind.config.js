@@ -5,7 +5,8 @@ module.exports = {
       colors: {
         bcolor: "#10C9C3",
         fcolor: "#212121",
-        card: "#F2F2F2"
+        card: "#F2F2F2",
+        rcard: "#0FB7B5",
 
       },
       spacing: {
