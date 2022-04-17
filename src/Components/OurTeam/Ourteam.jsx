@@ -10,13 +10,12 @@ import priyanka from "../../assits/ourteam/founders-images/priyanka.jpg";
 import subham from "../../assits/ourteam/founders-images/subham.jpg";
 
 // icons
-import fb from "../../assits/ourteam/icons/fb.svg";
 import linkdin from "../../assits/ourteam/icons/linkdin.svg";
-import twitter from "../../assits/ourteam/icons/twitter.svg";
 import sumit from "../../assits/ourteam/advisor-images/sumit.jpg";
-import mayank from "../../assits/ourteam/advisor-images/mayank.jpg";
-import prateek from "../../assits/ourteam/advisor-images/prateek.jpg";
-import akash from "../../assits/ourteam/advisor-images/akash.jpg";
+
+import manishgupta from "../../assits/ourteam/advisor-images/manishgupta.jpg";
+import mohitsorout from "../../assits/ourteam/advisor-images/mohitsorout.jpg";
+import souravdutta from "../../assits/ourteam/advisor-images/souravdutta.jpg";
 import Count from "./Counter/Count";
 
 function Ourteam() {
@@ -172,85 +171,63 @@ function Ourteam() {
         </h1>
 
         <div className="flex flex-wrap place-content-center place-items-center ">
+
           <div className="flex flex-col place-content-center place-items-center  w-72 overflow-hidden bg-white pb-5  rounded-xl m-10 ">
-            <img src={sumit} alt="sumit" />
+            <img className="h-60 w-full  object-cover" src={sumit} alt="sumit" />
             <p className="text-lg font-semibold mt-5">Sumit</p>
             <p>UI guru</p>
 
             <div className="flex place-content-center place-items-center mt-5 ">
-              <div className="border-2 p-2 px-3  rounded-full border-bcolor m-2 ">
-                <img className="h-5" src={fb} alt="fb-image" />
-              </div>
 
-              <div className="border-2 py-2 px-2  rounded-full border-bcolor m-2">
-                <img className="h-5" src={twitter} alt="twitter-image" />
-              </div>
 
               <div className="border-2 p-2 px-2  rounded-full border-bcolor m-2">
-                <img className="h-5" src={linkdin} alt="linkdin-image" />
+                <a href="https://www.linkedin.com/in/sumit-solanki-853a6ab7/" alt="lindin-profile-link" > <img className="h-5" src={linkdin} alt="linkdin-image" /> </a>
               </div>
             </div>
           </div>
 
           <div className="flex flex-col place-content-center place-items-center  w-72 overflow-hidden bg-white pb-5  rounded-xl m-10 ">
-            <img src={mayank} alt="Mayank-image" />
-            <p className="text-lg font-semibold mt-5">Mayank</p>
+            <img className="h-60 w-full  object-cover" src={souravdutta} alt="sourav-dutta-image" />
+            <p className="text-lg font-semibold mt-5">Sourav Dutta</p>
             <p>Startup guy</p>
 
             <div className="flex place-content-center place-items-center mt-5 ">
-              <div className="border-2 p-2 px-3  rounded-full border-bcolor m-2 ">
-                <img className="h-5" src={fb} alt="fb-image" />
-              </div>
 
-              <div className="border-2 py-2 px-2  rounded-full border-bcolor m-2">
-                <img className="h-5" src={twitter} alt="twitter-image" />
-              </div>
 
               <div className="border-2 p-2 px-2  rounded-full border-bcolor m-2">
-                <img className="h-5" src={linkdin} alt="linkdin-image" />
+              <a href="https://www.linkedin.com/in/souravadutta/" alt="lindin-profile-link" > <img className="h-5" src={linkdin} alt="linkdin-image" /> </a>
               </div>
             </div>
           </div>
 
           <div className="flex flex-col place-content-center place-items-center  w-72 overflow-hidden bg-white pb-5  rounded-xl m-10 ">
-            <img src={akash} alt="akash-image" />
-            <p className="text-lg font-semibold mt-5">Akash Srivastava</p>
+            <img className="h-60 w-full  object-cover" src={manishgupta} alt="manish-gupta-image" />
+            <p className="text-lg font-semibold mt-5">Manish Gupta</p>
             <p>Scaling expert</p>
 
             <div className="flex place-content-center place-items-center mt-5 ">
-              <div className="border-2 p-2 px-3  rounded-full border-bcolor m-2 ">
-                <img className="h-5" src={fb} alt="fb-image" />
-              </div>
 
-              <div className="border-2 py-2 px-2  rounded-full border-bcolor m-2">
-                <img className="h-5" src={twitter} alt="twitter-image" />
-              </div>
 
               <div className="border-2 p-2 px-2  rounded-full border-bcolor m-2">
-                <img className="h-5" src={linkdin} alt="linkdin-image" />
+              <a href="https://www.linkedin.com/in/manish86" alt="lindin-profile-link" > <img className="h-5" src={linkdin} alt="linkdin-image" /> </a>
               </div>
             </div>
           </div>
 
           <div className="flex flex-col  place-content-center place-items-center  w-72 overflow-hidden bg-white pb-5  rounded-xl m-10 ">
-            <img src={prateek} alt="sumit" />
-            <p className="text-lg font-semibold mt-5">Prateek</p>
+            <img className="h-60 w-full  object-cover" src={mohitsorout} alt="mohit-sorout-image" />
+            <p className="text-lg font-semibold mt-5">Mohit Sorout</p>
             <p>Cloud expert</p>
 
             <div className="flex place-content-center place-items-center mt-5 ">
-              <div className="border-2 p-2 px-3  rounded-full border-bcolor m-2 ">
-                <img className="h-5" src={fb} alt="fb-image" />
-              </div>
 
-              <div className="border-2 py-2 px-2  rounded-full border-bcolor m-2">
-                <img className="h-5" src={twitter} alt="twitter-image" />
-              </div>
 
               <div className="border-2 p-2 px-2  rounded-full border-bcolor m-2">
-                <img className="h-5" src={linkdin} alt="linkdin-image" />
+              <a href="https://www.linkedin.com/in/singhsoro" alt="lindin-profile-link" > <img className="h-5" src={linkdin} alt="linkdin-image" /> </a>
               </div>
             </div>
           </div>
+
         </div>
       </div>
 
