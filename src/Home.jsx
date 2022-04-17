@@ -37,7 +37,7 @@ function Home() {
           </div>
 
           <div className="">
-            <img className="p-2 lg:max-w-4xl " src={landimg} alt="land-img" />
+            <img className="p-2 lg:p-5 lg:max-w-4xl " src={landimg} alt="land-img" />
           </div>
           
         </div>
