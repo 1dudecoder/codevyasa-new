@@ -7,7 +7,6 @@ module.exports = {
         fcolor: "#212121",
         card: "#F2F2F2",
         rcard: "#0FB7B5",
-
       },
       spacing: {
         "sixty-h": "60vh",

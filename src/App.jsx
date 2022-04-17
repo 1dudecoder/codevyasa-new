@@ -12,6 +12,7 @@ import About from "./Components/About/About";
 import Ourteam from "./Components/OurTeam/Ourteam";
 import Blog from "./Components/Blog/Blog";
 import ScrollTop from "./ScrollTop/ScrollTop";
+import Culture from "./Components/Culture/Culture";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/our-team" element={<Ourteam />} />
           <Route exact path="/blog" element={<Blog />} />
           <Route exact path="/blog/:id" element={<Blog />} />
+          <Route exact path="/culture" element={<Culture />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

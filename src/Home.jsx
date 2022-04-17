@@ -6,12 +6,12 @@ import virtualteam from "./assits/virtualteam.svg";
 import mvppack from "./assits/mvppack.svg";
 import Review from "./Review/Review";
 import BookNow from "./Components/Contact/BookNow";
-import { Link as Link2   } from 'react-scroll';
+import { Link as Link2 } from "react-scroll";
 
 function Home() {
-
   return (
     <div className="" id="myhome">
+      
       <div className="flex-col justify-center mb-10 sm:mb-28  ">
         <div className="flex ml-3 sm:ml-5 place-content-center place-items-center ">
           <div className="flex-col place-content-center place-items-center lg:ml-5 mb-10">
@@ -24,34 +24,38 @@ function Home() {
             </p>
 
             <button className="hidden sm:flex btn mt-5 px-4 py-2 text-2xl">
-            <Link2 to="experts" 
+              <Link2
+                to="experts"
                 spy={true}
                 smooth={true}
                 duration={800}
                 offset={-70}
-                >
-              Learn More
+              >
+                Learn More
               </Link2>
-
             </button>
           </div>
 
           <div className="">
-            <img className="p-2 lg:p-5 lg:max-w-4xl " src={landimg} alt="land-img" />
+            <img
+              className="p-2 lg:p-5 lg:max-w-4xl "
+              src={landimg}
+              alt="land-img"
+            />
           </div>
-          
         </div>
 
         <div className="mx-5">
           <button className="flex btn py-2 w-full justify-center items-center sm:hidden">
-          <Link2 to="experts" 
-                spy={true}
-                smooth={true}
-                duration={800}
-                offset={-70}
-                >
-             Learn More
-              </Link2>
+            <Link2
+              to="experts"
+              spy={true}
+              smooth={true}
+              duration={800}
+              offset={-70}
+            >
+              Learn More
+            </Link2>
           </button>
         </div>
       </div>
@@ -142,9 +146,33 @@ function Home() {
         </div>
       </div>
 
+      <div className=" sm:flex py-10 place-content-center place-items-center lg:px-16">
+        <div className=" px-2 sm:px-10">
+          <h1 className="text-2xl font-semibold text-bcolor">
+            Meet the Captain
+          </h1>
+          <p className="mt-2 text-sm sm:text-base">
+          Shubham is a product leader with a track record of scaling SaaS products. <br />
+           He graduated from Delhi College of Engineering and has been a <br />
+            founder member of several startups, including Haptik (acquired by Jio <br /> for over $100 MN USD) and Moglix (Tata-backed unicorn). A true nerd at his core, <br />
+             Shubham has a personal library that includes masterpieces on Philosophy, Business Management, and Self-help.
+          </p>
+
+          <button className=" my-5  rounded-md px-5 py-2  border-2 border-bcolor text-bcolor hover:bg-bcolor hover:text-white">
+            Know more
+          </button>
+        </div>
+
+        <div className="mt-5">
+          <img src="https://squareboat.com/images/team/gaurav-hero.png" alt="subham-image" />
+        </div>
+      </div>
+
       <div className="">
         <div className="flex justify- sm:justify-between p-10">
-          <h1 className="text-sm sm:text-xl font-semibold">What Clients Say About Us</h1>
+          <h1 className="text-sm sm:text-xl font-semibold">
+            What Clients Say About Us
+          </h1>
           <p className="text-sm sm:text-base pl-2">View all testimonials</p>
         </div>
 

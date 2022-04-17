@@ -175,7 +175,7 @@ function Ourteam() {
           <div className="flex flex-col place-content-center place-items-center  w-72 overflow-hidden bg-white pb-5  rounded-xl m-10 ">
             <img className="h-60 w-full  object-cover" src={sumit} alt="sumit" />
             <p className="text-lg font-semibold mt-5">Sumit</p>
-            <p>UI guru</p>
+            <p className="px-2 text-center italic">Sumita Solanki is a seasoned UX designer and has 10+ years of experience in UX designing for B2B and B2C digital products</p>
 
             <div className="flex place-content-center place-items-center mt-5 ">
 
@@ -189,7 +189,7 @@ function Ourteam() {
           <div className="flex flex-col place-content-center place-items-center  w-72 overflow-hidden bg-white pb-5  rounded-xl m-10 ">
             <img className="h-60 w-full  object-cover" src={souravdutta} alt="sourav-dutta-image" />
             <p className="text-lg font-semibold mt-5">Sourav Dutta</p>
-            <p>Startup guy</p>
+            <p className="px-2 text-center italic">Sourav Dutta is an alumnus of IIM Bangalore and has more than 10 yrs of experience in Strategy & M&A for companies such as Tata Starbucks, PwC and others.</p>
 
             <div className="flex place-content-center place-items-center mt-5 ">
 
@@ -203,7 +203,7 @@ function Ourteam() {
           <div className="flex flex-col place-content-center place-items-center  w-72 overflow-hidden bg-white pb-5  rounded-xl m-10 ">
             <img className="h-60 w-full  object-cover" src={manishgupta} alt="manish-gupta-image" />
             <p className="text-lg font-semibold mt-5">Manish Gupta</p>
-            <p>Scaling expert</p>
+            <p className="px-2 text-center italic">Manish is an alumnus of IIM Bangalore and has more than 10 yrs of experience in scaling B2B SaaS products</p>
 
             <div className="flex place-content-center place-items-center mt-5 ">
 
@@ -217,7 +217,7 @@ function Ourteam() {
           <div className="flex flex-col  place-content-center place-items-center  w-72 overflow-hidden bg-white pb-5  rounded-xl m-10 ">
             <img className="h-60 w-full  object-cover" src={mohitsorout} alt="mohit-sorout-image" />
             <p className="text-lg font-semibold mt-5">Mohit Sorout</p>
-            <p>Cloud expert</p>
+            <p className="px-2 text-center italic">Mohit Sorout is a serial entrepreneur and an angel investor with mutliple ventures in Blockchain and peripheral technologies. </p>
 
             <div className="flex place-content-center place-items-center mt-5 ">
 

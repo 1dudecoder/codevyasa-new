@@ -111,6 +111,9 @@ function Footer() {
                 duration={800}> <Link to="/about">About</Link></Link2> 
 
               </p>
+
+
+
               <p className="hover:text-bcolor">
               <Link2 to="ourteam" 
                 spy={true}
@@ -120,6 +123,20 @@ function Footer() {
                 >
                 <Link to="/our-team"> Our Team</Link> </Link2>
               </p>
+
+
+              <p className="hover:text-bcolor">
+
+                
+              <Link2 to="culture" 
+              spy={true}
+              smooth={true}
+              duration={800}> <Link to="/culture">Culture</Link></Link2> 
+
+              </p>
+
+
+
               <p className="my-2 ">
                 Florida | New Delhi <br />
                 <a className="hover:text-bcolor " href="tel:+1(386)2437944">Call us + 1 (386) 243-7944</a> <br />
