@@ -7,6 +7,7 @@ import mvppack from "./assits/mvppack.svg";
 import Review from "./Review/Review";
 import BookNow from "./Components/Contact/BookNow";
 import { Link as Link2 } from "react-scroll";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -158,9 +159,10 @@ function Home() {
              Shubham has a personal library that includes masterpieces on Philosophy, Business Management, and Self-help.
           </p>
 
-          <button className=" my-5  rounded-md px-5 py-2  border-2 border-bcolor text-bcolor hover:bg-bcolor hover:text-white">
+          <Link to="/about"> <button className=" my-5  rounded-md px-5 py-2  border-2 border-bcolor text-bcolor hover:bg-bcolor hover:text-white">
             Know more
           </button>
+          </Link>
         </div>
 
         <div className="mt-5">
