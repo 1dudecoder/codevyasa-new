@@ -8,6 +8,7 @@ import Review from "./Review/Review";
 import BookNow from "./Components/Contact/BookNow";
 import { Link as Link2 } from "react-scroll";
 import { Link } from "react-router-dom";
+import rightarrow from "./assits/rightarrow.svg"
 
 function Home() {
   return (
@@ -35,6 +36,11 @@ function Home() {
                 Learn More
               </Link2>
             </button>
+
+
+            <img className="h-12 w-12 mt-10 hidden sm:block absolute ml-10 bottom-22 animate-bounce  ease-in" src={rightarrow} alt="down-arrow" />
+
+
           </div>
 
           <div className="">
