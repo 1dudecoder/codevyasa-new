@@ -40,9 +40,9 @@ const Count = (props) => {
 
   return (
     <div  className="" >
-      <div ref={containerRef} className="p-4 lg:p-10  flex flex-col place-items-center place-content-center">
+      <div ref={containerRef} className="p-4 lg:p-10 flex flex-col place-items-center place-content-center">
         <p>{label}</p>
-        <h1 className= {`border-2 border-bcolor text-4xl mt-2  rounded-full px-7 py-10`}>
+        <h1 className= {`border-2 border-bcolor  text-lg p-5 mt-2  sm:text-4xl sm:mt-2  rounded-full sm:px-7 sm:py-10`}>
           {count}{type}
         </h1>
       </div>

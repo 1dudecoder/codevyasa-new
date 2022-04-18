@@ -4,5 +4,5 @@
 
 
 .btn {
-    @apply bg-bcolor  font-semibold text-white rounded-md !important;
+    @apply bg-bcolor  font-semibold text-white rounded-md hover:bg-btncolor !important;
   }

@@ -132,7 +132,6 @@ function Footer() {
               spy={true}
               smooth={true}
               duration={800}> <Link to="/culture">Culture</Link></Link2> 
-
               </p>
 
 
@@ -140,7 +139,7 @@ function Footer() {
               <p className="my-2 ">
                 Florida | New Delhi <br />
                 <a className="hover:text-bcolor " href="tel:+1(386)2437944">Call us + 1 (386) 243-7944</a> <br />
-                <a className="hover:text-bcolor " href="mailto:example@email.com">support@codevyasa.com</a> 
+                <a className="hover:text-bcolor " href="mailto:support@codevyasa.com">support@codevyasa.com</a> 
                
               </p>
               <img

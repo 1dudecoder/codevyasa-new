@@ -18,8 +18,8 @@ function BookNow() {
 
           <div className="mt-4">
             <h1 className="text-sm sm:text-base italic font-semibold">CALL US FOR SUPPORT</h1>
-            <h1 className="text-3xl font-bold">+ 1 (386) 243-7944</h1>
-            <p>support@codevyasa.com</p>
+            <a className="hover:text-bcolor " href="tel:+1(386)2437944"><h1 className="text-3xl font-bold">+ 1 (386) 243-7944</h1></a>
+            <a className="hover:text-bcolor " href="mailto:support@codevyasa.com"><p>support@codevyasa.com</p></a>
           </div>
         </div>
 

@@ -228,7 +228,7 @@ function Navbar() {
                   <p onClick={()=>{
                     setState(false);
                   }} className="text-center text-2xl bg-white py-2 mx-10 my-5 border border-bcolor rounded-lg">
-                    <Link to="/Pricing">Pricing</Link>
+                    <Link to="/our-team"> Our Team</Link>
                   </p>
 
                   <p
@@ -249,11 +249,6 @@ function Navbar() {
                       setState(false);
                     }}  className="text-center text-sm py-2 mx-12 my-2 border border-bcolor rounded-lg bg-bcolor text-white">
                         <Link to="/about">About</Link>
-                    </li>
-                    <li onClick={()=>{
-                      setState(false);
-                    }} className="text-center text-sm py-2 mx-12 my-2 border border-bcolor rounded-lg bg-bcolor text-white">
-                        <Link to="/our-team">Our Team</Link>
                     </li>
                     <li onClick={()=>{
                       setState(false);
