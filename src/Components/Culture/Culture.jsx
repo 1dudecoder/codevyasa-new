@@ -1,6 +1,7 @@
 import React from "react";
 import bgicon from "../../assits/culture/icons/bgicon.svg";
 import linkdin from "../../assits/ourteam/icons/linkdin.svg";
+import BookNow from "../Contact/BookNow"
 
 function Culture() {
   return (
@@ -380,6 +381,11 @@ function Culture() {
 
         </div>
       </div>
+
+      <div id="contact">
+      <BookNow />
+      </div>
+
     </div>
   );
 }
