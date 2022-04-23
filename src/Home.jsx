@@ -9,6 +9,7 @@ import BookNow from "./Components/Contact/BookNow";
 import { Link as Link2 } from "react-scroll";
 import { Link } from "react-router-dom";
 import rightarrow from "./assits/rightarrow.svg"
+import shubhamceo from "./assits/shubhamceo.png"
 
 function Home() {
   return (
@@ -172,7 +173,7 @@ function Home() {
         </div>
 
         <div className="mt-5">
-          <img src="https://squareboat.com/images/team/gaurav-hero.png" alt="subham-image" />
+          <img className="max-h-80" src={shubhamceo} alt="subham-image" />
         </div>
       </div>
 

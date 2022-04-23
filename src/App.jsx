@@ -30,7 +30,6 @@ function App() {
           <Route exact path="/our-team" element={<Ourteam />} />
           <Route exact path="/blog" element={<Blog />} />
           <Route exact path="/blog/:id" element={<Blog />} />
-          <Route exact path="/culture" element={<Culture />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

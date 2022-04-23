@@ -104,15 +104,12 @@ function Footer() {
               <h1 className="mb-2 font-semibold">Code Vyasa</h1>
               <p className="hover:text-bcolor">
 
-                
                 <Link2 to="myabout" 
                 spy={true}
                 smooth={true}
                 duration={800}> <Link to="/about">About</Link></Link2> 
 
               </p>
-
-
 
               <p className="hover:text-bcolor">
               <Link2 to="ourteam" 
@@ -123,18 +120,6 @@ function Footer() {
                 >
                 <Link to="/our-team"> Our Team</Link> </Link2>
               </p>
-
-
-              <p className="hover:text-bcolor">
-
-                
-              <Link2 to="culture" 
-              spy={true}
-              smooth={true}
-              duration={800}> <Link to="/culture">Culture</Link></Link2> 
-              </p>
-
-
 
               <p className="my-2 ">
                 Florida | New Delhi <br />

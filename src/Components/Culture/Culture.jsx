@@ -30,12 +30,12 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
               alt=""
             />
-            <h1 className="text-base sm:text-lg font-semibold">Audacity</h1>
+            <h1 className="text-base sm:text-lg font-semibold">Temerity</h1>
             <p className="py-2 text-sm sm:text-base">
-              We’ve set out to achieve lofty goals.
+            We've set big ambitions for ourselves. 
             </p>
             <p className="pb-2 text-sm sm:text-base italic">
-              "Success is the child of audacity."
+            "Temerity is the mother of success."
             </p>
           </div>
 
@@ -45,12 +45,12 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
               alt=""
             />
-            <h1 className="text-base sm:text-lg font-semibold">Audacity</h1>
+            <h1 className="text-base sm:text-lg font-semibold">Steady Growth</h1>
             <p className="py-2 text-sm sm:text-base">
-              We’ve set out to achieve lofty goals.
+            The goal is to constantly improve and innovate.
             </p>
             <p className="pb-2 text-sm sm:text-base italic">
-              "Success is the child of audacity."
+            "Dreaming must be accompanied by action."
             </p>
           </div>
 
@@ -60,12 +60,13 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
               alt=""
             />
-            <h1 className="text-base sm:text-lg font-semibold">Audacity</h1>
+            <h1 className="text-base sm:text-lg font-semibold">Rate of Investment (ROI)</h1>
             <p className="py-2 text-sm sm:text-base">
-              We’ve set out to achieve lofty goals.
+            A tight-knit group in which everyone contributes.
             </p>
             <p className="pb-2 text-sm sm:text-base italic">
-              "Success is the child of audacity."
+            "Art is the act of creating something out of nothing and selling it."
+
             </p>
           </div>
 
@@ -75,12 +76,12 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
               alt=""
             />
-            <h1 className="text-base sm:text-lg font-semibold">Audacity</h1>
+            <h1 className="text-base sm:text-lg font-semibold">Make the proper decision</h1>
             <p className="py-2 text-sm sm:text-base">
-              We’ve set out to achieve lofty goals.
+            There will be no concessions in terms of legality, honesty, or openness.
             </p>
             <p className="pb-2 text-sm sm:text-base italic">
-              "Success is the child of audacity."
+            "It will please some people while surprising others."
             </p>
           </div>
 
@@ -90,12 +91,12 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
               alt=""
             />
-            <h1 className="text-base sm:text-lg font-semibold">Audacity</h1>
+            <h1 className="text-base sm:text-lg font-semibold">We are a team</h1>
             <p className="py-2 text-sm sm:text-base">
-              We’ve set out to achieve lofty goals.
+            We're all in this together, and you can count on us to always have your back.
             </p>
             <p className="pb-2 text-sm sm:text-base italic">
-              "Success is the child of audacity."
+            "Alone, we can accomplish so little; together, we can achieve so much."
             </p>
           </div>
 
@@ -105,13 +106,12 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
               alt=""
             />
-            <h1 className="text-base sm:text-lg font-semibold">Audacity</h1>
+            <h1 className="text-base sm:text-lg font-semibold">Get things done</h1>
             <p className="py-2 text-sm sm:text-base">
-              We’ve set out to achieve lofty goals.
+            Problem-solving and hands-on execution are important to us.
             </p>
             <p className="pb-2 text-sm sm:text-base italic">
-              "Success is the child of audacity."
-            </p>
+            "You can either run the day or the day can run you."            </p>
           </div>
         </div>
 
@@ -152,10 +152,11 @@ function Culture() {
           </div>
 
           <div className="flex flex-col place-items-start place-content-start px-16 ">
-            <h1 className="text-center text-xl font-bold mb-2">Who We Are</h1>
+            <h1 className="text-center text-xl font-bold mb-2">Leaders</h1>
             <div className="h-1 w-14 bg-bcolor  "></div>
 
-            <p>90% of our managers have been promoted in-house.</p>
+            <p>We have promoted 90% of our managers from within the company.
+</p>
           </div>
         </div>
 
@@ -183,10 +184,11 @@ function Culture() {
           </div>
 
           <div className="flex flex-col place-items-start place-content-start px-16 ">
-            <h1 className="text-center text-xl font-bold mb-2">Who We Are</h1>
+            <h1 className="text-center text-xl font-bold mb-2">Solvers</h1>
             <div className="h-1 w-14 bg-bcolor  "></div>
 
-            <p>90% of our managers have been promoted in-house.</p>
+            <p>Participants from various teams join forces during our hackathons to solve difficult problems.
+</p>
           </div>
         </div>
 
@@ -214,10 +216,11 @@ function Culture() {
           </div>
 
           <div className="flex flex-col place-items-start place-content-start px-16 ">
-            <h1 className="text-center text-xl font-bold mb-2">Who We Are</h1>
+            <h1 className="text-center text-xl font-bold mb-2">Players
+</h1>
             <div className="h-1 w-14 bg-bcolor  "></div>
 
-            <p>90% of our managers have been promoted in-house.</p>
+            <p>We have frequent game nights when we play counter-strike, FIFA, bowling, mafia, and other games.</p>
           </div>
         </div>
       </div>
@@ -225,7 +228,7 @@ function Culture() {
       <div>
         <div className="flex flex-col place-items-center place-content-center py-10">
           <h1 className="text-center text-3xl font-bold mb-2 ">
-            At SquadStack You Get
+            At Codevyasa You Get
           </h1>
           <div className="h-1 w-24 bg-bcolor "></div>
         </div>
@@ -239,7 +242,7 @@ function Culture() {
             />
             <h1 className="text-lg font-semibold text-bcolor">HEALTHCARE</h1>
             <p className="">
-              We’ll take care of you just like a Grandmother does
+            We'll look after you like a grandmother would.
             </p>
           </div>
 
@@ -249,9 +252,9 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
               alt="heart-image"
             />
-            <h1 className="text-lg font-semibold text-bcolor">HEALTHCARE</h1>
+            <h1 className="text-lg font-semibold text-bcolor">FLEXIBLE TIMINGS</h1>
             <p className="">
-              We’ll take care of you just like a Grandmother does
+            We understand that not everyone is a morning person.
             </p>
           </div>
 
@@ -261,9 +264,10 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
               alt="heart-image"
             />
-            <h1 className="text-lg font-semibold text-bcolor">HEALTHCARE</h1>
+            <h1 className="text-lg font-semibold text-bcolor">UNLIMITED LEAVE POLICY
+</h1>
             <p className="">
-              We’ll take care of you just like a Grandmother does
+            As a result, you'll be able to recharge and relax whenever you need to.
             </p>
           </div>
 
@@ -273,9 +277,9 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
               alt="heart-image"
             />
-            <h1 className="text-lg font-semibold text-bcolor">HEALTHCARE</h1>
+            <h1 className="text-lg font-semibold text-bcolor">GROWTH</h1>
             <p className="">
-              We’ll take care of you just like a Grandmother does
+            We'll take you from a seed to a tree.
             </p>
           </div>
 
@@ -285,9 +289,9 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
               alt="heart-image"
             />
-            <h1 className="text-lg font-semibold text-bcolor">HEALTHCARE</h1>
+            <h1 className="text-lg font-semibold text-bcolor">WORK ENVIRONMENT</h1>
             <p className="">
-              We’ll take care of you just like a Grandmother does
+            Except on Halloween, there is no dress code.
             </p>
           </div>
 
@@ -297,9 +301,9 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
               alt="heart-image"
             />
-            <h1 className="text-lg font-semibold text-bcolor">HEALTHCARE</h1>
+            <h1 className="text-lg font-semibold text-bcolor">OWNERSHIP</h1>
             <p className="">
-              We’ll take care of you just like a Grandmother does
+            The only person you'll have to answer to is yourself.
             </p>
           </div>
 
@@ -309,9 +313,9 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
               alt="heart-image"
             />
-            <h1 className="text-lg font-semibold text-bcolor">HEALTHCARE</h1>
+            <h1 className="text-lg font-semibold text-bcolor">FREE MEALS</h1>
             <p className="">
-              We’ll take care of you just like a Grandmother does
+            Everything is free, from breakfast to dinner.
             </p>
           </div>
 
@@ -321,9 +325,9 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
               alt="heart-image"
             />
-            <h1 className="text-lg font-semibold text-bcolor">HEALTHCARE</h1>
+            <h1 className="text-lg font-semibold text-bcolor">LEARNING</h1>
             <p className="">
-              We’ll take care of you just like a Grandmother does
+            Mentors with a track record of success who push you to achieve your goals
             </p>
           </div>
 
@@ -333,10 +337,10 @@ function Culture() {
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
               alt="heart-image"
             />
-            <h1 className="text-lg font-semibold text-bcolor">HEALTHCARE</h1>
+            <h1 className="text-lg font-semibold text-bcolor">A GREAT TEAM
+</h1>
             <p className="">
-              We’ll take care of you just like a Grandmother does
-            </p>
+            Simply said, it's less about me and more about us.            </p>
           </div>
         </div>
       </div>
@@ -382,9 +386,7 @@ function Culture() {
         </div>
       </div>
 
-      <div id="contact">
-      <BookNow />
-      </div>
+
 
     </div>
   );
