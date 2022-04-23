@@ -2,14 +2,15 @@ import React from "react";
 import bgicon from "../../assits/culture/icons/bgicon.svg";
 import linkdin from "../../assits/ourteam/icons/linkdin.svg";
 import BookNow from "../Contact/BookNow"
+import group from "../../assits/culture/group.jpg";
 
 function Culture() {
   return (
     <div>
       <div className="">
         <img
-          className=" "
-          src="https://www.squadstack.com/wp-content/uploads/2020/09/photoCollageBackground.jpg"
+          className=""
+          src={group}
           alt="codevyasa-culture-image "
         />
       </div>
