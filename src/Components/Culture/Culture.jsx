@@ -3,6 +3,7 @@ import bgicon from "../../assits/culture/icons/bgicon.svg";
 import linkdin from "../../assits/ourteam/icons/linkdin.svg";
 import BookNow from "../Contact/BookNow"
 import group from "../../assits/culture/group.jpg";
+import girl from "../../assits/culture/girl.png";
 
 function Culture() {
   return (
@@ -358,25 +359,20 @@ function Culture() {
           <div className="relative mt-10 sm:mt-0">
             <img className="" src={bgicon} alt="" />
             <img
-              className="absolute -top-20 mt-1 w-96"
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/BTB6074@2x.png"
+              className="absolute -top-24 mt-1 w-96"
+              src={girl}
               alt=""
             />
           </div>
 
           <div className=" pb-10 sm:p-10">
             <p className="text-lg font-semibold">
-              The journey has been extremely enriching <br /> and challenging at
-              the same time.{" "}
+            The journey has been both enlightening and difficult.
             </p>
             <br />
             <p className="text-lg font-semibold">
-              Everyone here gets an opportunity to be heard and <br /> make an
-              impact irrespective of their age or how long <br /> they have been
-              working here, and that's the best perk.
+            The nicest bonus is that everyone here gets a chance <br /> to be heard and make an impact, <br /> regardless of their age or length of service.
             </p>
-
-            <p>Lorem ipsum dolor sit adipisicing elit.</p>
             <div className="flex place-content-center m-5">
               <img className="h-8 w-8" src={linkdin} alt="lindin-image" />
             </div>
