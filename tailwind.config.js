@@ -8,6 +8,7 @@ module.exports = {
         card: "#F2F2F2",
         rcard: "#0FB7B5",
         btncolor: "#2bd8c7",
+        primaryColor: "#0eb8b2",
       },
       spacing: {
         "sixty-h": "60vh",
@@ -16,14 +17,14 @@ module.exports = {
         "one-fouthy": "180vh",
         "fouthy-five": "45%",
         "fourty-rem": "45rem",
-        "blog-rem":"32rem",
+        "blog-rem": "32rem",
       },
       screens: {
-        "ninehund": "750px",
-        'miniphone': '250px',
+        ninehund: "750px",
+        miniphone: "250px",
       },
-      fontSize:{
-        "five": "6vh",
+      fontSize: {
+        five: "6vh",
       },
     },
   },

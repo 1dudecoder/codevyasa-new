@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../../assits/logo.svg";
 import lines from "../../assits/lines.svg";
 import multi from "../../assits/multi.svg";
+import close from "../../assits/cancel.png";
 import { Link } from "react-router-dom";
 import { Link as Link2 } from "react-scroll";
 import "./Navbar.css";
@@ -15,12 +16,12 @@ function Navbar() {
   return (
     <>
       <div>
-        <header className="w-full h-20 bg-white fixed -top-2 z-50">
+        <header className="w-full bg-white fixed -top-2 z-50 flex-1">
           <div className="relative my-5 ">
-            <nav className="flex place-content-around lg:flex lg:place-content-between lg:place-items-center lg:mx-20 lg:mt-3   ">
+            <nav className="flex place-content-between px-2 lg:flex lg:place-content-between lg:place-items-center lg:mx-20 lg:mt-3   ">
               <div className="flex place-content-between place-items-center">
                 <Link to="/">
-                  <img className="w-52 sm:w-auto" src={logo} alt="sitelogo" />
+                  <img className="h-8 sm:w-auto" src={logo} alt="sitelogo" />
                 </Link>
               </div>
 
@@ -103,17 +104,18 @@ function Navbar() {
                 
 
                 <Link2
-                  className="btn px-4 py-2"
+                  className="bg-teal-50 text-primaryColor font-semibold rounded-md px-4 py-2 cursor-pointer shadow"
                   to="contact"
                   spy={true}
                   smooth={true}
                   duration={800}
+                  
                 >
                   Get in Touch
                 </Link2>
               </div>
 
-              <div className="flex lg:hidden">
+              <div className="flex lg:hidden pr-3">
                 <div
                   className={state ? "hidden lg:hidden  " : " lg:hidden"}
                   onClick={() => {
@@ -122,7 +124,12 @@ function Navbar() {
                     }
                   }}
                 >
-                  <img className="w-10" src={lines} alt="lines_logo" />
+                  {/* <img className="w-10" src={lines} alt="lines_logo" /> */}
+                  <div class="space-y-2">
+  <span class="block w-8 h-0.5 bg-gray-600"></span>
+  <span class="block w-8 h-0.5 bg-gray-600"></span>
+  <span class="block w-5 h-0.5 bg-gray-600"></span>
+</div>
                 </div>
 
                 <div
@@ -133,7 +140,7 @@ function Navbar() {
                     }
                   }}
                 >
-                  <img className="w-10" src={multi} alt="lines_logo" />
+                  <img className="w-6" src={close} alt="lines_logo" />
                 </div>
 
                 <div
@@ -153,7 +160,7 @@ function Navbar() {
                     }}
                     className="text-center text-2xl py-2 mx-10 my-2 border border-bcolor bg-white  rounded-lg"
                   >
-                    SERVICES
+                    Servives
                   </p>
 
                   <ul className={`text-center ${servicestate}`}>
