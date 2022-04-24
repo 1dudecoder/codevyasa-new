@@ -4,6 +4,7 @@ import linkdin from "../../assits/ourteam/icons/linkdin.svg";
 import BookNow from "../Contact/BookNow"
 import group from "../../assits/culture/group.jpg";
 import girl from "../../assits/culture/girl.png";
+import { Link } from "react-router-dom";
 
 function Culture() {
   return (
@@ -373,11 +374,12 @@ function Culture() {
             <p className="text-lg font-semibold">
             The nicest bonus is that everyone here gets a chance <br /> to be heard and make an impact, <br /> regardless of their age or length of service.
             </p>
+            
             <div className="flex place-content-center m-5">
-              <img className="h-8 w-8" src={linkdin} alt="lindin-image" />
+               <img className="h-8 w-8" src={linkdin} alt="lindin-image" />
             </div>
 
-            <button className="btn py-3 px-10">Work With Us</button>
+            <Link to="/about"><button className="btn py-3 px-10">Work With Us</button></Link>
           </div>
 
         </div>
