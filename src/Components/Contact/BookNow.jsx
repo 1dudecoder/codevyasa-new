@@ -67,7 +67,7 @@ function BookNow() {
     <div>
       <div className="px-5 sm:px-14 text-center md:text-left  md:flex justify-between place-items-center bg-zinc-100 mt-8 ">
         <div className="text-start my-5 sm:my-14 mx-2 ">
-          <p className="text-xs font-semibold pt-10">
+          <p className="text-s font-semibold pt-10">
             Get In Touch With Us Today!
           </p>
 
@@ -81,11 +81,11 @@ function BookNow() {
           </p>
 
           <div className="mt-4">
-            <h1 className="text-sm sm:text-base italic font-semibold">
+            <h1 className="text-sm sm:text-base font-semibold">
               CALL US FOR SUPPORT
             </h1>
             <a className="hover:text-bcolor " href="tel:+1(386)2437944">
-              <h1 className="text-3xl font-bold">+ 1 (386) 243-7944</h1>
+              <h1 className="text-3xl font-bold text-slate-600">+ 1 (386) 243-7944</h1>
             </a>
             <a
               className="hover:text-bcolor "

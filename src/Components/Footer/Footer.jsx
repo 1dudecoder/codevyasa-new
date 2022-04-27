@@ -11,7 +11,7 @@ function Footer() {
       <footer>
         <div className="w-full bg-fcolor p-10 text-center md:text-left  md:flex md:place-content-between ">
           <div className="flex-col flex md:items-start justify-center md:w-96 md:ml-14 p-2  ">
-            <img className="" src={whitelogo} alt="company-logo" />
+            <img className="max-h-50" src={whitelogo} alt="company-logo" />
             <p className="text-white font-thin">
               Code Vyasa is a Product Engineering and Development company that
               helps Early-stage & Mid-Market Product companies across the US,
@@ -104,15 +104,12 @@ function Footer() {
               <h1 className="mb-2 font-semibold">Code Vyasa</h1>
               <p className="hover:text-bcolor">
 
-                
                 <Link2 to="myabout" 
                 spy={true}
                 smooth={true}
                 duration={800}> <Link to="/about">About</Link></Link2> 
 
               </p>
-
-
 
               <p className="hover:text-bcolor">
               <Link2 to="ourteam" 
@@ -123,18 +120,6 @@ function Footer() {
                 >
                 <Link to="/our-team"> Our Team</Link> </Link2>
               </p>
-
-
-              <p className="hover:text-bcolor">
-
-                
-              <Link2 to="culture" 
-              spy={true}
-              smooth={true}
-              duration={800}> <Link to="/culture">Culture</Link></Link2> 
-              </p>
-
-
 
               <p className="my-2 ">
                 Florida | New Delhi <br />

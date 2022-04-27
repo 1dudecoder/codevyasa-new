@@ -2,13 +2,6 @@ import React from "react";
 import mainteam from "../../assits/ourteam/mainteam.jpg";
 import BookNow from "../Contact/BookNow";
 
-import geeta from "../../assits/ourteam/founders-images/geeta.jpg";
-import shaifee from "../../assits/ourteam/founders-images/shaifee.jpg";
-import andyk from "../../assits/ourteam/founders-images/andyk.jpg";
-import joy from "../../assits/ourteam/founders-images/joy.jpg";
-import priyanka from "../../assits/ourteam/founders-images/priyanka.jpg";
-import subham from "../../assits/ourteam/founders-images/subham.jpg";
-
 // icons
 import linkdin from "../../assits/ourteam/icons/linkdin.svg";
 import sumit from "../../assits/ourteam/advisor-images/sumit.jpg";
@@ -17,6 +10,7 @@ import manishgupta from "../../assits/ourteam/advisor-images/manishgupta.jpg";
 import mohitsorout from "../../assits/ourteam/advisor-images/mohitsorout.jpg";
 import souravdutta from "../../assits/ourteam/advisor-images/souravdutta.jpg";
 import Count from "./Counter/Count";
+import Culture from "../Culture/Culture";
 
 function Ourteam() {
   let data = [
@@ -52,6 +46,9 @@ function Ourteam() {
 
   return (
     <div id="ourteam">
+
+    <Culture />
+
       <div className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  sm:ml-5 lg:h-eighty-h  ">
         <div className="flex-col text-center sm:text-left place-content-center place-items-center lg:p-16 lg:mb-10">
           <h1 className="text-xl mt-2 sm:mt-0 font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
@@ -64,104 +61,6 @@ function Ourteam() {
 
         <div className="lg:p-10">
           <img className="p-2" src={mainteam} alt="land-img" />
-        </div>
-      </div>
-
-      <div className="text-center px-2 md:px-52 lg:px-64 xl:px-96">
-        <h1 className="text-xl sm:text-3xl font-bold mt-16 mb-5 ">
-          Our Core Team
-        </h1>
-        <p className="py-5 text-sm sm:text-base ">
-          On the clock, we’re technology experts and leaders that bring energy,
-          passion, and knowledge to every project. Off the clock, we’re an
-          eclectic bunch of foodies, music buffs, artists, sports fanatics,
-          karaoke pros, and outdoor enthusiasts.
-        </p>
-      </div>
-
-      <div className="flex place-content-center place-items-center flex-wrap w-full  mt-10 md:mt-24 ">
-        <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28 md:mb-32 lg:mb-48   ">
-          <img
-            className="absolute bottom-0 h-48 md:h-52 lg:h-64"
-            src={shaifee}
-            alt="Shaifee Co-Founder"
-          />
-          <div className="absolute -bottom-14 ">
-            <h1 className="text-2xl font-semibold ">Shaifee</h1>
-            <p className="text-bcolor">Co-Founder</p>
-          </div>
-        </div>
-
-        <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28  md:mb-32 lg:mb-48  ">
-          <img
-            className="absolute -bottom-14 h-56 md:h-60 lg:h-72"
-            src={priyanka}
-            alt="Priyanka Co-Founder"
-          />
-          <div className="absolute -bottom-14 ">
-            <h1 className="text-2xl font-semibold ">Priyanka</h1>
-            <p className="text-bcolor">Co-Founder</p>
-          </div>
-        </div>
-
-        <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28  md:mb-32 lg:mb-48  ">
-          <img
-            className="absolute bottom-0 h-48 md:h-52 lg:h-64"
-            src={shaifee}
-            alt="Erica Solutions Manager"
-          />
-          <div className="absolute -bottom-14 ">
-            <h1 className="text-2xl font-semibold ">Erica</h1>
-            <p className="text-bcolor">Solutions Manager</p>
-          </div>
-        </div>
-
-        <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28 md:mb-32 lg:mb-48  ">
-          <img
-            className="absolute bottom-0 h-40 md:h-48 lg:h-52"
-            src={subham}
-            alt="Shubham Solutions Manager"
-          />
-          <div className="absolute -bottom-14 ">
-            <h1 className="text-2xl font-semibold ">Shubham</h1>
-            <p className="text-bcolor">Solutions Manager</p>
-          </div>
-        </div>
-
-        <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28 md:mb-32 lg:mb-48 ">
-          <img
-            className="absolute bottom-0 h-48 md:h-52 lg:h-60"
-            src={andyk}
-            alt="Andy Senior Solutions Architect"
-          />
-          <div className="absolute -bottom-14 ">
-            <h1 className="text-2xl font-semibold ">Andy</h1>
-            <p className="text-bcolor">Senior Solutions Architect</p>
-          </div>
-        </div>
-
-        <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28  md:mb-32 lg:mb-48  ">
-          <img
-            className="absolute bottom-0 h-48 md:h-52 lg:h-64"
-            src={geeta}
-            alt="geeta-Director Of Business, Americas-image"
-          />
-          <div className="absolute -bottom-14 ">
-            <h1 className="text-2xl font-semibold ">Geeta</h1>
-            <p className="text-bcolor">Director Of Business, Americas</p>
-          </div>
-        </div>
-
-        <div className="flex place-content-center place-items-center bg-bcolor h-32 w-80 text-center relative mb-28  md:mb-32 lg:mb-48 ">
-          <img
-            className="absolute bottom-0 h-48 md:h-52 lg:h-60"
-            src={joy}
-            alt="Joy Head Of Revenue - Americas & EMEA"
-          />
-          <div className="absolute -bottom-14 ">
-            <h1 className="text-2xl font-semibold ">Joy</h1>
-            <p className="text-bcolor">Head Of Revenue - Americas & EMEA</p>
-          </div>
         </div>
       </div>
 
