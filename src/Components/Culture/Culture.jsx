@@ -1,10 +1,10 @@
 import React from "react";
-import bgicon from "../../assits/culture/icons/bgicon.svg";
-import linkdin from "../../assits/ourteam/icons/linkdin.svg";
-import BookNow from "../Contact/BookNow"
 import group from "../../assits/culture/group.jpg";
 import girl from "../../assits/culture/girl.png";
 import { Link } from "react-router-dom";
+
+import bgicon from "../../assits/culture/icons/bgicon.svg";
+import linkdin from "../../assits/ourteam/icons/linkdin.svg";
 
 function Culture() {
   return (
@@ -356,6 +356,7 @@ function Culture() {
           <div className="h-1 w-24 bg-bcolor "></div>
         </div>
 
+
         <div className="flex flex-col-reverse sm:flex-row place-content-center place-items-center mt-16 text-center">
           <div className="relative mt-10 sm:mt-0">
             <img className="" src={bgicon} alt="" />
@@ -383,6 +384,7 @@ function Culture() {
           </div>
 
         </div>
+
       </div>
 
 
