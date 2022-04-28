@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import landimg from "./assits/landimg.jpg";
+import landimg from "./assits/home_1.jpg";
 import globe from "./assits/globe.jpg";
 import projectbased from "./assits/projectbased.svg";
 import virtualteam from "./assits/virtualteam.svg";
@@ -15,18 +15,18 @@ function Home() {
   return (
     <div className="" id="myhome">
       
-      <div className="flex-col justify-center mb-10 sm:mb-28  ">
-        <div className="flex ml-3 sm:ml-5 place-content-center place-items-center ">
-          <div className="flex-col place-content-center place-items-center lg:ml-5 mb-10">
-            <h1 className="text-xl sm:mr-10 font-semibold sm:text-2xl md:text-4xl lg:text-5xl ">
-              Your Technology <br /> Partner for <br /> Software Engineering
+      <div className="flex-col justify-center mb-10 sm:mb-28 ">
+        <div className="lg:flex xl:flex ml-3 sm:ml-5 place-content-center place-items-center lg:px-10 md:px-10 sm:flex-row md:flex-row ">
+          <div className="lg:mt-0 md:mt-36  flex-col place-content-center place-items-center mb-10 lg:ml-5">
+            <h1 className="text-3xl sm:mr-10 font-semibold sm:text-2xl md:text-2xl lg:text-4xl text-slate-800 ">
+              Your Technology partner for software engineering.
             </h1>
 
-            <p className="text-sm mt-2 sm:mt-5 md:xl lg:text-xl ">
+            <p className="text-sm mt-1 sm:mt-3 md:lg lg:text-lg ">
               Offering Special Consulting For Y-Combinator
             </p>
 
-            <button className="hidden sm:flex btn mt-5 px-4 py-2 text-2xl">
+            {/* <button className="hidden sm:flex btn mt-5 px-4 py-2 text-2xl">
               <Link2
                 to="experts"
                 spy={true}
@@ -36,24 +36,24 @@ function Home() {
               >
                 Learn More
               </Link2>
-            </button>
+            </button> */}
 
 
-            <img className="h-12 w-12 mt-10 hidden sm:block absolute ml-10 bottom-22 animate-bounce  ease-in" src={rightarrow} alt="down-arrow" />
+            {/* <img className="h-12 w-12 mt-10 hidden sm:block absolute ml-10 bottom-22 animate-bounce  ease-in" src={rightarrow} alt="down-arrow" /> */}
 
 
           </div>
 
           <div className="">
             <img
-              className="p-2 lg:p-5 lg:max-w-4xl "
+              className="p-2 lg:p-5 lg:max-w-lg md:max-w-lg"
               src={landimg}
               alt="land-img"
             />
           </div>
         </div>
 
-        <div className="mx-5">
+        {/* <div className="mx-5">
           <button className="flex btn py-2 w-full justify-center items-center sm:hidden">
             <Link2
               to="experts"
@@ -65,7 +65,7 @@ function Home() {
               Learn More
             </Link2>
           </button>
-        </div>
+        </div> */}
       </div>
 
       <div id="experts" class="relative w-full">
@@ -156,24 +156,24 @@ function Home() {
 
       <div className=" sm:flex py-10 place-content-center place-items-center lg:px-16">
         <div className=" px-2 sm:px-10">
-          <h1 className="text-2xl font-semibold text-bcolor">
+          <h1 className="text-2xl font-semibold text-primaryColor">
             Meet the Captain
           </h1>
           <p className="mt-2 text-sm sm:text-base">
-          Shubham is a product leader with a track record of scaling SaaS products. <br />
-           He graduated from Delhi College of Engineering and has been a <br />
-            founder member of several startups, including Haptik (acquired by Jio <br /> for over $100 MN USD) and Moglix (Tata-backed unicorn). A true nerd at his core, <br />
+          Shubham is a product leader with a track record of scaling SaaS products.
+           He graduated from Delhi College of Engineering and has been a
+            founder member of several startups, including Haptik (acquired by Jio  for over $100 MN USD) and Moglix (Tata-backed unicorn). A true nerd at his core, 
              Shubham has a personal library that includes masterpieces on Philosophy, Business Management, and Self-help.
           </p>
 
-          <Link to="/about"> <button className=" my-5  rounded-md px-5 py-2  border-2 border-bcolor text-bcolor hover:bg-bcolor hover:text-white">
+          <Link to="/about"> <button className=" my-5 pb-2 pt-1 rounded-md px-5 shadow-md border-2 border-teal-400 text-primaryColor hover:bg-teal-400 hover:text-white hover:border-teal-400">
             Know more
           </button>
           </Link>
         </div>
 
         <div className="mt-5">
-          <img className="max-h-80" src={shubhamceo} alt="subham-image" />
+          <img className="max-h-200" src={shubhamceo} alt="subham-image" />
         </div>
       </div>
 

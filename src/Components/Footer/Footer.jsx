@@ -11,7 +11,7 @@ function Footer() {
       <footer>
         <div className="w-full bg-fcolor p-10 text-center md:text-left  md:flex md:place-content-between ">
           <div className="flex-col flex md:items-start justify-center md:w-96 md:ml-14 p-2  ">
-            <img className="" src={whitelogo} alt="company-logo" />
+            <img className="max-h-50" src={whitelogo} alt="company-logo" />
             <p className="text-white font-thin">
               Code Vyasa is a Product Engineering and Development company that
               helps Early-stage & Mid-Market Product companies across the US,

@@ -1,6 +1,6 @@
 import React from "react";
 import star from "../assits/stars.svg";
-import location from "../assits/location.svg";
+import location from "../assits/maps.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -110,7 +110,7 @@ function Review() {
         return (
           <>
             <div className="m-2 flex place-content-center place-items-center">
-            <div className="bg-rcard  rounded-md p-2 sm:p-5 ml-5 sm:h-sixty-h text-sm sm:text-sm md:text-sm md:h-96 lg:h-80 w-full">
+            <div className="bg-white shadow-lg rounded-md p-2 sm:p-5 ml-5 sm:h-sixty-h text-sm sm:text-sm md:text-sm md:h-96 lg:h-64 w-full">
               <div className="flex">
                 <div className="w-24 m-2">
                   <div className="rounded-full overflow-hidden border-2 border-white flex justify-center items-center">
@@ -118,8 +118,8 @@ function Review() {
                   </div>
                 </div>
 
-                <div className="text-white">
-                  <h2 className="text-white text-xl">{item.name}</h2>
+                <div className="text-slate-800">
+                  <h2 className="text-primaryColor text-xl">{item.name}</h2>
                   <p className="text-xs ">{item.smallmsg}</p>
                   <div className="flex py-2">
                     <img className="h-4 w-4" src={star} alt="star_image" />
@@ -132,13 +132,14 @@ function Review() {
                     <img
                       className="h-4 w-4 sm:h-5 sm:w-5"
                       src={location}
+                      color="teal-500"
                       alt="location img"
                     />
                     <h1 className="ml-1 text-xs">{item.location}</h1>
                   </div>
                 </div>
               </div>
-              <div className="text-xs text-white p-2 sm:p-4 text-start font-semibold italic">
+              <div className="text-xs text-slate-700 p-2 sm:p-4 text-start font-semibold italic">
                 {item.msg}
               </div>
 
