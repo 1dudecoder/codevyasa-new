@@ -10,6 +10,8 @@ import { Link as Link2 } from "react-scroll";
 import { Link } from "react-router-dom";
 import rightarrow from "./assits/rightarrow.svg"
 import shubhamceo from "./assits/shubhamceo.png"
+import review from "./assits/review.jpg"
+
 
 function Home() {
   return (
@@ -25,6 +27,11 @@ function Home() {
             <p className="text-sm mt-1 sm:mt-3 md:lg lg:text-lg ">
               Offering Special Consulting For Y-Combinator
             </p>
+
+            <p className="text-2xl font-bold mt-5 text-slate-800">CodeVyasa GlassDoor Reviews</p>
+            <div className="max-h-4 mt-5 p-2">
+              <img className="max-h-36" src={review} alt="codevyasa glassdoor review" />
+            </div>
 
             {/* <button className="hidden sm:flex btn mt-5 px-4 py-2 text-2xl">
               <Link2
@@ -68,7 +75,7 @@ function Home() {
         </div> */}
       </div>
 
-      <div id="experts" class="relative w-full">
+      <div id="experts" class="relative w-full mt-32 sm:mt-0">
         <img
           src={globe}
           alt="globe-image"

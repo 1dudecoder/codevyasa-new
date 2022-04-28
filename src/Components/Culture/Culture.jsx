@@ -6,6 +6,16 @@ import { Link } from "react-router-dom";
 import bgicon from "../../assits/culture/icons/bgicon.svg";
 import linkdin from "../../assits/ourteam/icons/linkdin.svg";
 
+import one from "../../assits/culture/images/one.jpeg"
+import two from "../../assits/culture/images/two.jpeg"
+import four from "../../assits/culture/images/four.jpeg"
+import five from "../../assits/culture/images/five.jpeg"
+import six from "../../assits/culture/images/six.jpeg"
+import seven from "../../assits/culture/images/seven.jpeg"
+import eight from "../../assits/culture/images/eight.jpeg"
+import nine from "../../assits/culture/images/nine.jpeg"
+import ten from "../../assits/culture/images/ten.jpeg"
+
 function Culture() {
   return (
     <div>
@@ -136,20 +146,20 @@ function Culture() {
         <div className="flex-col lg:flex lg:flex-row place-content-center place-items-start px-10 my-24">
           <div className="w-full h-96 relative flex place-content-center place-items-center">
             <img
-              className="relative mr-28 top-0 left-0 w-48 sm:w-80 duration-700 hover:scale-125 hover:duration-700 rounded-2xl 	"
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/WhatsApp-Image-2020-07-31-at-9.03.49-PM-2.jpeg"
+              className="relative mr-28 top-0 left-0 w-48 sm:w-80 duration-700 hover:scale-125 hover:duration-700 rounded-2xl  	"
+              src={one}
               alt=""
             />
 
             <img
-              className="absolute top-12 ml-48  sm:top-0 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in  rounded-2xl"
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/Leaders-at-SquadStack-scaled.jpg"
+              className="absolute top-12 ml-48 sm:top-10 sm:left-72 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in rounded-2xl "
+              src={two}
               alt=""
             />
 
             <img
-              className="absolute bottom-10 sm:bottom-0 mr-52 sm:mr-96 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl "
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/0.jpeg"
+              className="absolute bottom-10 sm:bottom-0 sm:left-10 mr-52 sm:mr-80 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl  "
+              src={five}
               alt=""
             />
           </div>
@@ -166,22 +176,22 @@ function Culture() {
         <hr />
 
         <div className="flex-col lg:flex lg:flex-row-reverse place-content-center place-items-start px-10 my-24">
-          <div className="w-full h-96 relative flex place-content-center place-items-center">
+        <div className="w-full h-96 relative flex place-content-center place-items-center">
             <img
               className="relative mr-28 top-0 left-0 w-48 sm:w-80 duration-700 hover:scale-125 hover:duration-700 rounded-2xl 	"
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/WhatsApp-Image-2020-07-31-at-9.03.49-PM-2.jpeg"
+              src={four}
               alt=""
             />
 
             <img
-              className="absolute top-12 ml-48  sm:top-0 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in  rounded-2xl"
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/Leaders-at-SquadStack-scaled.jpg"
+              className="absolute top-12 ml-48  sm:top-10 sm:left-64 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in  rounded-2xl"
+              src={ten}
               alt=""
             />
 
             <img
-              className="absolute bottom-10 sm:bottom-0 mr-52 sm:mr-96 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl "
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/0.jpeg"
+              className="absolute bottom-10 sm:bottom-0 sm:right-72 mr-52 sm:mr-96 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl "
+              src={six}
               alt=""
             />
           </div>
@@ -198,22 +208,22 @@ function Culture() {
         <hr />
 
         <div className="flex-col lg:flex lg:flex-row place-content-center place-items-start px-10 my-24">
-          <div className="w-full h-96 relative flex place-content-center place-items-center">
+        <div className="w-full h-96 relative flex place-content-center place-items-center">
             <img
               className="relative mr-28 top-0 left-0 w-48 sm:w-80 duration-700 hover:scale-125 hover:duration-700 rounded-2xl 	"
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/WhatsApp-Image-2020-07-31-at-9.03.49-PM-2.jpeg"
+              src={seven}
               alt=""
             />
 
             <img
-              className="absolute top-12 ml-48  sm:top-0 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in  rounded-2xl"
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/Leaders-at-SquadStack-scaled.jpg"
+              className="absolute top-12 ml-48  sm:top-10 sm:left-64 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in  rounded-2xl"
+              src={eight}
               alt=""
             />
 
             <img
-              className="absolute bottom-10 sm:bottom-0 mr-52 sm:mr-96 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl "
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/0.jpeg"
+              className="absolute bottom-10 sm:bottom-0 sm:right-72 mr-52 sm:mr-96 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl "
+              src={nine}
               alt=""
             />
           </div>

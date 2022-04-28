@@ -140,6 +140,7 @@ function Ourteam() {
       <div id="contact">
         <BookNow />
       </div>
+
     </div>
   );
 }

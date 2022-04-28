@@ -67,7 +67,7 @@ function BookNow() {
     <div>
       <div className="px-5 sm:px-14 text-center md:text-left  md:flex justify-between place-items-center bg-zinc-100 mt-8 ">
         <div className="text-start my-5 sm:my-14 mx-2 ">
-          <p className="text-s font-semibold pt-10">
+          <p className="text-s font-semibold pt-10 sm:pt-0 ">
             Get In Touch With Us Today!
           </p>
 

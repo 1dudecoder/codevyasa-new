@@ -81,7 +81,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="p-2">
+          {/* <div className="p-2">
             <div className="text-white font-thin">
               <h1 className="mb-2 font-semibold">Pricing</h1>
               <Link2 to="price" 
@@ -97,7 +97,7 @@ function Footer() {
                 smooth={true}
                 duration={800}><p className="hover:text-bcolor"><Link to="/Pricing">MVP Pack</Link></p></Link2>
             </div>
-          </div>
+          </div> */}
 
           <div className="p-2">
             <div className="text-center text-white font-thin flex-col flex lg:text-left ">
