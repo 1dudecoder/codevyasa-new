@@ -349,8 +349,8 @@ function Culture() {
       </div>
 
       <div>
-        <div className="flex flex-col place-items-center place-content-center sm:py-10">
-          <h1 className="text-center text-3xl font-bold mb-2 ">
+        <div className="flex flex-col place-items-center place-content-center sm:py-10 mt-5">
+          <h1 className="text-center text-3xl font-bold mb-2  ">
             What Our People Say
           </h1>
           <div className="h-1 w-24 bg-bcolor "></div>
@@ -371,7 +371,6 @@ function Culture() {
             <p className="text-lg font-semibold">
             The journey has been both enlightening and difficult.
             </p>
-            <br />
             <p className="text-lg font-semibold">
             The nicest bonus is that everyone here gets a chance <br /> to be heard and make an impact, <br /> regardless of their age or length of service.
             </p>

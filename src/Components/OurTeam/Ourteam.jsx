@@ -49,7 +49,7 @@ function Ourteam() {
 
     <Culture />
 
-      <div className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center  sm:ml-5 lg:h-eighty-h  ">
+      <div className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center mt-16 py-5 sm:ml-5 lg:h-eighty-h  ">
         <div className="flex-col text-center sm:text-left place-content-center place-items-center lg:p-16 lg:mb-10">
           <h1 className="text-xl mt-2 sm:mt-0 font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
             One Team, One Goal
