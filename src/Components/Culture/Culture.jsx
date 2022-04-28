@@ -146,19 +146,19 @@ function Culture() {
         <div className="flex-col lg:flex lg:flex-row place-content-center place-items-start px-10 my-24">
           <div className="w-full h-96 relative flex place-content-center place-items-center">
             <img
-              className="relative mr-28 top-0 left-0 w-48 sm:w-80 duration-700 hover:scale-125 hover:duration-700 rounded-2xl  	"
+              className="relative top-0 left-50 w-48 sm:w-80 duration-700 hover:scale-125 hover:duration-700 rounded-2xl  	"
               src={one}
               alt=""
             />
 
             <img
-              className="absolute top-12 ml-48 sm:top-10 sm:left-60 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in rounded-2xl "
+              className="absolute top-12 ml-48 sm:top-10 sm:left-60 md:top-10 md:left-72 lg:top-10 lg:left-72  xl:top-10 xl:left-96 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in rounded-2xl "
               src={two}
               alt=""
             />
 
             <img
-              className="absolute bottom-10 sm:bottom-0 sm:left-32 mr-52 sm:mr-80 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl  "
+              className="absolute bottom-10 sm:bottom-0 sm:left-32 lg:bottom-0 lg:left-10 xl:left-32  mr-52 sm:mr-80 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl  "
               src={five}
               alt=""
             />
