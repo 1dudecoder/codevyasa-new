@@ -146,19 +146,19 @@ function Culture() {
         <div className="flex-col lg:flex lg:flex-row place-content-center place-items-start px-10 my-24">
           <div className="w-full h-96 relative flex place-content-center place-items-center">
             <img
-              className="relative top-0 left-50 w-48 sm:w-80 duration-700 hover:scale-125 hover:duration-700 rounded-2xl  	"
+              className="relative mr-28 top-0 left-0 w-48 sm:w-72 duration-700 hover:scale-125 hover:duration-700 rounded-2xl  	"
               src={one}
               alt=""
             />
 
             <img
-              className="absolute top-12 ml-48 sm:top-10 sm:left-60 md:top-10 md:left-72 lg:top-10 lg:left-72  xl:top-10 xl:left-96 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in rounded-2xl "
+              className="absolute top-12 ml-48 w-32 md:right-40 lg:right-16  xl:right-52 sm:w-56 hover:animate-bounce duration-700 ease-in rounded-2xl "
               src={two}
               alt=""
             />
 
             <img
-              className="absolute bottom-10 sm:bottom-0 sm:left-32 lg:bottom-0 lg:left-10 xl:left-32  mr-52 sm:mr-80 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl  "
+              className="absolute bottom-10  sm:bottom-0 lg:left-5 xl:left-32  sm:w-56 mr-52  w-36  duration-700 hover:animate-bounce ease-in rounded-2xl  "
               src={five}
               alt=""
             />
@@ -178,19 +178,19 @@ function Culture() {
         <div className="flex-col lg:flex lg:flex-row-reverse place-content-center place-items-start px-10 my-24">
         <div className="w-full h-96 relative flex place-content-center place-items-center">
             <img
-              className="relative mr-28 top-0 left-0 w-48 sm:w-80 duration-700 hover:scale-125 hover:duration-700 rounded-2xl 	"
+              className="relative mr-28 top-0 left-0 w-48 sm:w-72 duration-700 hover:scale-125 hover:duration-700 rounded-2xl  	"
               src={four}
               alt=""
             />
 
             <img
-              className="absolute top-12 ml-48  sm:top-10 sm:left-52 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in  rounded-2xl"
+              className="absolute top-12 ml-48 w-32 md:right-40 lg:right-16 xl:right-56 sm:w-40 hover:animate-bounce duration-700 ease-in rounded-2xl "
               src={ten}
               alt=""
             />
 
             <img
-              className="absolute bottom-10 sm:bottom-0 sm:right-64 mr-52 sm:mr-96 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl "
+              className="absolute bottom-10  sm:bottom-0 lg:left-5 xl:left-28 sm:w-40 mr-52  w-36  duration-700 hover:animate-bounce ease-in rounded-2xl  "
               src={six}
               alt=""
             />
@@ -210,19 +210,19 @@ function Culture() {
         <div className="flex-col lg:flex lg:flex-row place-content-center place-items-start px-10 my-24">
         <div className="w-full h-96 relative flex place-content-center place-items-center">
             <img
-              className="relative mr-28 top-0 left-0 w-48 sm:w-80 duration-700 hover:scale-125 hover:duration-700 rounded-2xl 	"
+              className="relative mr-28 top-0 left-0 w-48 sm:w-72 duration-700 hover:scale-125 hover:duration-700 rounded-2xl  	"
               src={seven}
               alt=""
             />
 
             <img
-              className="absolute top-12 ml-48 sm:top-10 sm:left-52 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in  rounded-2xl"
+              className="absolute top-12 ml-48 w-32 md:right-40 lg:right-16 xl:right-48 sm:w-44 hover:animate-bounce duration-700 ease-in rounded-2xl "
               src={eight}
               alt=""
             />
 
             <img
-              className="absolute bottom-10 sm:bottom-0 sm:right-48 mr-52 sm:mr-96 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl "
+              className="absolute bottom-10  sm:bottom-0 lg:left-5 xl:left-14  sm:w-56 mr-52  w-36  duration-700 hover:animate-bounce ease-in rounded-2xl  "
               src={nine}
               alt=""
             />
