@@ -43,10 +43,12 @@ function Review() {
 
   var settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
     speed: 500,
-    slidesToShow: 3.5,
-    slidesToScroll: 3,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     initialSlide: 0,
     nextArrow: <SampleNextArrow   />,
     prevArrow: <SamplePrevArrow />,
@@ -110,7 +112,7 @@ function Review() {
         return (
           <>
             <div className="m-2 flex place-content-center place-items-center">
-            <div className="bg-white shadow-lg rounded-md p-2 sm:p-5 ml-5 sm:h-sixty-h text-sm sm:text-sm md:text-sm md:h-96 lg:h-64 w-full">
+            <div className="bg-white shadow-lg rounded-md p-2 sm:p-5 ml-5 sm:h-sixty-h text-sm sm:text-sm md:text-sm md:h-96 lg:h-72 w-full">
               <div className="flex">
                 <div className="w-24 m-2">
                   <div className="rounded-full overflow-hidden border-2 border-white flex justify-center items-center">
@@ -139,7 +141,7 @@ function Review() {
                   </div>
                 </div>
               </div>
-              <div className="text-xs text-slate-700 p-2 sm:p-4 text-start font-semibold italic">
+              <div className="text-xs text-slate-700 p-2 sm:p-4 text-start font-semibold italic" >
                 {item.msg}
               </div>
 

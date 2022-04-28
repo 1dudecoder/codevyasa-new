@@ -16,7 +16,7 @@ function Home() {
     <div className="" id="myhome">
       
       <div className="flex-col justify-center mb-10 sm:mb-28 ">
-        <div className="lg:flex xl:flex ml-3 sm:ml-5 place-content-center place-items-center lg:px-10 md:px-10 sm:flex-row md:flex-row ">
+        <div className="flex flex-col-reverse sm:flex sm:flex-row  place-content-center place-items-center lg:px-10 md:px-10  md:flex-row lg:h-eighty-h text-center sm:text-left ">
           <div className="lg:mt-0 md:mt-36  flex-col place-content-center place-items-center mb-10 lg:ml-5">
             <h1 className="text-3xl sm:mr-10 font-semibold sm:text-2xl md:text-2xl lg:text-4xl text-slate-800 ">
               Your Technology partner for software engineering.
@@ -81,7 +81,7 @@ function Home() {
             </h1>
 
             <p className="text-xs sm:text-xs lg:text-lg text-white px-2 sm:px-5  md:text-sm md:text-center lg:px-20 ">
-              Want to kickstart an idea, scale your existing business or do
+              Want to kickstart an idea, scale your existing business or do 
               digital transformation in your organization we are there to help.
               Choose from the below offerings and sit back while we get it done
               for you
@@ -154,15 +154,15 @@ function Home() {
         </div>
       </div>
 
-      <div className=" sm:flex py-10 place-content-center place-items-center lg:px-16">
+      <div className=" sm:flex py-10 place-content-center place-items-center lg:px-5">
         <div className=" px-2 sm:px-10">
           <h1 className="text-2xl font-semibold text-primaryColor">
             Meet the Captain
           </h1>
           <p className="mt-2 text-sm sm:text-base">
-          Shubham is a product leader with a track record of scaling SaaS products.
-           He graduated from Delhi College of Engineering and has been a
-            founder member of several startups, including Haptik (acquired by Jio  for over $100 MN USD) and Moglix (Tata-backed unicorn). A true nerd at his core, 
+          Shubham is a product leader with a track record of scaling SaaS products. <br className="hidden sm:block" />
+           He graduated from Delhi College of Engineering and has been a <br className="hidden sm:block" />
+            founder member of several startups, including Haptik (acquired by Jio  for over $100 MN USD) and Moglix (Tata-backed unicorn). A true nerd at his core, <br className="hidden sm:block" /> 
              Shubham has a personal library that includes masterpieces on Philosophy, Business Management, and Self-help.
           </p>
 
