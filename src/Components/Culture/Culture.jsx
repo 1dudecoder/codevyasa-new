@@ -152,13 +152,13 @@ function Culture() {
             />
 
             <img
-              className="absolute top-12 ml-48 sm:top-10 sm:left-72 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in rounded-2xl "
+              className="absolute top-12 ml-48 sm:top-10 sm:left-60 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in rounded-2xl "
               src={two}
               alt=""
             />
 
             <img
-              className="absolute bottom-10 sm:bottom-0 sm:left-10 mr-52 sm:mr-80 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl  "
+              className="absolute bottom-10 sm:bottom-0 sm:left-32 mr-52 sm:mr-80 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl  "
               src={five}
               alt=""
             />
@@ -184,13 +184,13 @@ function Culture() {
             />
 
             <img
-              className="absolute top-12 ml-48  sm:top-10 sm:left-64 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in  rounded-2xl"
+              className="absolute top-12 ml-48  sm:top-10 sm:left-52 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in  rounded-2xl"
               src={ten}
               alt=""
             />
 
             <img
-              className="absolute bottom-10 sm:bottom-0 sm:right-72 mr-52 sm:mr-96 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl "
+              className="absolute bottom-10 sm:bottom-0 sm:right-64 mr-52 sm:mr-96 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl "
               src={six}
               alt=""
             />
@@ -216,13 +216,13 @@ function Culture() {
             />
 
             <img
-              className="absolute top-12 ml-48  sm:top-10 sm:left-64 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in  rounded-2xl"
+              className="absolute top-12 ml-48 sm:top-10 sm:left-52 sm:ml-80 w-36 sm:w-56 hover:animate-bounce duration-700 ease-in  rounded-2xl"
               src={eight}
               alt=""
             />
 
             <img
-              className="absolute bottom-10 sm:bottom-0 sm:right-72 mr-52 sm:mr-96 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl "
+              className="absolute bottom-10 sm:bottom-0 sm:right-48 mr-52 sm:mr-96 w-36 sm:w-56 duration-700 hover:animate-bounce ease-in rounded-2xl "
               src={nine}
               alt=""
             />
