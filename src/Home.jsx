@@ -20,7 +20,7 @@ function Home() {
       <div className="flex-col justify-center mb-10 sm:mb-28 ">
         <div className="flex flex-col-reverse sm:flex sm:flex-row  place-content-center place-items-center lg:px-10 md:px-10  md:flex-row lg:h-eighty-h text-center sm:text-left ">
           <div className="lg:mt-0 md:mt-36  flex-col place-content-center place-items-center mb-10 lg:ml-5">
-            <h1 className="text-3xl sm:mr-10 font-semibold sm:text-2xl md:text-2xl lg:text-4xl text-slate-800 ">
+            <h1 className="text-2xl p-2 sm:p-0 sm:mr-10 font-semibold sm:text-2xl md:text-2xl lg:text-4xl text-slate-800 ">
               Your Technology partner for software engineering.
             </h1>
 
@@ -28,8 +28,8 @@ function Home() {
               Offering Special Consulting For Y-Combinator
             </p>
 
-            <p className="text-2xl font-bold mt-5 text-slate-800">CodeVyasa GlassDoor Reviews</p>
-            <div className="max-h-4 mt-5 p-2">
+            <p className="text-lg sm:text-2xl font-bold mt-5 text-slate-800 ">CodeVyasa GlassDoor Reviews</p>
+            <div className="max-h-4 sm:mt-5 p-2">
               <img className="max-h-36" src={review} alt="codevyasa glassdoor review" />
             </div>
 
@@ -161,7 +161,7 @@ function Home() {
         </div>
       </div>
 
-      <div className=" sm:flex py-10 place-content-center place-items-center lg:px-5">
+      {/* <div className=" sm:flex py-10 place-content-center place-items-center lg:px-5">
         <div className=" px-2 sm:px-10">
           <h1 className="text-2xl font-semibold text-primaryColor">
             Meet the Captain
@@ -182,7 +182,7 @@ function Home() {
         <div className="mt-5">
           <img className="max-h-200" src={shubhamceo} alt="subham-image" />
         </div>
-      </div>
+      </div> */}
 
       <div className="">
         <div className="flex justify- sm:justify-between p-10">

@@ -78,7 +78,7 @@ function Navbar() {
                 </div>
 
                 <p className="px-4">
-                <Link to="/our-team"> Our Team</Link>
+                  <Link to="/our-team"> Our Team</Link>
                 </p>
 
                 <div className="">
@@ -99,15 +99,12 @@ function Navbar() {
                   </div>
                 </div>
 
-                
-
                 <Link2
                   className="bg-teal-50 text-primaryColor font-semibold rounded-md px-4 py-2 cursor-pointer shadow"
                   to="contact"
                   spy={true}
                   smooth={true}
                   duration={800}
-                  
                 >
                   Get in Touch
                 </Link2>
@@ -124,10 +121,10 @@ function Navbar() {
                 >
                   {/* <img className="w-10" src={lines} alt="lines_logo" /> */}
                   <div class="space-y-2">
-  <span class="block w-8 h-0.5 bg-gray-600"></span>
-  <span class="block w-8 h-0.5 bg-gray-600"></span>
-  <span class="block w-5 h-0.5 bg-gray-600"></span>
-</div>
+                    <span class="block w-8 h-0.5 bg-gray-600"></span>
+                    <span class="block w-8 h-0.5 bg-gray-600"></span>
+                    <span class="block w-5 h-0.5 bg-gray-600"></span>
+                  </div>
                 </div>
 
                 <div
@@ -144,7 +141,7 @@ function Navbar() {
                 <div
                   className={
                     state
-                      ? "mt-14 left-0 w-full absolute lg:hidden bg-white h-96 overflow-scroll shadow-2xl shadow-slate-500 rounded-b-md  "
+                      ? "mt-12 left-0 w-full absolute lg:hidden bg-white h-96 overflow-scroll shadow-2xl shadow-slate-500 rounded-b-md  "
                       : "hidden lg:hidden"
                   }
                 >
@@ -156,41 +153,55 @@ function Navbar() {
                         setServiceState("hidden");
                       }
                     }}
-                    className="text-center text-2xl py-2 mx-10 my-2 border border-bcolor bg-white  rounded-lg"
+                    className="text-center hover:font-semibold text-xl py-2 mx-16 my-2 border border-bcolor bg-white  rounded-lg"
                   >
-                    Servives
+                    Services
                   </p>
 
                   <ul className={`text-center ${servicestate}`}>
-                    <li onClick={()=>{
-                      setState(false);
-                    }}  className="text-center text-sm py-2 mx-12 my-2 border border-bcolor rounded-lg bg-bcolor text-white">
+                    <li
+                      onClick={() => {
+                        setState(false);
+                      }}
+                      className="text-center text-sm py-2 mx-16 my-2 border border-bcolor rounded-lg bg-bcolor text-white"
+                    >
                       <Link to="/services/web-dev">Web-based Application</Link>{" "}
                     </li>
-                    <li onClick={()=>{
-                      setState(false);
-                    }} className="text-center text-sm py-2 mx-12 my-2 border border-bcolor rounded-lg bg-bcolor text-white">
+                    <li
+                      onClick={() => {
+                        setState(false);
+                      }}
+                      className="text-center text-sm py-2 mx-16 my-2 border border-bcolor rounded-lg bg-bcolor text-white"
+                    >
                       <Link to="/services/app-dev">Mobile Apps</Link>
                     </li>
-                    <li onClick={()=>{
-                      setState(false);
-                    }} className="text-center text-sm py-2 mx-12 my-2 border border-bcolor rounded-lg bg-bcolor text-white">
+                    <li
+                      onClick={() => {
+                        setState(false);
+                      }}
+                      className="text-center text-sm py-2 mx-16 my-2 border border-bcolor rounded-lg bg-bcolor text-white"
+                    >
                       <Link to="/services/dev-ops">Dev-Ops</Link>
                     </li>
-                    <li onClick={()=>{
-                      setState(false);
-                    }} className="text-center text-sm py-2 mx-12 my-2 border border-bcolor rounded-lg bg-bcolor text-white">
+                    <li
+                      onClick={() => {
+                        setState(false);
+                      }}
+                      className="text-center text-sm py-2 mx-16 my-2 border border-bcolor rounded-lg bg-bcolor text-white"
+                    >
                       <Link to="/services/ui-ux">UI/UX</Link>
                     </li>
-                    <li onClick={()=>{
-                      setState(false);
-                    }} className="text-center text-sm py-2 mx-12 my-2 border border-bcolor rounded-lg bg-bcolor text-white">
+                    <li
+                      onClick={() => {
+                        setState(false);
+                      }}
+                      className="text-center text-sm py-2 mx-16 my-2 border border-bcolor rounded-lg bg-bcolor text-white"
+                    >
                       <Link to="/services/ui-ux">
                         <Link to="/services/shared-cto">Shared CTO</Link>
                       </Link>
                     </li>
                   </ul>
-
 
                   <p
                     onClick={() => {
@@ -200,39 +211,52 @@ function Navbar() {
                         setEngState("hidden");
                       }
                     }}
-                    className="text-center text-2xl py-2 mx-10 my-5 border border-bcolor bg-white rounded-lg "
+                    className="text-center text-xl py-2 hover:font-semibold mx-16 my-5 border border-bcolor bg-white rounded-lg "
                   >
                     Engineering
                   </p>
 
                   <ul className={`text-center ${engstate}`}>
-                    <li onClick={()=>{
-                      setState(false);
-                    }}  className="text-center text-sm py-2 mx-12 my-2 border border-bcolor rounded-lg bg-bcolor text-white">
-                        <Link to="/engineering/mobile">Mobile</Link>
+                    <li
+                      onClick={() => {
+                        setState(false);
+                      }}
+                      className="text-center text-sm py-2 mx-16 my-2 border border-bcolor rounded-lg bg-bcolor text-white"
+                    >
+                      <Link to="/engineering/mobile">Mobile</Link>
                     </li>
-                    <li onClick={()=>{
-                      setState(false);
-                    }} className="text-center text-sm py-2 mx-12 my-2 border border-bcolor rounded-lg bg-bcolor text-white">
-                        <Link to="/engineering/web">Web</Link>
+                    <li
+                      onClick={() => {
+                        setState(false);
+                      }}
+                      className="text-center text-sm py-2 mx-16 my-2 border border-bcolor rounded-lg bg-bcolor text-white"
+                    >
+                      <Link to="/engineering/web">Web</Link>
                     </li>
-                    <li onClick={()=>{
-                      setState(false);
-                    }} className="text-center text-sm py-2 mx-12 my-2 border border-bcolor rounded-lg bg-bcolor text-white">
-                        <Link to="/engineering/cloud">Cloud</Link>
+                    <li
+                      onClick={() => {
+                        setState(false);
+                      }}
+                      className="text-center text-sm py-2 mx-16 my-2 border border-bcolor rounded-lg bg-bcolor text-white"
+                    >
+                      <Link to="/engineering/cloud">Cloud</Link>
                     </li>
-                    <li onClick={()=>{
-                      setState(false);
-                    }} className="text-center text-sm py-2 mx-12 my-2 border border-bcolor rounded-lg bg-bcolor text-white">
-                        <Link to="/engineering/ecommerce">Ecommerce</Link>
+                    <li
+                      onClick={() => {
+                        setState(false);
+                      }}
+                      className="text-center text-sm py-2 mx-16 my-2 border border-bcolor rounded-lg bg-bcolor text-white"
+                    >
+                      <Link to="/engineering/ecommerce">Ecommerce</Link>
                     </li>
-
-
                   </ul>
 
-                  <p onClick={()=>{
-                    setState(false);
-                  }} className="text-center text-2xl bg-white py-2 mx-10 my-5 border border-bcolor rounded-lg">
+                  <p
+                    onClick={() => {
+                      setState(false);
+                    }}
+                    className="text-center text-xl hover:font-semibold bg-white py-2 mx-16 my-5 border border-bcolor rounded-lg"
+                  >
                     <Link to="/our-team"> Our Team</Link>
                   </p>
 
@@ -244,40 +268,48 @@ function Navbar() {
                         setCodevyasaState("hidden");
                       }
                     }}
-                    className="text-center text-2xl py-2 mx-10 my-2 border border-bcolor bg-white  rounded-lg"
+                    className="text-center text-xl py-2 mx-16 my-2 border hover:font-semibold border-bcolor bg-white  rounded-lg"
                   >
                     Code Vyasa
                   </p>
 
                   <ul className={`text-center ${codevyasastate}`}>
-                    <li onClick={()=>{
-                      setState(false);
-                    }}  className="text-center text-sm py-2 mx-12 my-2 border border-bcolor rounded-lg bg-bcolor text-white">
-                        <Link to="/about">About</Link>
+                    <li
+                      onClick={() => {
+                        setState(false);
+                      }}
+                      className="text-center text-sm py-2 mx-16 my-2 border border-bcolor rounded-lg bg-bcolor text-white"
+                    >
+                      <Link to="/about">About</Link>
                     </li>
-                    <li onClick={()=>{
-                      setState(false);
-                    }} className="text-center text-sm py-2 mx-12 my-2 border border-bcolor rounded-lg bg-bcolor text-white">
-                        <Link to="/blog">Blog</Link>
+                    <li
+                      onClick={() => {
+                        setState(false);
+                      }}
+                      className="text-center text-sm py-2 mx-16 my-2 border border-bcolor rounded-lg bg-bcolor text-white"
+                    >
+                      <Link to="/blog">Blog</Link>
                     </li>
-
-
                   </ul>
 
-                  <p onClick={()=>{setState(true)}} className="bg-bcolor text-white  text-center text-2xl py-2 mx-10 my-5 rounded-lg ">
-                  <Link2
-                  onClick={()=>{
-                    setState(false);
-                  }}
-                  to="contact"
-                  spy={true}
-                  smooth={true}
-                  duration={800}
-                >
-                  Get in Touch
-                </Link2>
+                  <p
+                    onClick={() => {
+                      setState(true);
+                    }}
+                    className="bg-bcolor text-white hover:font-semibold text-center text-xl py-2 mx-16 my-5 rounded-lg "
+                  >
+                    <Link2
+                      onClick={() => {
+                        setState(false);
+                      }}
+                      to="contact"
+                      spy={true}
+                      smooth={true}
+                      duration={800}
+                    >
+                      Get in Touch
+                    </Link2>
                   </p>
-                  
                 </div>
               </div>
             </nav>
