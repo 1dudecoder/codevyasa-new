@@ -88,13 +88,11 @@ function Navbar() {
                     </button>
 
                     <ul className="dropdown-menu absolute hidden left-2 shadow-lg ">
-                      <li className="hover:bg-gray-200 bg-white py-2 px-2 hover:font-semibold text-sm ">
+                      <li className="hover:bg-gray-200 bg-white py-2 hover:font-semibold text-sm px-5">
                         <Link to="/about">About</Link>
                       </li>
-                      {/* <li className="hover:bg-gray-200 bg-white py-2 px-2 hover:font-semibold text-sm  ">
-                        <Link to="/our-team">Our Team</Link>
-                      </li> */}
-                      <li className=" hover:bg-gray-200 bg-white py-2 px-2 hover:font-semibold text-sm  ">
+
+                      <li className=" hover:bg-gray-200 bg-white py-2 px-5 hover:font-semibold text-sm  ">
                         <Link to="/blog">Blog</Link>
                       </li>
                     </ul>

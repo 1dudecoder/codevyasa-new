@@ -37,7 +37,7 @@ function Culture() {
         </div>
 
         <div className="flex flex-wrap  place-content-center place-items-center py-10  xl:mx-56">
-          <div className="bg-bcolor text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
+          <div className="bg-bcolor lg:h-72 text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
             <img
               className="w-16 h-16"
               src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
@@ -52,7 +52,7 @@ function Culture() {
             </p>
           </div>
 
-          <div className="bg-bcolor text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
+          <div className="bg-bcolor lg:h-72 text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
             <img
               className="w-16 h-16"
               src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
@@ -67,7 +67,7 @@ function Culture() {
             </p>
           </div>
 
-          <div className="bg-bcolor text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
+          <div className="bg-bcolor lg:h-72 text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
             <img
               className="w-16 h-16"
               src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
@@ -83,7 +83,7 @@ function Culture() {
             </p>
           </div>
 
-          <div className="bg-bcolor text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
+          <div className="bg-bcolor lg:h-72 text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
             <img
               className="w-16 h-16"
               src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
@@ -98,7 +98,7 @@ function Culture() {
             </p>
           </div>
 
-          <div className="bg-bcolor text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
+          <div className="bg-bcolor lg:h-72 text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
             <img
               className="w-16 h-16"
               src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
@@ -113,7 +113,7 @@ function Culture() {
             </p>
           </div>
 
-          <div className="bg-bcolor text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
+          <div className="bg-bcolor lg:h-72 text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
             <img
               className="w-16 h-16"
               src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
@@ -247,7 +247,7 @@ function Culture() {
         </div>
 
         <div className="grid sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-3 lg:grid-rows-3  lg:px-28 place-content-center place-items-center text-center  ">
-          <div className="w-60 flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
+          <div className="w-60 lg:h-52 text-sm  flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl ">
             <img
               className="place-self-center"
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
@@ -259,7 +259,7 @@ function Culture() {
             </p>
           </div>
 
-          <div className="w-60 flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
+          <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
               className="place-self-center"
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
@@ -271,7 +271,7 @@ function Culture() {
             </p>
           </div>
 
-          <div className="w-60 flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
+          <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
               className="place-self-center"
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
@@ -284,7 +284,7 @@ function Culture() {
             </p>
           </div>
 
-          <div className="w-60 flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
+          <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
               className="place-self-center"
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
@@ -296,7 +296,7 @@ function Culture() {
             </p>
           </div>
 
-          <div className="w-60 flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
+          <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
               className="place-self-center"
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
@@ -308,7 +308,7 @@ function Culture() {
             </p>
           </div>
 
-          <div className="w-60 flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
+          <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
               className="place-self-center"
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
@@ -320,7 +320,7 @@ function Culture() {
             </p>
           </div>
 
-          <div className="w-60 flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
+          <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
               className="place-self-center"
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
@@ -332,7 +332,7 @@ function Culture() {
             </p>
           </div>
 
-          <div className="w-60 flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
+          <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
               className="place-self-center"
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
@@ -344,7 +344,7 @@ function Culture() {
             </p>
           </div>
 
-          <div className="w-60 flex flex-col p-5 rounded-lg bg-green-100 my-5  md:m-10 shadow-2xl">
+          <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 my-5  md:m-10 shadow-2xl">
             <img
               className="place-self-center"
               src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
