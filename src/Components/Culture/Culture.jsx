@@ -1,8 +1,8 @@
 import React from "react";
 import group from "../../assits/culture/group.jpg";
-import girl from "../../assits/culture/girl.png";
 import { Link } from "react-router-dom";
 
+// import girl from "../../assits/culture/girl.png";
 import bgicon from "../../assits/culture/icons/bgicon.svg";
 import linkdin from "../../assits/ourteam/icons/linkdin.svg";
 
@@ -15,8 +15,72 @@ import seven from "../../assits/culture/images/seven.jpeg"
 import eight from "../../assits/culture/images/eight.jpeg"
 import nine from "../../assits/culture/images/nine.jpeg"
 import ten from "../../assits/culture/images/ten.jpeg"
+import PeopleSay from "./PeopleSay";
 
 function Culture() {
+
+  var settings = {
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    nextArrow: <SampleNextArrow   />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1366,
+        settings: {
+          slidesToShow: 2.5,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 892,
+        settings: {
+          slidesToShow: 1.2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
+
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "flex", marginLeft:"10rem", height:"2rem", placeContent:"start" , width:"4rem", paddingTop:"0.5rem",paddingLeft:"0.5rem"  , background: "black", borderRadius:"20px 20px 20px 20px " }}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "flex", height:"2rem", placeContent:"end" , width:"5rem",  paddingTop:"0.5rem", paddingRight:"0.5rem", marginLeft:"-4rem", background: "black", borderRadius:"20px 20px 20px 20px " }}
+        onClick={onClick}
+      />
+    );
+  }
+
+
   return (
     <div>
       <div className="">
@@ -367,7 +431,7 @@ function Culture() {
         </div>
 
 
-        <div className="flex flex-col-reverse sm:flex-row place-content-center place-items-center mt-16 text-center">
+        {/* <div className="flex flex-col-reverse sm:flex-row place-content-center place-items-center mt-16 text-center">
           <div className="relative mt-10 sm:mt-0">
             <img className="" src={bgicon} alt="" />
             <img
@@ -392,7 +456,9 @@ function Culture() {
             <Link to="/about"><button className="btn py-3 px-10">Work With Us</button></Link>
           </div>
 
-        </div>
+        </div> */}
+
+        <PeopleSay />
 
       </div>
 
