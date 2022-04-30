@@ -2,10 +2,6 @@ import React from "react";
 import group from "../../assits/culture/group.jpg";
 import { Link } from "react-router-dom";
 
-// import girl from "../../assits/culture/girl.png";
-import bgicon from "../../assits/culture/icons/bgicon.svg";
-import linkdin from "../../assits/ourteam/icons/linkdin.svg";
-
 import one from "../../assits/culture/images/one.jpeg"
 import two from "../../assits/culture/images/two.jpeg"
 import four from "../../assits/culture/images/four.jpeg"
@@ -16,6 +12,27 @@ import eight from "../../assits/culture/images/eight.jpeg"
 import nine from "../../assits/culture/images/nine.jpeg"
 import ten from "../../assits/culture/images/ten.jpeg"
 import PeopleSay from "./PeopleSay";
+
+
+import decision from "../../assits/culture/icons/decision.png" 
+import decisionmaking from "../../assits/culture/icons/decisionmaking.png" 
+import investment from "../../assits/culture/icons/investment.png" 
+import sign from "../../assits/culture/icons/sign.png" 
+import success from "../../assits/culture/icons/success.png" 
+import team from "../../assits/culture/icons/team.png" 
+
+import healthcare from "../../assits/culture/secicons/healthcare.png"
+import timing from "../../assits/culture/secicons/timing.png"
+import policy from "../../assits/culture/secicons/policy.png"
+import growth from "../../assits/culture/secicons/growth.png"
+import environment from "../../assits/culture/secicons/environment.png"
+import ownership from "../../assits/culture/secicons/ownership.png"
+import freemeals from "../../assits/culture/secicons/freemeals.png"
+import learning from "../../assits/culture/secicons/learning.png"
+import greateteam from "../../assits/culture/secicons/greateteam.png"
+
+
+
 
 function Culture() {
 
@@ -103,8 +120,8 @@ function Culture() {
         <div className="flex flex-wrap  place-content-center place-items-center py-10  xl:mx-56">
           <div className="bg-bcolor lg:h-72 text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
             <img
-              className="w-16 h-16"
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
+              className="w-16 h-16 p-2"
+              src={decision}
               alt=""
             />
             <h1 className="text-base sm:text-lg font-semibold">Temerity</h1>
@@ -118,8 +135,8 @@ function Culture() {
 
           <div className="bg-bcolor lg:h-72 text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
             <img
-              className="w-16 h-16"
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
+              className="w-16 h-16 p-2"
+              src={decisionmaking}
               alt=""
             />
             <h1 className="text-base sm:text-lg font-semibold">Steady Growth</h1>
@@ -133,8 +150,8 @@ function Culture() {
 
           <div className="bg-bcolor lg:h-72 text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
             <img
-              className="w-16 h-16"
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
+              className="w-16 h-16 p-2"
+              src={investment}
               alt=""
             />
             <h1 className="text-base sm:text-lg font-semibold">Rate of Investment (ROI)</h1>
@@ -149,8 +166,8 @@ function Culture() {
 
           <div className="bg-bcolor lg:h-72 text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
             <img
-              className="w-16 h-16"
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
+              className="w-16 h-16 p-2"
+              src={sign}
               alt=""
             />
             <h1 className="text-base sm:text-lg font-semibold">Make the proper decision</h1>
@@ -164,8 +181,8 @@ function Culture() {
 
           <div className="bg-bcolor lg:h-72 text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
             <img
-              className="w-16 h-16"
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
+              className="w-16 h-16 p-2"
+              src={team}
               alt=""
             />
             <h1 className="text-base sm:text-lg font-semibold">We are a team</h1>
@@ -179,8 +196,8 @@ function Culture() {
 
           <div className="bg-bcolor lg:h-72 text-white w-64 flex flex-col  place-content-center py-5 px-5 m-5 rounded-2xl">
             <img
-              className="w-16 h-16"
-              src="https://www.squadstack.com/wp-content/uploads/2020/08/doc2.png"
+              className="w-16 h-16 p-2"
+              src={success}
               alt=""
             />
             <h1 className="text-base sm:text-lg font-semibold">Get things done</h1>
@@ -313,8 +330,8 @@ function Culture() {
         <div className="grid sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-3 lg:grid-rows-3  lg:px-28 place-content-center place-items-center text-center  ">
           <div className="w-60 lg:h-52 text-sm  flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl ">
             <img
-              className="place-self-center"
-              src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
+              className="place-self-center h-16 w-16"
+              src={healthcare}
               alt="heart-image"
             />
             <h1 className="text-lg font-semibold text-bcolor">HEALTHCARE</h1>
@@ -325,8 +342,8 @@ function Culture() {
 
           <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
-              className="place-self-center"
-              src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
+              className="place-self-center h-16 w-16"
+              src={timing}
               alt="heart-image"
             />
             <h1 className="text-lg font-semibold text-bcolor">FLEXIBLE TIMINGS</h1>
@@ -337,8 +354,8 @@ function Culture() {
 
           <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
-              className="place-self-center"
-              src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
+              className="place-self-center h-16 w-16"
+              src={policy}
               alt="heart-image"
             />
             <h1 className="text-lg font-semibold text-bcolor">UNLIMITED LEAVE POLICY
@@ -350,8 +367,8 @@ function Culture() {
 
           <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
-              className="place-self-center"
-              src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
+              className="place-self-center h-16 w-16"
+              src={growth}
               alt="heart-image"
             />
             <h1 className="text-lg font-semibold text-bcolor">GROWTH</h1>
@@ -362,8 +379,8 @@ function Culture() {
 
           <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
-              className="place-self-center"
-              src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
+              className="place-self-center h-16 w-16"
+              src={environment}
               alt="heart-image"
             />
             <h1 className="text-lg font-semibold text-bcolor">WORK ENVIRONMENT</h1>
@@ -374,8 +391,8 @@ function Culture() {
 
           <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
-              className="place-self-center"
-              src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
+              className="place-self-center h-16 w-16"
+              src={ownership}
               alt="heart-image"
             />
             <h1 className="text-lg font-semibold text-bcolor">OWNERSHIP</h1>
@@ -386,8 +403,8 @@ function Culture() {
 
           <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
-              className="place-self-center"
-              src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
+              className="place-self-center h-16 w-16"
+              src={freemeals}
               alt="heart-image"
             />
             <h1 className="text-lg font-semibold text-bcolor">FREE MEALS</h1>
@@ -398,8 +415,8 @@ function Culture() {
 
           <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 mt-5 md:m-10 shadow-2xl">
             <img
-              className="place-self-center"
-              src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
+              className="place-self-center h-16 w-16"
+              src={learning}
               alt="heart-image"
             />
             <h1 className="text-lg font-semibold text-bcolor">LEARNING</h1>
@@ -410,8 +427,8 @@ function Culture() {
 
           <div className="w-60 lg:h-52 text-sm flex flex-col p-5 rounded-lg bg-green-100 my-5  md:m-10 shadow-2xl">
             <img
-              className="place-self-center"
-              src="https://www.squadstack.com/wp-content/uploads/2020/03/get9.svg"
+              className="place-self-center h-16 w-16"
+              src={greateteam}
               alt="heart-image"
             />
             <h1 className="text-lg font-semibold text-bcolor">A GREAT TEAM
