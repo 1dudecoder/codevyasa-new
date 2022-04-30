@@ -57,25 +57,35 @@ function PeopleSay() {
           {
             breakpoint: 1366,
             settings: {
-              slidesToShow: 2.5,
-              slidesToScroll: 3,
+              slidesToShow: 1,
+              slidesToScroll: 1,
               infinite: true,
-              dots: true
+              dots: true,
+              autoplaySpeed: 2000,
+              speed: 1000,
             }
           },
           {
             breakpoint: 892,
             settings: {
-              slidesToShow: 1.2,
-              slidesToScroll: 2,
-              initialSlide: 2
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 1,
+              infinite: true,
+              dots: true,
+              autoplaySpeed: 2000,
+              speed: 1000,
             }
           },
           {
             breakpoint: 500,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              infinite: true,
+              dots: false,
+              autoplaySpeed: 2000,
+              speed: 1000,
             }
           }
         ]
