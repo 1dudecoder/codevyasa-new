@@ -189,7 +189,7 @@ function Home() {
           <h1 className="text-sm sm:text-xl font-semibold">
             What Clients Say About Us
           </h1>
-          <p className="text-sm sm:text-base pl-2">View all testimonials</p>
+          <p className="text-sm sm:text-base pl-2 underline">View all testimonials</p>
         </div>
 
         <div>

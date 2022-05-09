@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import logo from "../../assits/logo.svg";
-import lines from "../../assits/lines.svg";
-import multi from "../../assits/multi.svg";
 import close from "../../assits/cancel.png";
 import { Link } from "react-router-dom";
 import { Link as Link2 } from "react-scroll";
@@ -12,21 +10,34 @@ function Navbar() {
   const [servicestate, setServiceState] = useState("hidden");
   const [engstate, setEngState] = useState("hidden");
   const [codevyasastate, setCodevyasaState] = useState("hidden");
+  const [transition, setTransition] = useState("hidden");
 
   return (
     <>
       <div>
-        <header className="w-full bg-white fixed -top-2 z-50 flex-1">
+        <header className="w-full bg-white fixed -top-0 z-50 flex-1">
           <div className="relative my-5 ">
             <nav className="flex place-content-between px-2 lg:flex lg:place-content-between lg:place-items-center lg:mx-20 lg:mt-3   ">
-              <div className="flex place-content-between place-items-center">
+              <div className="flex place-content-between place-items-center" onClick={()=>{
+                setTransition("hidden");
+              }}>
                 <Link to="/">
                   <img className="h-8 sm:w-auto" src={logo} alt="sitelogo" />
                 </Link>
               </div>
 
               <div className="hidden relative lg:flex justify-evenly place-content-center place-items-center ml-5">
-                <div className="">
+                
+                <div className="w-full absolute -top-0 ">
+                  <div className={`w-10 h-1 rounded-md bg-bcolor mx-20 ${transition} duration-200	  	 `}></div>
+                </div>
+
+                <div
+                  className=""
+                  onClick={() => {
+                    setTransition("-translate-x-14");
+                  }}
+                >
                   <div className="dropdown inline-block relative ">
                     <button className=" py-2 px-4 rounded inline-flex items-center">
                       <span className="mr-1 ">Services</span>
@@ -54,9 +65,18 @@ function Navbar() {
                   </div>
                 </div>
 
-                <div className="">
-                  <div className="dropdown inline-block relative">
-                    <button className=" py-2 px-4 rounded inline-flex items-center">
+              <div className="" 
+                onClick={() => {
+                    setTransition("translate-x-10");
+                  }}
+                  >
+                    
+                  <div className="dropdown inline-block relative" 
+                  onClick={() => {
+                    setTransition("translate-x-1");
+                  }}>
+                    
+                    <button className=" py-2 px-4 rounded inline-flex items-center ">
                       <span className="mr-1 ">Engineering</span>
                     </button>
 
@@ -77,12 +97,20 @@ function Navbar() {
                   </div>
                 </div>
 
-                <p className="px-4">
-                  <Link to="/our-team"> Our Team</Link>
+                <p className="px-4"
+                 onClick={() => {
+                    setTransition("translate-x-40");
+                  }}>
+                  <Link to="/our-team">Our Team</Link>
                 </p>
 
-                <div className="">
-                  <div className="dropdown inline-block relative">
+                <div className=""
+                onClick={() => {
+                    setTransition("translate-x-64");
+                  }}>
+
+                  <div className="dropdown inline-block relative " 
+                  >
                     <button className=" py-2 px-4 rounded inline-flex items-center">
                       <span className="mr-1 ">Code Vyasa</span>
                     </button>
@@ -99,7 +127,10 @@ function Navbar() {
                   </div>
                 </div>
 
-                <Link2
+                <Link2 
+                  onClick={() => {
+                    setTransition("translate-x-96");
+                  }}
                   className="bg-teal-50 text-primaryColor font-semibold rounded-md px-4 py-2 cursor-pointer shadow"
                   to="contact"
                   spy={true}
@@ -119,7 +150,6 @@ function Navbar() {
                     }
                   }}
                 >
-                  {/* <img className="w-10" src={lines} alt="lines_logo" /> */}
                   <div class="space-y-2">
                     <span class="block w-8 h-0.5 bg-gray-600"></span>
                     <span class="block w-8 h-0.5 bg-gray-600"></span>

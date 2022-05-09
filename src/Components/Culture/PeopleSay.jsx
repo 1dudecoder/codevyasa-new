@@ -110,7 +110,8 @@ function PeopleSay() {
                         />
                     </div>
 
-                    <div className=" pb-10 sm:p-10">
+                    <div className=" pb-10 sm:p-10 ">
+                      
                         <p className="text-base font-semibold">
                         {item.first}
                         </p>

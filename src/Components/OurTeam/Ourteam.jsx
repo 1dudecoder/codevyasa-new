@@ -11,8 +11,10 @@ import mohitsorout from "../../assits/ourteam/advisor-images/mohitsorout.jpg";
 import souravdutta from "../../assits/ourteam/advisor-images/souravdutta.jpg";
 import Count from "./Counter/Count";
 import Culture from "../Culture/Culture";
+import Gallery from "../Culture/Gallery";
 
 function Ourteam() {
+
   let data = [
     {
       id: "001",
@@ -46,9 +48,8 @@ function Ourteam() {
 
   return (
     <div id="ourteam">
-
     <Culture />
-
+    
       <div className="flex flex-col-reverse sm:flex sm:flex-row place-content-center place-items-center mt-16 py-5 sm:ml-5 lg:h-eighty-h  ">
         <div className="flex-col text-center sm:text-left place-content-center place-items-center lg:p-16 lg:mb-10">
           <h1 className="text-xl mt-2 sm:mt-0 font-bold sm:text-2xl md:text-4xl lg:text-4xl  ">
@@ -64,7 +65,12 @@ function Ourteam() {
         </div>
       </div>
 
-      <div className="bg-card py-5">
+      <div className="mt-10">
+        <h1 className="text-center text-xl sm:text-2xl lg:text-4xl font-bold p-5 text-slate-700">Code vyasa Gallery </h1>
+        <Gallery />
+      </div>
+
+      <div className="bg-card py-5 mt-32">
         <h1 className="text-xl mt-4 sm:mt-0 sm:text-4xl font-bold mb-5 text-center">
           Our Advisors
         </h1>
@@ -126,6 +132,8 @@ function Ourteam() {
               </div>
             </div>
           </div>
+
+
 
         </div>
       </div>
