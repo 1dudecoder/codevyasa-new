@@ -5,12 +5,17 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+import amitbawaja from "../assits/review/amitbawaja.jpg"
+import amitchobey from "../assits/review/amitchobey.jpg"
+import mohit from "../assits/review/mohit.jpg"
+import rishab from "../assits/review/rishab.jpg"
+
 function Review() {
 
   const reviews = [
     {
       name: "Amit Chaubey",
-      img: "https://www.codevyasa.com/img/amit_chou.jpg",
+      img: amitchobey,
       smallmsg:
         "Their enthusiasm and communication have been top-notch throughout .",
       msg: "The app's fluid user interface and highly functional performance have won praise from top developers. CodeVyasa distinguished themselves with their responsive communication, impressive technical skill, and passion for the project. They deliver high-quality work and promptly address any flaws.",
@@ -18,7 +23,7 @@ function Review() {
     },
     {
       name: "Rishabh Prasad",
-      img: "https://www.codevyasa.com/img/rishab.jpg",
+      img: rishab,
       smallmsg:
         "Highly appreciate the younger leadership team of CodeVyasas and their Agile development model",
       msg: "Their expertise and communication have helped to keep things running smoothly throughout this complex development process, and reactions to the product during the beta phase have been extremely positive",
@@ -26,14 +31,14 @@ function Review() {
     },
     {
       name: "M. Sorout",
-      img: "https://www.codevyasa.com/img/mohit.jpg",
+      img: mohit,
       smallmsg: "Liked the commitment & the enthusiasm they bring to the table",
       msg: "Code Vyasa provided us with a great project manager and helped improve our trade execution efficiency. Our relationship with Code Vyasa has only been expanded due to the mutual success.",
       location: "Founder of a leading crypto hedge fund",
     },
     {
       name: "Amit Baweja",
-      img: "https://www.codevyasa.com/img/amit.jpg",
+      img: amitbawaja,
       smallmsg:
         "Big fan of their MVP Pack & the value it delivered for my Product Idea",
       msg: "Code Vyasa delivered a smoothly running app & a web-panel that has received only great reviews. Assigned resources were proactive, hit all milestones, and were overall outstanding with project management and QA. They will definitely be a partner for future projects as we scale our existing product.",
@@ -115,8 +120,8 @@ function Review() {
             <div className="bg-white shadow-lg rounded-md p-2 sm:p-5 ml-5 sm:h-sixty-h text-sm sm:text-sm md:text-sm md:h-96 lg:h-72 w-full">
               <div className="flex">
                 <div className="w-24 m-2">
-                  <div className="rounded-full overflow-hidden border-2 border-white flex justify-center items-center">
-                    <img src={item.img} alt={`${item.name} image`} />
+                  <div className="rounded-full overflow-hidden border-2 border-white flex justify-center items-center w-16">
+                    <img className="" src={item.img} alt={`${item.name} image`} />
                   </div>
                 </div>
 
